@@ -1,10 +1,13 @@
+<!-- <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=44947C&height=120&section=header"/> -->
 <div align="center">
-  <h1>2023-2-Squad02</h3>
+  <h3>2023-2-Squad02</h3>
 </div>
 
-<div align="center">
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+nosso+repositório!)](https://git.io/typing-svg)
+
+<!-- <div align="center">
   <h2>Bem vindo ao nosso repositório! </h2>
-</div>
+</div> -->
 
 ## Conteúdos
 

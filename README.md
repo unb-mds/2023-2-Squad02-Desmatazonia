@@ -33,7 +33,7 @@ Projeto contribuinte ao projeto do [Querido Diário](https://queridodiario.ok.or
 | ------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
 | <img src="https://github.com/alanagabriele.png" width="100"/> | <img src="https://github.com/acamposs.png" width="100" /> | <img src="https://github.com/daramariabs.png" width="100"/> | <img src="https://github.com/souzagusta.png" width="100"/> |
 
-| [Isaque Santos](https://github.com/IsaqueSH)             | [Larisa Stéfane](https://github.com/SkywalkerSupreme)           | [Harleny Angelica](https://github.com/Angelicahaas)          |
+| [Isaque Santos](https://github.com/IsaqueSH)             | [Larissa Stéfane](https://github.com/SkywalkerSupreme)           | [Harleny Angelica](https://github.com/Angelicahaas)          |
 | -------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
 | <img src="https://github.com/IsaqueSH.png" width="100"/> | <img src="https://github.com/SkywalkerSupreme.png" width="100"/> | <img src="https://github.com/Angelicahaas.png" width="100"/> |
 

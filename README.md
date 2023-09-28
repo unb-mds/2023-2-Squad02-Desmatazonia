@@ -25,7 +25,8 @@
 ## 🕊 Objetivo
   O projeto tem o objetivo a apresentação de dados extraídos do diário oficial do estado Amazonas, por meio de gráficos. Os dados coletados estarão em uma página Web de maneira que facilite a visualização e compreensão do usuário, por meio de dashboards que podem ser filtrados de acordo com o município desejado.
 
-Projeto contribuinte ao projeto do [Querido Diário](https://queridodiario.ok.org.br/) da [Open Knowledge Brasil](https://ok.org.br/).
+Projeto contribuinte ao projeto do [Querido Diário](https://queridodiario.ok.org.br/) da [Open Knowledge Brasil](https://ok.org.br/). E estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) como base do projeto.
+
 
 ## 👨‍💻 Contribuidores
 

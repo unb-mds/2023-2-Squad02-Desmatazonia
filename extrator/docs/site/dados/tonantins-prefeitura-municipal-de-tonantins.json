@@ -1,0 +1,20 @@
+{
+  "id": "tonantins-prefeitura-municipal-de-tonantins",
+  "nome": "Tonantins Prefeitura Municipal de Tonantins",
+  "detalhe": {
+    "2019": {
+      "1": {
+        "num_diarios": 1,
+        "num_licitacao": 2
+      },
+      "resumo": {
+        "num_diarios": 1,
+        "num_licitacao": 2
+      }
+    }
+  },
+  "resumo": {
+    "num_diarios": 1,
+    "num_licitacao": 2
+  }
+}

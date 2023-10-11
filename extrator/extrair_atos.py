@@ -19,6 +19,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     path_resultado = sys.argv[1]
+    print(path_resultado)
     with open(path_resultado, "r", encoding="utf8") as in_file:
         resultados = json.load(in_file)
 

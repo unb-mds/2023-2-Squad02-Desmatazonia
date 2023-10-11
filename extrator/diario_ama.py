@@ -10,8 +10,6 @@ re_nomes_municipios = (
 
 
 def extrair_diarios_municipais(texto_diario: str):
-    # print(texto_diario)
-    print(re_nomes_municipios)
     texto_diario_slice = texto_diario.lstrip().splitlines()
 
     # Processamento
@@ -43,7 +41,6 @@ def extrair_diarios_municipais(texto_diario: str):
     nomes_municipios = re.findall(
         re_nomes_municipios, texto_diario, re.MULTILINE)
     for municipio in nomes_municipios:
-        print(municipio)
         municipio = diario_municipal.Municipio(municipio)
         texto_diarios[municipio] = ama_header + '\n\n'
 

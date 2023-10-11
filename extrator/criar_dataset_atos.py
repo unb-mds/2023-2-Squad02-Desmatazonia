@@ -20,10 +20,7 @@ for path in glob.glob("data/diarios/*-atos.json"):
                 record = {}
                 record["municipio"] = diario["id"]
                 record["cod"] = ato["cod"]
-                record["possui_nomeacoes"] = ato["possui_nomeacoes"]
-                record["possui_exoneracoes"] = ato["possui_exoneracoes"]
-                record["num_nomeacoes"] = len(ato["cpf_nomeacoes"])
-                record["num_exoneracoes"] = len(ato["cpf_exoneracoes"])
+                record["possui_licitacao"] = ato["possui_licitacao"]
                 record["ano"] = int(data_quebrada[0])
                 record["mes"] = int(data_quebrada[1])
                 record["dia"] = int(data_quebrada[2])

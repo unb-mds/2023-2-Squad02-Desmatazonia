@@ -65,7 +65,7 @@ do
     
     cd ${ROOT_DIR}
     # python3 ${ROOT_DIR}/extrair_diarios.py ${extraido}
-    python3 extrair_diarios.py data/diarios/${extraido}
+    python3 extrair_diarios.py data/diarios/diarios/${extraido}
     # rm -f ${pdf}
     # rm -f ${fname}-proc*.txt
 

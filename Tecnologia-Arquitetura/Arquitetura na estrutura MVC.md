@@ -79,6 +79,11 @@ Assim, neste projeto, está etapa controla a execução dos processos de coleta,
 
 ## Diagrama MVC
 
+<div align="center">
+  <img src="Diagrama arquiteturaMVC.png">
+  Figura 1: Diagrama MVC 1.0
+</div>
+
 ## Histórico de Versões
 
 | Versão  |  Data  | Autor  |  Descrição  |

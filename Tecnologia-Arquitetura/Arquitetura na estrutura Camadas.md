@@ -102,7 +102,18 @@ Envolve a etapa final do processo, onde os detalhes finais do gabarito são conf
 
 * **Tecnologias:** Ferramentas de manipulação de texto
 
-* 
+## Diagrama MVC
+
+<div align="center">
+  <img src="Arquitetura de camadas.png">
+  Figura 1: Diagrama MVC 1.0
+</div>
+
+## Histórico de Versões
+
+| Versão  |  Data  | Autor  |  Descrição  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+| 0.1 | 15/10/2023  | Larissa Stéfane | Apresentação e Explicação |
 
 
 

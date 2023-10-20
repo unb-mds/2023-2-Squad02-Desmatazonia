@@ -27,16 +27,23 @@ body {
 }
 
 .navbar {
-  width: 50px;
-  background-color: rgb(205, 202, 202); 
+  width: 70px;
+  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
   float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 150vh;
 }
 
+
+
+
 .cob {
-  width: 120%; 
-  background-color: gray;
+  width: 450px; 
+  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
   float: left;
-  height: 300px;
   
 }
 
@@ -48,14 +55,14 @@ body {
 }
 
 .municipios {
-  width: 298px;
-  height: 30px;
+  width: 305px;
+  height: 51px;
   flex-shrink: 0;
 }
 
 .anos {
-  width: 298px;
-  height: 30px;
+  width: 305px;
+  height: 51px;
   flex-shrink: 0;
 
 }

@@ -1,0 +1,373 @@
+{
+  "id": "careiro",
+  "nome": "Careiro",
+  "detalhe": {
+    "2013": {
+      "7": {
+        "num_diarios": 5,
+        "num_licitacao": 4
+      },
+      "resumo": {
+        "num_diarios": 23,
+        "num_licitacao": 66
+      },
+      "8": {
+        "num_diarios": 8,
+        "num_licitacao": 18
+      },
+      "9": {
+        "num_diarios": 3,
+        "num_licitacao": 12
+      },
+      "10": {
+        "num_diarios": 3,
+        "num_licitacao": 10
+      },
+      "11": {
+        "num_diarios": 1,
+        "num_licitacao": 2
+      },
+      "12": {
+        "num_diarios": 3,
+        "num_licitacao": 20
+      }
+    },
+    "2014": {
+      "1": {
+        "num_diarios": 8,
+        "num_licitacao": 18
+      },
+      "resumo": {
+        "num_diarios": 78,
+        "num_licitacao": 236
+      },
+      "2": {
+        "num_diarios": 10,
+        "num_licitacao": 48
+      },
+      "3": {
+        "num_diarios": 6,
+        "num_licitacao": 6
+      },
+      "4": {
+        "num_diarios": 5,
+        "num_licitacao": 14
+      },
+      "5": {
+        "num_diarios": 6,
+        "num_licitacao": 22
+      },
+      "6": {
+        "num_diarios": 4,
+        "num_licitacao": 40
+      },
+      "7": {
+        "num_diarios": 7,
+        "num_licitacao": 24
+      },
+      "8": {
+        "num_diarios": 8,
+        "num_licitacao": 18
+      },
+      "9": {
+        "num_diarios": 8,
+        "num_licitacao": 22
+      },
+      "10": {
+        "num_diarios": 3,
+        "num_licitacao": 6
+      },
+      "11": {
+        "num_diarios": 8,
+        "num_licitacao": 14
+      },
+      "12": {
+        "num_diarios": 5,
+        "num_licitacao": 4
+      }
+    },
+    "2015": {
+      "1": {
+        "num_diarios": 13,
+        "num_licitacao": 60
+      },
+      "resumo": {
+        "num_diarios": 98,
+        "num_licitacao": 256
+      },
+      "2": {
+        "num_diarios": 8,
+        "num_licitacao": 18
+      },
+      "3": {
+        "num_diarios": 11,
+        "num_licitacao": 22
+      },
+      "4": {
+        "num_diarios": 7,
+        "num_licitacao": 14
+      },
+      "5": {
+        "num_diarios": 8,
+        "num_licitacao": 16
+      },
+      "6": {
+        "num_diarios": 4,
+        "num_licitacao": 6
+      },
+      "7": {
+        "num_diarios": 7,
+        "num_licitacao": 26
+      },
+      "8": {
+        "num_diarios": 8,
+        "num_licitacao": 14
+      },
+      "9": {
+        "num_diarios": 10,
+        "num_licitacao": 34
+      },
+      "10": {
+        "num_diarios": 8,
+        "num_licitacao": 18
+      },
+      "11": {
+        "num_diarios": 10,
+        "num_licitacao": 18
+      },
+      "12": {
+        "num_diarios": 4,
+        "num_licitacao": 10
+      }
+    },
+    "2016": {
+      "1": {
+        "num_diarios": 3,
+        "num_licitacao": 8
+      },
+      "resumo": {
+        "num_diarios": 72,
+        "num_licitacao": 178
+      },
+      "2": {
+        "num_diarios": 4,
+        "num_licitacao": 16
+      },
+      "3": {
+        "num_diarios": 11,
+        "num_licitacao": 44
+      },
+      "4": {
+        "num_diarios": 8,
+        "num_licitacao": 30
+      },
+      "5": {
+        "num_diarios": 9,
+        "num_licitacao": 16
+      },
+      "6": {
+        "num_diarios": 7,
+        "num_licitacao": 26
+      },
+      "7": {
+        "num_diarios": 3,
+        "num_licitacao": 14
+      },
+      "8": {
+        "num_diarios": 9,
+        "num_licitacao": 10
+      },
+      "9": {
+        "num_diarios": 3,
+        "num_licitacao": 4
+      },
+      "10": {
+        "num_diarios": 4,
+        "num_licitacao": 4
+      },
+      "11": {
+        "num_diarios": 4
+      },
+      "12": {
+        "num_diarios": 7,
+        "num_licitacao": 6
+      }
+    },
+    "2017": {
+      "1": {
+        "num_diarios": 11,
+        "num_licitacao": 26
+      },
+      "resumo": {
+        "num_diarios": 144,
+        "num_licitacao": 340
+      },
+      "2": {
+        "num_diarios": 16,
+        "num_licitacao": 34
+      },
+      "3": {
+        "num_diarios": 11,
+        "num_licitacao": 8
+      },
+      "4": {
+        "num_diarios": 12,
+        "num_licitacao": 10
+      },
+      "5": {
+        "num_diarios": 13,
+        "num_licitacao": 28
+      },
+      "6": {
+        "num_diarios": 14,
+        "num_licitacao": 42
+      },
+      "7": {
+        "num_diarios": 11,
+        "num_licitacao": 32
+      },
+      "8": {
+        "num_diarios": 13,
+        "num_licitacao": 68
+      },
+      "9": {
+        "num_diarios": 11,
+        "num_licitacao": 32
+      },
+      "10": {
+        "num_diarios": 8,
+        "num_licitacao": 8
+      },
+      "11": {
+        "num_diarios": 9,
+        "num_licitacao": 28
+      },
+      "12": {
+        "num_diarios": 15,
+        "num_licitacao": 24
+      }
+    },
+    "2018": {
+      "1": {
+        "num_diarios": 13,
+        "num_licitacao": 52
+      },
+      "resumo": {
+        "num_diarios": 140,
+        "num_licitacao": 512
+      },
+      "2": {
+        "num_diarios": 9,
+        "num_licitacao": 38
+      },
+      "3": {
+        "num_diarios": 12,
+        "num_licitacao": 52
+      },
+      "4": {
+        "num_diarios": 11,
+        "num_licitacao": 30
+      },
+      "5": {
+        "num_diarios": 13,
+        "num_licitacao": 32
+      },
+      "6": {
+        "num_diarios": 16,
+        "num_licitacao": 40
+      },
+      "7": {
+        "num_diarios": 11,
+        "num_licitacao": 34
+      },
+      "8": {
+        "num_diarios": 12,
+        "num_licitacao": 70
+      },
+      "9": {
+        "num_diarios": 7,
+        "num_licitacao": 44
+      },
+      "10": {
+        "num_diarios": 13,
+        "num_licitacao": 42
+      },
+      "11": {
+        "num_diarios": 12,
+        "num_licitacao": 40
+      },
+      "12": {
+        "num_diarios": 11,
+        "num_licitacao": 38
+      }
+    },
+    "2019": {
+      "1": {
+        "num_diarios": 15,
+        "num_licitacao": 38
+      },
+      "resumo": {
+        "num_diarios": 158,
+        "num_licitacao": 446
+      },
+      "2": {
+        "num_diarios": 15,
+        "num_licitacao": 62
+      },
+      "3": {
+        "num_diarios": 15,
+        "num_licitacao": 46
+      },
+      "4": {
+        "num_diarios": 13,
+        "num_licitacao": 40
+      },
+      "5": {
+        "num_diarios": 19,
+        "num_licitacao": 78
+      },
+      "6": {
+        "num_diarios": 9,
+        "num_licitacao": 38
+      },
+      "7": {
+        "num_diarios": 17,
+        "num_licitacao": 42
+      },
+      "8": {
+        "num_diarios": 14,
+        "num_licitacao": 52
+      },
+      "9": {
+        "num_diarios": 13,
+        "num_licitacao": 20
+      },
+      "10": {
+        "num_diarios": 9,
+        "num_licitacao": 14
+      },
+      "11": {
+        "num_diarios": 9,
+        "num_licitacao": 8
+      },
+      "12": {
+        "num_diarios": 10,
+        "num_licitacao": 8
+      }
+    },
+    "2020": {
+      "1": {
+        "num_diarios": 19,
+        "num_licitacao": 40
+      },
+      "resumo": {
+        "num_diarios": 19,
+        "num_licitacao": 40
+      }
+    }
+  },
+  "resumo": {
+    "num_diarios": 732,
+    "num_licitacao": 2074
+  }
+}

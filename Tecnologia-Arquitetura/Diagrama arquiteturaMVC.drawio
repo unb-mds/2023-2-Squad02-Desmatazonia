@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2023-10-15T05:58:55.573Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.7.5 Chrome/114.0.5735.289 Electron/25.8.1 Safari/537.36" etag="G09xuq2unyG_cSCxrsv8" version="21.7.5" type="device">
+  <diagram name="Page-1" id="pf96pSImxiR2DNTEvf1x">
+    <mxGraphModel dx="1602" dy="992" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="erMfNy57c_j0A0jGZN2x-10" value="&lt;font style=&quot;font-size: 36px;&quot; face=&quot;Comic Sans MS&quot;&gt;Diagrama Arquitetura MVC&lt;br&gt;Grupo 2&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="154" y="60" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-14" value="Model" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-16" value="&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Acesso a Dados: Fontes de dados em PDF&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Processamento do texto: Lógica de extrair, processar e analisar o texto extraido dos diários.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Segmentação de diários: Divisão do díario em diferentes municipais,&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Extração dos Atos&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Criação do conjunto de dados: Preparação dos dados estraídos para análise.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-14">
+          <mxGeometry y="20" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-18" value="Tecnologias" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="540" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-19" value="&lt;ul&gt;&lt;li&gt;Biblioteca Tika&lt;/li&gt;&lt;li&gt;Linguagem python para scripts de processamento&lt;/li&gt;&lt;li&gt;Manipulação de arquivos e texto&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-18">
+          <mxGeometry x="10" y="30" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="erMfNy57c_j0A0jGZN2x-14" target="erMfNy57c_j0A0jGZN2x-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="420" as="sourcePoint" />
+            <mxPoint x="1230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-21" value="View" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="240" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-22" value="&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Renderização da página online HTML/CSS: Geração de interface - Exibição do conteúdo.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Interatividade com JavaScript :&amp;nbsp; Criar elementos interativos.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Exibição de Gráficos (ChartJS).&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Geraçaão de PDF: Permite exportar relatórios e documentos.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Integração com python: Processamento de texto.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Bootstrap: Inspiração para a criação do layout.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-21">
+          <mxGeometry y="20" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-23" value="Tecnologias" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="540" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-24" value="&lt;ul&gt;&lt;li&gt;HTML/CSSS&lt;/li&gt;&lt;li&gt;Framework Front-End&lt;/li&gt;&lt;li&gt;Bibliotecas Gráficas como ChartJS e JSPDF&lt;/li&gt;&lt;li&gt;Python&lt;/li&gt;&lt;li&gt;Auxílio do Bootstrap&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-23">
+          <mxGeometry x="10" y="30" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="erMfNy57c_j0A0jGZN2x-21" target="erMfNy57c_j0A0jGZN2x-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-26" value="Controller" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="740" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-27" value="&lt;ul&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Roteamento: Direcionar as solicitações do usuário com bse na URL OU URI&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Gentão de Eventos: Avalia os eventos do usuário e desencadeia ações correspondentes.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Manipulação das informações: Leitura e recuperação dos dados do Model&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Validação dos dados: Verifica é válida a informação do usuário.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Controle de fluxo.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Comunicação com o modelo.&lt;/li&gt;&lt;li style=&quot;text-align: justify;&quot;&gt;Lógica de negócios: Especificações do projeto.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-26">
+          <mxGeometry y="20" width="290" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-28" value="Tecnologias" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1020" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-29" value="&lt;ul&gt;&lt;li&gt;URL ou URI&lt;/li&gt;&lt;li&gt;Sripts em python&lt;/li&gt;&lt;li&gt;Ferramentas de gerenciamento&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="erMfNy57c_j0A0jGZN2x-28">
+          <mxGeometry x="10" y="30" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-30" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="erMfNy57c_j0A0jGZN2x-26" target="erMfNy57c_j0A0jGZN2x-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="950" as="sourcePoint" />
+            <mxPoint x="940" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.306;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="erMfNy57c_j0A0jGZN2x-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="470" as="sourcePoint" />
+            <mxPoint x="670" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="520" />
+              <mxPoint x="390" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="erMfNy57c_j0A0jGZN2x-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="sourcePoint" />
+            <mxPoint x="550" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="520" />
+              <mxPoint x="550" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="erMfNy57c_j0A0jGZN2x-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="erMfNy57c_j0A0jGZN2x-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="sourcePoint" />
+            <mxPoint x="380" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -20,12 +20,8 @@ body {
 
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Esconde a barra de rolagem vertical */
-    height: 100vh; /* Define a altura do corpo como 100% da altura da janela do navegador */
-  
-
-    
-}
+    overflow: hidden;
+    height: 100vh;
 
 .home {
   display: flex;

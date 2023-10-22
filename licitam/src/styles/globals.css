@@ -34,7 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   justify-items: center;
-  height: 150vh;
+  height: 100vh;
 }
 
 
@@ -65,4 +65,31 @@ body {
   height: 51px;
   flex-shrink: 0;
 
+}
+
+.barras {
+  display: flex;
+  flex-direction: column; /* Alterado para column */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ic-home{
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.ic-info {
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+
+.ic-git {
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
 }

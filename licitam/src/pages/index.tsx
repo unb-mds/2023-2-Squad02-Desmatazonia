@@ -34,7 +34,7 @@ const Home = () => {
           <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
             <a
             >
-              <h2 className={`mb-3 text-2xl font-semibold`}>
+              <h2>
                 Reunimos os Diários Oficiais Municipais do Estado do Amazonas, disponibilizados pela Associação dos Municípios Amazonenses (AMA). Ao selecionar uma cidade e período específico, forneceremos informações sobre as licitações realizadas nessa região. Escolha o município desejado e explore as oportunidades de negócios públicos na Amazônia!
               </h2>
             </a>

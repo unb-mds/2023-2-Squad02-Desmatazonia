@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+
+
+    
+}
+
+.home {
+  display: flex;
+}
+
+.navbar {
+  width: 70px;
+  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+
+
+
+.cob {
+  width: 450px; 
+  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  float: left;
+  
+}
+
+
+.conteudo {
+  width: 90%; 
+  float: left; 
+  height: 300px;
+}
+
+.municipios {
+  width: 305px;
+  height: 51px;
+  flex-shrink: 0;
+}
+
+.anos {
+  width: 305px;
+  height: 51px;
+  flex-shrink: 0;
+
+}
+
+.barras {
+  display: flex;
+  flex-direction: column; /* Alterado para column */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.ic-home{
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.ic-info {
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.ic-git {
+  height: 100px;
+  width: 50px;
+  margin: 10px 0;
+}

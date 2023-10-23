@@ -6,6 +6,7 @@ const Cob = () => {
       <div className={Cob}>
         <h1 className="text-center">Licitações do Estado de Amazonas no seu alcance!</h1>
         <p className="text-center">Colaboradores</p>
+        <img src="/images/colaboradores.jpg" />
         <p1 className="text-center">
           Revolucionando a Monitorização de Licitações no Estado do Amazonas:
           Coletamos e Organizamos os Dados para Impactar a Transparência e Eficiência dos Processos de Compras Públicas Municipais.

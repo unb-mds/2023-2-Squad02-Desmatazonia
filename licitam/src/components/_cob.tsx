@@ -3,7 +3,8 @@ import React from 'react';
 const Cob = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className={Cob}>
+      <div>
+        {Cob}
         <h1 className="text-center">Licitações do Estado de Amazonas no seu alcance!</h1>
         <p className="text-center">Colaboradores</p>
         <img src="/images/colaboradores.jpg" />

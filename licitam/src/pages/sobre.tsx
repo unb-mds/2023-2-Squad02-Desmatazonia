@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from '@/components/_navbar';
 import Cob from '@/components/_cob';
-import Municipios from '@/components/_municipios';
-import Anos from '@/components/_anos';
 import { Inter, Source_Sans_3 } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -23,7 +21,7 @@ const Home = () => {
         <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
           <div className=" text-center">
             <p className="h1 custom-title">
-                   Acompanhe as licitações dos Municípios de Amazonas!
+              Sobre o nosso Projeto
             </p>
           </div>
 
@@ -31,20 +29,15 @@ const Home = () => {
           <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
             <a>
               <h2 className="font-inria-serif text-center">
-                   Reunimos os Diários Oficiais Municipais do Estado do Amazonas, disponibilizados pela Associação dos Municípios Amazonenses (AMA). Ao selecionar uma cidade e período específico, forneceremos informações sobre as licitações realizadas nessa região. Escolha o município desejado e explore as oportunidades de negócios públicos na Amazônia!
+                O propósito deste projeto é reunir as informações das licitações realizadas pelos municípios do Amazonas e apresentá-las de maneira transparente à sociedade, organizando os dados em gráficos que destacam os anos e os respectivos municípios.
               </h2>
             </a>
           </div>
 
-
-          <div className="box-container">
-            <div className="box">
-              <Municipios />
-            </div>
-            <div className="box">
-              <Anos />
-            </div>
+          <div>
+          <img src="/images/mapa_ama.jpg" />
           </div>
+
         </main>
       </div>
 

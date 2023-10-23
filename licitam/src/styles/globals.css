@@ -32,7 +32,7 @@ body {
 
 .navbar {
   width: 70px;
-  background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); 
+  background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff);
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -40,9 +40,6 @@ body {
   justify-items: center;
   height: 100vh;
 }
-
-
-
 
 .cob {
   width: 450px; 
@@ -129,12 +126,14 @@ a {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }
 
 .ic-info {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }
 
 
@@ -142,4 +141,5 @@ a {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }

@@ -17,10 +17,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-
-
-    
+  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
 }
+
+  
 
 .home {
   display: flex;
@@ -28,7 +32,7 @@ body {
 
 .navbar {
   width: 70px;
-  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff);
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -37,15 +41,58 @@ body {
   height: 100vh;
 }
 
-
-
-
 .cob {
   width: 450px; 
   background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
   float: left;
   
 }
+.custom-title {
+  color: black;
+  font-size: 35px;
+  font-family: Inria Serif;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.div-principal {
+  width: 450px; 
+  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  float: left;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  font-family: Inria Serif;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+p {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Inria Serif;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+p1 {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: Inria Serif;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
 
 
 .conteudo {
@@ -54,22 +101,22 @@ body {
   height: 300px;
 }
 
-.municipios {
+.box {
   width: 305px;
   height: 51px;
+  padding: 20px;
+  margin: 10px;
   flex-shrink: 0;
+  border-radius: 20px;
+  background: linear-gradient(to left, #7265ba, #b9b1ec, #d0cce9);
+  display: inline-block;
+  
 }
 
-.anos {
-  width: 305px;
-  height: 51px;
-  flex-shrink: 0;
-
-}
 
 .barras {
   display: flex;
-  flex-direction: column; /* Alterado para column */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -79,12 +126,14 @@ body {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }
 
 .ic-info {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }
 
 
@@ -92,4 +141,5 @@ body {
   height: 100px;
   width: 50px;
   margin: 10px 0;
+  color:#ffffff;
 }

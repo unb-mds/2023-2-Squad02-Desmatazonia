@@ -4,9 +4,9 @@ theme:
   name: material
 
 nav:
-- Inicio: index.md
+- Inicio: "index.md"
 - Release 1:
-      - Processo de desenvolvimento de Software: 
+      - Processo de desenvolvimento de Software: "pdsoftware.md"
       - Arquitetura: "arquitetura.md" 
 - Release 2:
       

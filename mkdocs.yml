@@ -6,7 +6,7 @@ theme:
 nav:
 - Inicio: "index.md"
 - Release 1:
-      - Processo de desenvolvimento de Software: "pdsoftware.md"
+      - Processo de desenvolvimento de Software: 
       - Arquitetura: "arquitetura.md" 
 - Release 2:
       

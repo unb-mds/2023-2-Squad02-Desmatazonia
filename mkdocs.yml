@@ -2,3 +2,8 @@ site_name: Squad 2
 
 theme:
   name: material
+
+nav:
+- Documentação:
+      - Arquitetura: "arquitetura.md"
+      

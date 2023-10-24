@@ -3,6 +3,7 @@ import Navbar from '@/components/_navbar';
 import Cob from '@/components/_cob';
 import Municipios from '@/components/_municipios';
 import Anos from '@/components/_anos';
+import TotalAtos from '@/components/graficos/_totalatos';
 import { Inter, Source_Sans_3 } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -11,7 +12,6 @@ const Home = () => {
   return (
     <div className="container">
       <div className="navbar">
-        <div className=""></div>
         <Navbar />
       </div>
 
@@ -48,6 +48,10 @@ const Home = () => {
             </div>
           </main>
         </div>
+
+      </div>
+      <div className=" TotalAtos">
+        <TotalAtos></TotalAtos>
 
       </div>
 

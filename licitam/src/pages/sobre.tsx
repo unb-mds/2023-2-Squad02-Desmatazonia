@@ -17,45 +17,36 @@ const Home = () => {
         <Cob />
       </div>
 
-      <div className="text-center">
-        <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
-          <div className=" text-center">
-            <p className="h1 custom-title">
-              Sobre o nosso Projeto
-            </p>
-          </div>
+      <div className=" projeto">
+        <div className="text-center">
+            <main className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}>
+            <div className=" text-center">
+                <p className="h1 custom-title">
+                Sobre o nosso Projeto
+                </p>
+            </div>
 
 
-          <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
-            <a>
-              <h2 className="font-inria-serif text-center">
-                O propósito deste projeto é reunir as informações das licitações realizadas pelos municípios do Amazonas e apresentá-las de maneira transparente à sociedade, organizando os dados em gráficos que destacam os anos e os respectivos municípios.
-              </h2>
-            </a>
-          </div>
+            <div className=" text-center lg:max-w-5xl  lg:mb-0 lg:grid-cols-4t">
+                <a>
+                <h2>
+                 O propósito deste projeto é reunir as informações das licitações realizadas pelos municípios do Amazonas e apresentá-las de maneira transparente à sociedade, organizando os dados em gráficos que destacam os anos e os respectivos municípios.
+                </h2>
+                </a>
+            </div>
 
-          <div>
-          <img src="/images/mapa_ama.jpg" />
-          </div>
+             <div>
+             <img src="/images/mapa_ama.jpg" />
+            </div>
 
-        </main>
+         </main>
+        </div>
       </div>
 
       <style jsx>{`
         .container {
           display: flex;
           width: 100%;
-        }
-
-        .left-column {
-          width: 30%;
-          background-color: gray;
-          padding: 20px;
-        }
-
-        .right-column {
-          flex: 1;
-          padding: 20px;
         }
 
         .box-container {

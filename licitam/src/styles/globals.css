@@ -30,6 +30,13 @@ body {
   display: flex;
 }
 
+.projeto { 
+  background-color: #ffffff; 
+  float: right;
+  margin-right: auto;
+
+}
+
 .navbar {
   width: 70px;
   background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff);
@@ -42,7 +49,7 @@ body {
 }
 
 .cob {
-  width: 450px; 
+  width: 600px; 
   background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
   float: left;
   
@@ -56,7 +63,7 @@ body {
 }
 
 .div-principal {
-  width: 450px; 
+  width: 600px; 
   background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
   float: left;
 }
@@ -89,7 +96,7 @@ a {
   text-decoration: none;
   color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-family: Inria Serif;
   margin-top: 5px;
 }
 
@@ -102,14 +109,14 @@ a {
 }
 
 .box {
-  width: 305px;
-  height: 51px;
-  padding: 20px;
-  margin: 10px;
-  flex-shrink: 0;
-  border-radius: 20px;
+  width: 91%;
+  height: 36%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   background: linear-gradient(to left, #7265ba, #b9b1ec, #d0cce9);
-  display: inline-block;
   
 }
 

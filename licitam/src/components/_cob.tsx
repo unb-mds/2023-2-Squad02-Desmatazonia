@@ -12,6 +12,7 @@ const Cob = () => {
           Revolucionando a Monitorização de Licitações no Estado do Amazonas:
           Coletamos e Organizamos os Dados para Impactar a Transparência e Eficiência dos Processos de Compras Públicas Municipais.
         </p1>
+        <img src="/images/mapa_ama_cob.jpg" />
       </div>
     </main>
   );

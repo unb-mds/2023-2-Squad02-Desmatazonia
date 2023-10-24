@@ -4,7 +4,9 @@ import Cob from '@/components/_cob';
 import Municipios from '@/components/_municipios';
 import Anos from '@/components/_anos';
 import TotalAtos from '@/components/graficos/_totalatos';
+import Licitamunicipios from '@/components/graficos/licitamunicipios';
 import { Inter, Source_Sans_3 } from 'next/font/google';
+import MunicipiosLicit from '@/components/graficos/_numerolicit';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -50,8 +52,9 @@ const Home = () => {
         </div>
 
       </div>
-      <div className=" TotalAtos">
+      <div className=" grafics">
         <TotalAtos></TotalAtos>
+        <Licitamunicipios></Licitamunicipios>
 
       </div>
 

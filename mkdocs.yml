@@ -4,6 +4,9 @@ theme:
   name: material
 
 nav:
-- Documentação:
-      - Arquitetura: "arquitetura.md"
+- Inicio: index.md
+- Release 1:
+      - Processo de desenvolvimento de Software: 
+      - Arquitetura: "arquitetura.md" 
+- Release 2:
       

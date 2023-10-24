@@ -7,9 +7,15 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="barras">    
+      <Link href="http://localhost:3000/">
         <AiFillHome className="ic-home" />
-        <AiFillInfoCircle className="ic-info" />
-        <AiFillGithub className="ic-git" />
+      </Link>
+      <Link href="http://localhost:3000/sobre">
+      <AiFillInfoCircle className="ic-info" />
+      </Link>
+      <Link href="https://github.com/unb-mds/2023-2-Squad02">
+       <AiFillGithub className="ic-git" />
+      </Link>
       </div>
     </div>
   );

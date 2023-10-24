@@ -11,15 +11,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 
 
-    
+
 }
 
 .home {
@@ -28,29 +25,28 @@ body {
 
 .navbar {
   width: 70px;
-  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  background: linear-gradient(to top, #0a0635, #879EE0, #c3d6f2);
   float: left;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-  height: 150vh;
+  align-items:normal;
+  justify-items:;
+  height: 180vh;
 }
 
 
 
 
 .cob {
-  width: 450px; 
-  background:linear-gradient( to top, #0a0635, #879EE0, #c3d6f2); 
+  width: 450px;
+  background: linear-gradient(to top, #0a0635, #879EE0, #c3d6f2);
   float: left;
-  
+
 }
 
 
 .conteudo {
-  width: 90%; 
-  float: left; 
+  width: 90%;
+  float: left;
   height: 300px;
 }
 
@@ -66,3 +62,24 @@ body {
   flex-shrink: 0;
 
 }
+
+ .barras{
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+ }
+
+ .ic-home {
+  height: 100px;
+  width: 50px;
+ }
+
+ .ic-info {
+  height: 100px;
+  width: 50px;
+ }
+ 
+ .ic-git {
+  height: 100px;
+  width: 50px;
+ }

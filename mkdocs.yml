@@ -2,7 +2,7 @@ site_name: Squad 2
 
 theme:
   icon:
-   repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/git-alt
   name: material
   features:
     - navigation.tabs

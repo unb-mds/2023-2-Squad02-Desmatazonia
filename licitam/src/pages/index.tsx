@@ -3,7 +3,7 @@ import Navbar from "@/components/_navbar";
 import Cob from "@/components/_cob";
 import Municipios from "@/components/_municipios";
 import Anos from "@/components/_anos";
-import TotalAtos from "@/components/graficos/_totalatos";
+import TotalAtos from "@/components/graficos/TotalAtos";
 import Licitamunicipios from "@/components/graficos/licitamunicipios";
 import { Inter, Source_Sans_3 } from "next/font/google";
 

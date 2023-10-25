@@ -57,6 +57,8 @@ A escolha da arquitetura monolítica foi a opção mais adequada para este proje
 
 ## Arquitetura Monolítica com Extrator de Dados e Interface do Usuário
 
+<img style=": 25%" src="https://github.com/unb-mds/2023-2-Squad02/blob/main/docs/imagens/diagrama.jpeg?raw=true" width=900px> 
+
 Neste documento, descreveremos a arquitetura monolítica de um sistema que inclui um extrator de dados e uma interface do usuário que utiliza HTML e CSS.
 
 ### Estrutura da Arquitetura
@@ -92,4 +94,6 @@ O sistema é composto por três camadas principais:
 
 | Versão  |  Data  | Autor  |  Descrição  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
-| 0.1 | 15/10/2023  | Amanda Campos | Documentação Arquitetura |
+| 0.1 | 15/10/2023  | Larissa Stéfane | Apresentação e Explicação |
+| 0.2 | 15/10/2023  | Amanda Campos | Documentação Arquitetura |
+| 0.3 | 24/10/2023  | Dara Maria  | Atualização da nova arquitetura |

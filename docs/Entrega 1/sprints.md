@@ -113,3 +113,16 @@ atividades que faltam ser completadas.
 - Organizar o extrator e criar o fork: Alana
 - Trabalhar no front e documentar as instruções: Isaque e Harleny
 - Estilização do front: Harleny, Isaque, Larissa.
+
+## Histórico de Versões
+
+| Versão  |  Data  | Autor  |  Descrição  |
+| ------------------- | ------------------- | ------------------- | ------------------- |
+| 0.1 | 05/09/2023  | Larissa Stéfane | Documentando Sprint1 |
+| 0.2 | 13/09/2023  | Larissa Stéfane | Documentando Sprint2 |
+| 0.3 | 20/09/2023  | Larissa Stéfane | Documentando Sprint3 |
+| 0.4 | 28/09/2023  | Larissa Stéfane | Documentando Sprint4 |
+| 0.5 | 05/10/2023  | Larissa Stéfane | Documentando Sprint5 |
+| 0.6 | 11/10/2023  | Larissa Stéfane | Documentando Sprint6 |
+| 0.7 | 18/10/2023  | Larissa Stéfane | Documentando Sprint7 |
+| 0.8 | 24/10/2023  | Dara Maria  | Revisão da documentação |

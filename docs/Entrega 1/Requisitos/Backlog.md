@@ -12,27 +12,24 @@
 
 ### Cidadão Interessado em Licitações (Persona Principal)
 
-- **Descrição**: Interessado em acompanhar licitações no Amazonas por motivos públicos ou de conhecimento.
-- **Necessidades**:
-  - Acesso simples aos dados de licitações.
-  - Compreensão fácil dos resultados das licitações.
-  - Capacidade de busca de licitações relevantes.
+Interessado em acompanhar licitações no Amazonas por motivos públicos ou de conhecimento.
+
+**Necessidades**:
+
+- Acesso simples aos dados de licitações.
+- Compreensão fácil dos resultados das licitações.
+- Capacidade de busca de licitações relevantes.
 
 ### Pesquisador em Políticas Públicas e Finanças (Pesquisador)
 
-- **Descrição**: Acadêmicos, jornalistas e analistas que utilizam dados de licitações para pesquisas em políticas públicas e finanças.
-- **Necessidades**:
+Acadêmicos, jornalistas e analistas que utilizam dados de licitações para pesquisas em políticas públicas e finanças.
+
+**Necessidades**:
+
   - Acesso a dados detalhados e completos de licitações.
   - Ferramentas de análise avançadas para investigações profundas.
   - Acesso a informações históricas e tendências.
 
-### Aluno de Ciências Sociais ou Economia (Estudante)
-
-- **Descrição**: Estudantes que desejam aprender sobre processos de licitação e políticas públicas.
-- **Necessidades**:
-  - Acesso a dados de licitações para pesquisa acadêmica.
-  - Conteúdo educacional sobre licitações e processos governamentais.
-  - Acesso a exemplos e estudos de caso para fins de aprendizado.
 
 
 ## Requisitos Funcionais

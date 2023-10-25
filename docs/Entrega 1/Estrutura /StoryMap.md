@@ -5,5 +5,3 @@ O Story Map é uma ferramenta visual valiosa usada para planejar, organizar e co
 <img style=": 25%" src="https://github.com/unb-mds/2023-2-Squad02/blob/main/docs/imagens/storymap.png?raw=true" width=900px> 
 
 
-<img style=": 25%" src="https://github.com/unb-mds/2023-2-Squad02/blob/main/docs/imagens/diagrama.jpeg?raw=true" width=900px> 
-

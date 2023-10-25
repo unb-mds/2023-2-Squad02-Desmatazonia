@@ -35,6 +35,8 @@ A arquitetura monolítica é um dos modelos arquiteturais mais tradicionais no d
 
 Em resumo, a arquitetura monolítica é uma escolha adequada para aplicativos de menor complexidade e equipes de desenvolvimento menores, onde a simplicidade inicial e a rápida prototipagem são essenciais. No entanto, à medida que os aplicativos crescem e se tornam mais complexos, a transição para abordagens arquiteturais mais modernas, como a arquitetura orientada a microsserviços, é frequentemente considerada para superar as limitações da arquitetura monolítica.
 
+## Diagrama de arquitetura
+
 ## Histórico de Versões
 
 | Versão  |  Data  | Autor  |  Descrição  |

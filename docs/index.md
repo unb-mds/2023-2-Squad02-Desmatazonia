@@ -23,5 +23,5 @@ Somos o Squad 2 da disciplina de Métodos de Desenvolvimento de Software. Este r
 | Versão | Data       | Descrição            | Autor          | Revisor          |
 |--------|------------|----------------------|----------------|----------------|
 | 1.0    | 10/10/2023 | Versão inicial       | [Isaque Santos](https://github.com/IsaqueSH)  |   |
-| 2.0    | 24/10/2023 | Reformulação do pages       | [Dara Maria ](https://github.com/daramariabs)  |   |
+| 2.0    | 24/10/2023 | Reformulação do pages       | [Amanda Campos](https://github.com/acamposs), [Dara Maria ](https://github.com/daramariabs)  |   |
 

@@ -1,6 +1,6 @@
 # Arquitetura
 
-# Arquitetura Monolítica: 
+## Arquitetura Monolítica: 
 ## Fundamentos, Vantagens e Desvantagens
 
 A arquitetura monolítica é um dos modelos arquiteturais mais tradicionais no desenvolvimento de software. Nesse modelo, toda a aplicação é construída como uma única unidade, com todas as funcionalidades, componentes e lógica de negócios integrados em um único código-fonte e implantados como uma única aplicação. Esta abordagem tem características distintas, vantagens e desvantagens que são fundamentais para entender.

@@ -1,10 +1,30 @@
 site_name: Squad 2
 
 theme:
+  icon:
+   repo: fontawesome/brands/git-alt
   name: material
-
-nav:
-- Inicio: "index.md"
-- Documentação:
-      - Arquitetura: "arquitetura.md"
-      
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: pt
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+      primary: teal
+      accent: green
+    - scheme: slate 
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode    
+      primary: teal
+      accent: blue

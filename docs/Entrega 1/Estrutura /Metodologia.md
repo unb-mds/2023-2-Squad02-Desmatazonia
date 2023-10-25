@@ -1,7 +1,7 @@
 
 # Metodologias de Desenvolvimento de Software 
 
-## Metodologias de Desenvolvimento de Software estudadas
+## Metodologias estudadas
 
 As metodologias de desenvolvimento de software estudadas pelo Squad 02 estão listadas a seguir:
 
@@ -96,4 +96,4 @@ No geral, a escolha do Scrum para o Squad 02 foi motivada pela necessidade de um
 
 | Versão  |  Data  | Autor  |  Descrição  |
 | ------------------- | ------------------- | ------------------- | ------------------- |
-| 0.1 | 15/10/2023  | Amanda Alves | Estruturação Metodologias |
+| 0.1 | 15/10/2023  | Amanda Campos | Estruturação Metodologias |

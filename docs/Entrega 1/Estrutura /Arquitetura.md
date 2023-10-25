@@ -1,4 +1,4 @@
-# Arquitetura de Software
+# Arquitetura de Software e Tecnologias
 
 A arquitetura de software é a estrutura organizacional de um sistema de software, que inclui a divisão de tarefas, componentes e a comunicação entre eles. Ela desempenha um papel fundamental na criação de sistemas de software robustos, escaláveis e eficientes.
 
@@ -51,13 +51,42 @@ Nesse modelo, o sistema é dividido em pequenos serviços independentes, cada um
   - A interpretação errada ou má implementação do padrão pode levar a uma arquitetura confusa.
 
 
-## Escolhendo a Arquitetura Monolítica
+# Escolhendo a Arquitetura Monolítica
 
 A escolha da arquitetura monolítica foi a opção mais adequada para este projeto, levando em consideração que se trata de um projeto simples e de pequeno porte. Com apenas um extrator de dados e uma interface de usuário (front-end), a unificação de todo o projeto em um único bloco de código torna-se a abordagem mais prática e menos complexa.
 
-Nesse contexto, os benefícios da arquitetura monolítica, como a facilidade de desenvolvimento e implantação, são maximizados. Não há uma necessidade imediata de dimensionar ou escalar componentes separados, e a simplicidade da arquitetura monolítica reduz o overhead de gerenciamento que poderia ser necessário em abordagens mais complexas.
+## Arquitetura Monolítica com Extrator de Dados e Interface do Usuário
 
-No entanto, é importante lembrar que a escolha da arquitetura deve ser sempre baseada nas necessidades específicas do projeto e em suas metas de longo prazo. À medida que o projeto cresce em complexidade ou escopo, pode ser necessário considerar a transição para uma arquitetura mais escalável, como a de microserviços, para atender às demandas futuras. A flexibilidade e escalabilidade devem ser avaliadas à medida que o projeto evolui.
+Neste documento, descreveremos a arquitetura monolítica de um sistema que inclui um extrator de dados e uma interface do usuário que utiliza HTML e CSS.
+
+### Estrutura da Arquitetura
+
+O sistema é composto por três camadas principais:
+
+#### Camada de Interface do Usuário (UI):  
+
+  - Responsável pela apresentação e interação com o usuário.
+  - Implementada com HTML, CSS e JavaScript.
+  - Aqui, você pode criar as páginas web para interagir com o extrator de dados.
+  - **Tecnologias Principais na Camada de Interface do Usuário:** React, Next.js
+
+
+#### Extrator de Dados:
+
+  - Uma parte da lógica de aplicação que é responsável por coletar, processar e extrair os dados de fontes externas.
+  - Isso pode envolver a comunicação com APIs, bancos de dados, arquivos, etc.
+  - Essa parte específica do código pode ser modularizada e reutilizada em várias partes da aplicação, conforme necessário.
+  - **Tecnologias Principais no Extrator de Dados:** Python, Docker, Apache Tika.
+
+
+
+## Fluxo de Trabalho
+
+1. O usuário interage com a interface do usuário.
+
+2. Quando o usuário aciona uma ação (por exemplo, pressionar um botão), a interface do usuário solicita a carga de um documento JSON. (o documento JSON que contém os dados previamente extraídos pelo extrator de dados.)
+
+3. A interface do usuário exibe os dados recebidos do documento JSON para o usuário.
 
 
 ## Histórico de versões:

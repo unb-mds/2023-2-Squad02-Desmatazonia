@@ -8,46 +8,52 @@ const inter = Inter({ subsets: ["latin"] });
 const Home = () => {
   return (
     <div className="container">
-      <div className="navbar">
-        <div className=""></div>
-        <Navbar />
-      </div>
+    <div className="navbar">
+      <Navbar />
+    </div>
 
-      <div className="cob rounded-r-[4rem]">
-        <Cob />
-      </div>
+    <div className="cob rounded-r-[4rem]">
+      <Cob />
+    </div>
 
-      <div className=" projeto">
-        <div className="text-center">
-          <main
-            className={`flex min-h-screen flex-col items-center justify-between p-15 ${inter.className}`}
+    <div className="projet proj ">
+       <div className="text-center">
+        <main
+            className={`flex flex-col items-center justify-between px-24 py-12 ${inter.className}`}
           >
-            <div className="text-center">
-              <h1 className="h1 custom-title">Sobre o nosso Projeto</h1>
+            <div className="text-left">
+              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87]">
+                Sobre o nosso Projeto
+              </p>
             </div>
 
-            <div className="text-center lg:max-w-3xl lg:mb-0 lg:grid-cols-4t">
-              <a>
-                <p className="aumentar-fonte">
+            <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
+              <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
                   O propósito deste projeto é reunir as informações das
                   licitações realizadas pelos municípios do Amazonas e
                   apresentá-las de maneira transparente à sociedade, organizando
                   os dados em gráficos que destacam os anos e os respectivos
                   municípios.
-                </p>
-              </a>
+              </h2>
             </div>
 
             <div>
-              <img src="/images/mapa_ama.jpg" />
+              <img src="/images/mapa_ama_cob.png" />
             </div>
-            <div className="text-center lg:max-w-7xl lg:mb-0 lg:grid-cols-5t">
-              <h1>Extrator de dados</h1>
-              <p className="aumentar-fonte">
-                Nosso site e extrator funcionam da seguinte maneira: <br></br>
-                O usuário seleciona o município e o ano. O extrator busca em documentos PDF do Diário Oficial, usando o Apache Tika para extrair texto. Em seguida, fazemos pós-processamento para limpar e formatar o texto. Por fim, apresentamos os resultados para visualização e download das informações sobre licitações.
+            
+            <div className="text-left">
+              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87]">
+                Extrator de Dados
               </p>
             </div>
+
+            <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
+              <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
+              Nosso site e extrator funcionam da seguinte maneira: <br></br>
+                O usuário seleciona o município e o ano. O extrator busca em documentos PDF do Diário Oficial, usando o Apache Tika para extrair texto. Em seguida, fazemos pós-processamento para limpar e formatar o texto. Por fim, apresentamos os resultados para visualização e download das informações sobre licitações.
+              </h2>
+            </div>
+
           </main>
         </div>
       </div>
@@ -57,35 +63,12 @@ const Home = () => {
           display: flex;
           width: 100%;
         }
-        p {
-          color: black;
-        }
-        img {
-          width: 600px;
-          height: 350px;
-        }
-        h1 {
-          color: black;
-        }
-
-        .aumentar-fonte {
-          font-size: 24px; /* Aumente o tamanho da fonte conforme necessário */
-        }
-
-        .box-container {
+        .proj {
           display: flex;
-          flex-wrap: wrap;
-        }
-
-        .box {
-          width: 305px;
-          height: 51px;
-          padding: 20px;
-          margin: 10px;
-          flex-shrink: 0;
-          border-radius: 20px;
-          background: linear-gradient(to left, #7265ba, #b9b1ec, #d0cce9);
-          display: inline-block;
+          width: 100%;
+          height: 100vh;
+          min-height: 100vh;
+          overflow: auto;
         }
       `}</style>
     </div>

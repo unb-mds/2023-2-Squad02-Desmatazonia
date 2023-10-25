@@ -66,7 +66,6 @@ O sistema é composto por três camadas principais:
 #### Camada de Interface do Usuário (UI):  
 
   - Responsável pela apresentação e interação com o usuário.
-  - Implementada com HTML, CSS e JavaScript.
   - Aqui, você pode criar as páginas web para interagir com o extrator de dados.
   - **Tecnologias Principais na Camada de Interface do Usuário:** React, Next.js
 
@@ -75,7 +74,7 @@ O sistema é composto por três camadas principais:
 
   - Uma parte da lógica de aplicação que é responsável por coletar, processar e extrair os dados de fontes externas.
   - Isso pode envolver a comunicação com APIs, bancos de dados, arquivos, etc.
-  - Essa parte específica do código pode ser modularizada e reutilizada em várias partes da aplicação, conforme necessário.
+  - Essa parte específica do código pode ser modularizada e utilizada para gerar o documento JSON com os dados.
   - **Tecnologias Principais no Extrator de Dados:** Python, Docker, Apache Tika.
 
 

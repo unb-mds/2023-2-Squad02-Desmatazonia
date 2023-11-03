@@ -49,12 +49,15 @@ A adoção de contêineres é importante devido à sua capacidade de economizar 
 ## Sites para Estudo
   
  • Containers: O que são no mundo da programação?. Disponível em: [link](https://www.hostgator.com.br/blog/containers-o-que-sao-no-mundo-da-programacao/)
+ 
  • Afinal, o que é um container?.  Disponível em: [link](https://www.treinaweb.com.br/blog/afinal-o-que-e-um-container)
+ 
  • Containers and Docker: what they are and how to use them. Disponível em: [link](https://esr.rnp.br/administracao-de-sistemas/containers-docker-como-utilizar/)
 
 ## Vídeos para Estudo
 
  • Containers // Dicionário do Programador. Disponível em: [link](https://www.youtube.com/watch?v=-pUZBovqRcU)
+ 
  • Container e Docker - para iniciantes. Disponível em: [link](https://www.youtube.com/watch?v=HCfvhDhiK98)
 
 ##  Histórico de Versão

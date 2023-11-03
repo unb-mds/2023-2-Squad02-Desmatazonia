@@ -47,6 +47,7 @@ A adoção de contêineres é importante devido à sua capacidade de economizar 
   Eles são eficientes em termos de recursos, uma vez que compartilham o kernel do sistema operacional hospedeiro e consomem menos recursos do que máquinas virtuais tradicionais.
 
 ## Sites para Estudo
-
-
+  
+    • Containers: O que são no mundo da programação?. Disponível em: [link](https://www.hostgator.com.br/blog/containers-o-que-sao-no-mundo-da-programacao/)
+    
   

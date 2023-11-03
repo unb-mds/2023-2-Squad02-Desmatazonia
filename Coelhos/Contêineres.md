@@ -37,3 +37,16 @@ A adoção de contêineres é importante devido à sua capacidade de economizar 
 ### Portabilidade
 
   Uma das vantagens dos contêiners é que eles são altamente portáteis, o que significa que é possível criar um contêiner em uma máquina e executá-lo em outra, independentemente do sistema operacional ou da infraestrutura subjacente.
+
+### Isolamento
+
+  Eles oferecem isolamento entre diversos aplicativos e as suas dependências, o que garante que eles não afetem uns aos outros.
+
+### Eficiência
+
+  Eles são eficientes em termos de recursos, uma vez que compartilham o kernel do sistema operacional hospedeiro e consomem menos recursos do que máquinas virtuais tradicionais.
+
+## Sites para Estudo
+
+
+  

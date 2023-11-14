@@ -114,6 +114,33 @@ atividades que faltam ser completadas.
 - Trabalhar no front e documentar as instruções: Isaque e Harleny
 - Estilização do front: Harleny, Isaque, Larissa.
 
+### Sprint 8
+Realizada no grupo do whatzapp  no dia 02/11/2023
+
+**Objetivo da reunião:** Na reunião realizada via WhatsApp, o nosso grupo avaliou o andamento do projeto e identificou pontos cruciais que demandam atenção para prosseguirmos. Uma das principais questões em discussão é a necessidade de mudar o tema do projeto para explorar a relação do Meio Ambiente no Amazonas, mas não sabemos em que contexto ainda. Como essa decisão requer uma análise aprofundada foi decidido que será um ponto de discussão crucial que ocorrerá na próxima reunião por vídeo conferência. Além disso, discutimos a importância de definir pesquisas e informações necessárias para sustentar o progresso do desenvolvimento.
+
+**Planing**
+
+- Estudar e pesquisar a integração contínua (CI) e a entrega contínua (CD). : Alana Gabriele
+- Pesquisar e explorar o conceito de Extreme Programming (XP): Gustavo Lima
+- Estudo na área de testes: Amanda Campos
+- Pesquisar e compreender o conceito de contêineres: Larissa Stéfane
+- Organizar e documentar sprint: Larissa Stéfane
+
+### Sprint 9
+
+Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11/2023
+
+**Objetivo da reunião:** Continuar a discurssão sobre a organização das pesquisas para o desenvolvimento da segunda etapa do projeto e procurar por uma nova base de dados mais atualizada sobre o meio ambiente no Amazonas.
+
+**Planing**
+
+- Pesquisar por uma nova base de dados: Larissa Stéfane e Gustavo
+- Estudar e iniciar os testes: Isaque Santos, Amanda e Dara
+- Continuar a desenvolver o front: Harleny e Alana
+- Documentar sprint: Larissa Stéfane
+
+
 ## Histórico de Versões
 
 | Versão  |  Data  | Autor  |  Descrição  |
@@ -126,3 +153,5 @@ atividades que faltam ser completadas.
 | 0.6 | 11/10/2023  | Larissa Stéfane | Documentando Sprint6 |
 | 0.7 | 18/10/2023  | Larissa Stéfane | Documentando Sprint7 |
 | 0.8 | 24/10/2023  | Dara Maria  | Revisão da documentação |
+| 0.9 | 02/11/2023  | Larissa Stéfane | Documentando Sprint8 |
+| 1.0| 13/11/2023  | Larissa Stéfane | Documentando Sprint9 |

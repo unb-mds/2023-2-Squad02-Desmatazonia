@@ -140,6 +140,22 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
 - Continuar a desenvolver o front: Harleny e Alana
 - Documentar sprint: Larissa Stéfane
 
+  ### Sprint 10
+
+  Realizada no dia 22/11/2023 por meio de uma reunião no Teams
+
+  **Objetivo da reunião:** Discutir sobre a organização e planejamento do grupo para as próximas duas semanas e se preparar para a entrega final do projeto. Para isso, foram definidas algumas sprints.
+
+  **Planing**
+
+  - Atualização do REDME: Alana
+  - Implementação da funcionalidade de busca: Isaque e Harleny
+  - Definição do resultado de busca nos gráficos do site: Isaque e Harleny
+  - Refatoração do site para receber nova base de dados: Dara
+  - Documentação: Amanda
+  - Testes e validação: Gustavo
+  - Refatorar busca de dados: Larissa
+
 
 ## Histórico de Versões
 
@@ -155,3 +171,4 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
 | 0.8 | 24/10/2023  | Dara Maria  | Revisão da documentação |
 | 0.9 | 02/11/2023  | Larissa Stéfane | Documentando Sprint8 |
 | 1.0| 13/11/2023  | Larissa Stéfane | Documentando Sprint9 |
+| 1.1| 22/11/2023  | Larissa Stéfane | Documentando Sprint10 |

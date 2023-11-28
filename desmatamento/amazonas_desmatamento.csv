@@ -1,4 +1,4 @@
-,ano,municipio,bioma,area_total,desmatado,vegetacao_natural,nao_vegetacao_natural,hidrografia
+id,ano,municipio,bioma,area_total,desmatado,vegetacao_natural,nao_vegetacao_natural,hidrografia
 12259,2006,Santo Antônio do Içá,Amazônia,12306,130.0,11650.7,89.4,435.9
 12260,2009,Santo Antônio do Içá,Amazônia,12306,133.4,11647.3,89.4,435.9
 12261,2014,Santo Antônio do Içá,Amazônia,12306,137.2,11643.5,89.4,435.9

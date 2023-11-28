@@ -7,3 +7,5 @@ venv
 # Ignorar todos os arquivos gerados pelo mkdocs
 site/
 
+# ignorar mypy cache
+.mypy_cache/

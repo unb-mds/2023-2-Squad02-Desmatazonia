@@ -1,0 +1,232 @@
+[
+  {
+    "id": 140921,
+    "ano": 2015,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 82.9,
+    "vegetacao_natural": 4685.5,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140922,
+    "ano": 2022,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 84.5,
+    "vegetacao_natural": 4683.9,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140923,
+    "ano": 2010,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 79.8,
+    "vegetacao_natural": 4688.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140924,
+    "ano": 2001,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 70.7,
+    "vegetacao_natural": 4697.7,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140925,
+    "ano": 2007,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 77.8,
+    "vegetacao_natural": 4690.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140926,
+    "ano": 2013,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 81.8,
+    "vegetacao_natural": 4686.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140927,
+    "ano": 2004,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 75.2,
+    "vegetacao_natural": 4693.2,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140928,
+    "ano": 2016,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 83.2,
+    "vegetacao_natural": 4685.2,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140929,
+    "ano": 2000,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 69.5,
+    "vegetacao_natural": 4698.9,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140930,
+    "ano": 2014,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 82.4,
+    "vegetacao_natural": 4686.0,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140931,
+    "ano": 2003,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 74.1,
+    "vegetacao_natural": 4694.3,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140932,
+    "ano": 2009,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 79.3,
+    "vegetacao_natural": 4689.1,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140933,
+    "ano": 2021,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 84.3,
+    "vegetacao_natural": 4684.1,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140934,
+    "ano": 2005,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 77.2,
+    "vegetacao_natural": 4691.2,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140935,
+    "ano": 2002,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 72.1,
+    "vegetacao_natural": 4696.3,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140936,
+    "ano": 2012,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 81.0,
+    "vegetacao_natural": 4687.4,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140937,
+    "ano": 2008,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 78.8,
+    "vegetacao_natural": 4689.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140938,
+    "ano": 2017,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 83.4,
+    "vegetacao_natural": 4685.0,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140939,
+    "ano": 2020,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 83.8,
+    "vegetacao_natural": 4684.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140940,
+    "ano": 2006,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 77.8,
+    "vegetacao_natural": 4690.6,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140941,
+    "ano": 2018,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 83.5,
+    "vegetacao_natural": 4684.9,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140942,
+    "ano": 2019,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 83.5,
+    "vegetacao_natural": 4684.9,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  },
+  {
+    "id": 140943,
+    "ano": 2011,
+    "bioma": "Amazônia",
+    "area_total": 5866,
+    "desmatado": 80.4,
+    "vegetacao_natural": 4688.0,
+    "nao_vegetacao_natural": 633.8,
+    "hidrografia": 463.8
+  }
+]

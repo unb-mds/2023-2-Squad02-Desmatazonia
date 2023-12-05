@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2003,
+    "area_total": 6049,
+    "desmatado": 289.3,
+    "vegetacao_natural": 5519.5,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2012,
+    "area_total": 6049,
+    "desmatado": 322.5,
+    "vegetacao_natural": 5486.3,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2022,
+    "area_total": 6049,
+    "desmatado": 360.8,
+    "vegetacao_natural": 5448.0,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2019,
+    "area_total": 6049,
+    "desmatado": 346.6,
+    "vegetacao_natural": 5462.2,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2011,
+    "area_total": 6049,
+    "desmatado": 321.8,
+    "vegetacao_natural": 5487.0,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2010,
+    "area_total": 6049,
+    "desmatado": 319.5,
+    "vegetacao_natural": 5489.3,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2017,
+    "area_total": 6049,
+    "desmatado": 338.4,
+    "vegetacao_natural": 5470.4,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2018,
+    "area_total": 6049,
+    "desmatado": 343.8,
+    "vegetacao_natural": 5465.0,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2014,
+    "area_total": 6049,
+    "desmatado": 329.6,
+    "vegetacao_natural": 5479.2,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2015,
+    "area_total": 6049,
+    "desmatado": 330.2,
+    "vegetacao_natural": 5478.6,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2007,
+    "area_total": 6049,
+    "desmatado": 300.4,
+    "vegetacao_natural": 5508.4,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2020,
+    "area_total": 6049,
+    "desmatado": 352.0,
+    "vegetacao_natural": 5456.8,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2002,
+    "area_total": 6049,
+    "desmatado": 279.7,
+    "vegetacao_natural": 5529.1,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2001,
+    "area_total": 6049,
+    "desmatado": 263.2,
+    "vegetacao_natural": 5545.6,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2021,
+    "area_total": 6049,
+    "desmatado": 359.4,
+    "vegetacao_natural": 5449.4,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2016,
+    "area_total": 6049,
+    "desmatado": 334.2,
+    "vegetacao_natural": 5474.6,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2009,
+    "area_total": 6049,
+    "desmatado": 312.9,
+    "vegetacao_natural": 5495.9,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2005,
+    "area_total": 6049,
+    "desmatado": 295.4,
+    "vegetacao_natural": 5513.4,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2006,
+    "area_total": 6049,
+    "desmatado": 298.3,
+    "vegetacao_natural": 5510.5,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2000,
+    "area_total": 6049,
+    "desmatado": 258.3,
+    "vegetacao_natural": 5550.5,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2004,
+    "area_total": 6049,
+    "desmatado": 290.8,
+    "vegetacao_natural": 5518.0,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2008,
+    "area_total": 6049,
+    "desmatado": 310.9,
+    "vegetacao_natural": 5497.9,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  },
+  {
+    "ano": 2013,
+    "area_total": 6049,
+    "desmatado": 323.3,
+    "vegetacao_natural": 5485.5,
+    "nao_vegetacao_natural": 54.4,
+    "hidrografia": 185.8,
+    "nome_municipio": "Alvarães"
+  }
+]

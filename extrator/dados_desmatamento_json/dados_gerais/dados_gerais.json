@@ -1,0 +1,4552 @@
+{
+  "detalhe": {
+    "São Gabriel da Cachoeira": {
+      "nome": "São Gabriel da Cachoeira",
+      "area_total": 108765,
+      "2006": {
+        "desmatado": 1170.7
+      },
+      "2019": {
+        "desmatado": 1215.6
+      },
+      "2003": {
+        "desmatado": 1160.7
+      },
+      "2016": {
+        "desmatado": 1206.6
+      },
+      "2015": {
+        "desmatado": 1204.9
+      },
+      "2017": {
+        "desmatado": 1207.5
+      },
+      "2022": {
+        "desmatado": 1229.9
+      },
+      "2014": {
+        "desmatado": 1204.4
+      },
+      "2002": {
+        "desmatado": 1141.3
+      },
+      "2001": {
+        "desmatado": 1110.7
+      },
+      "2008": {
+        "desmatado": 1180.2
+      },
+      "2018": {
+        "desmatado": 1209.3
+      },
+      "2013": {
+        "desmatado": 1202.4
+      },
+      "2011": {
+        "desmatado": 1198.4
+      },
+      "2004": {
+        "desmatado": 1165.2
+      },
+      "2000": {
+        "desmatado": 1043.5
+      },
+      "2010": {
+        "desmatado": 1194.4
+      },
+      "2012": {
+        "desmatado": 1201.1
+      },
+      "2005": {
+        "desmatado": 1169.7
+      },
+      "2021": {
+        "desmatado": 1227.5
+      },
+      "2007": {
+        "desmatado": 1171.0
+      },
+      "2009": {
+        "desmatado": 1184.6
+      },
+      "2020": {
+        "desmatado": 1221.9
+      }
+    },
+    "Parintins": {
+      "nome": "Parintins",
+      "area_total": 5952,
+      "2018": {
+        "desmatado": 987.1
+      },
+      "2019": {
+        "desmatado": 990.5
+      },
+      "2017": {
+        "desmatado": 984.5
+      },
+      "2002": {
+        "desmatado": 912.6
+      },
+      "2005": {
+        "desmatado": 937.5
+      },
+      "2000": {
+        "desmatado": 883.3
+      },
+      "2021": {
+        "desmatado": 996.0
+      },
+      "2020": {
+        "desmatado": 993.5
+      },
+      "2012": {
+        "desmatado": 968.3
+      },
+      "2009": {
+        "desmatado": 954.9
+      },
+      "2003": {
+        "desmatado": 929.8
+      },
+      "2014": {
+        "desmatado": 977.9
+      },
+      "2010": {
+        "desmatado": 962.1
+      },
+      "2016": {
+        "desmatado": 982.3
+      },
+      "2001": {
+        "desmatado": 904.3
+      },
+      "2004": {
+        "desmatado": 932.7
+      },
+      "2007": {
+        "desmatado": 945.0
+      },
+      "2011": {
+        "desmatado": 967.0
+      },
+      "2008": {
+        "desmatado": 949.7
+      },
+      "2013": {
+        "desmatado": 972.2
+      },
+      "2015": {
+        "desmatado": 981.1
+      },
+      "2022": {
+        "desmatado": 999.8
+      },
+      "2006": {
+        "desmatado": 940.5
+      }
+    },
+    "Silves": {
+      "nome": "Silves",
+      "area_total": 3727,
+      "2002": {
+        "desmatado": 403.8
+      },
+      "2011": {
+        "desmatado": 430.9
+      },
+      "2017": {
+        "desmatado": 438.7
+      },
+      "2000": {
+        "desmatado": 389.2
+      },
+      "2005": {
+        "desmatado": 421.0
+      },
+      "2015": {
+        "desmatado": 436.2
+      },
+      "2018": {
+        "desmatado": 439.3
+      },
+      "2009": {
+        "desmatado": 426.7
+      },
+      "2022": {
+        "desmatado": 445.0
+      },
+      "2016": {
+        "desmatado": 437.6
+      },
+      "2012": {
+        "desmatado": 433.3
+      },
+      "2019": {
+        "desmatado": 440.9
+      },
+      "2021": {
+        "desmatado": 444.0
+      },
+      "2001": {
+        "desmatado": 399.7
+      },
+      "2020": {
+        "desmatado": 442.5
+      },
+      "2007": {
+        "desmatado": 423.6
+      },
+      "2013": {
+        "desmatado": 434.2
+      },
+      "2014": {
+        "desmatado": 435.5
+      },
+      "2003": {
+        "desmatado": 409.3
+      },
+      "2006": {
+        "desmatado": 422.0
+      },
+      "2008": {
+        "desmatado": 426.4
+      },
+      "2004": {
+        "desmatado": 418.7
+      },
+      "2010": {
+        "desmatado": 429.2
+      }
+    },
+    "Iranduba": {
+      "nome": "Iranduba",
+      "area_total": 2163,
+      "2004": {
+        "desmatado": 454.5
+      },
+      "2021": {
+        "desmatado": 499.2
+      },
+      "2011": {
+        "desmatado": 480.9
+      },
+      "2016": {
+        "desmatado": 492.3
+      },
+      "2014": {
+        "desmatado": 487.0
+      },
+      "2017": {
+        "desmatado": 494.3
+      },
+      "2008": {
+        "desmatado": 464.7
+      },
+      "2010": {
+        "desmatado": 478.1
+      },
+      "2005": {
+        "desmatado": 455.4
+      },
+      "2012": {
+        "desmatado": 481.9
+      },
+      "2009": {
+        "desmatado": 472.2
+      },
+      "2001": {
+        "desmatado": 424.7
+      },
+      "2000": {
+        "desmatado": 342.1
+      },
+      "2018": {
+        "desmatado": 495.5
+      },
+      "2003": {
+        "desmatado": 448.6
+      },
+      "2019": {
+        "desmatado": 496.3
+      },
+      "2020": {
+        "desmatado": 498.5
+      },
+      "2015": {
+        "desmatado": 490.7
+      },
+      "2022": {
+        "desmatado": 499.9
+      },
+      "2006": {
+        "desmatado": 459.0
+      },
+      "2002": {
+        "desmatado": 432.0
+      },
+      "2013": {
+        "desmatado": 484.2
+      },
+      "2007": {
+        "desmatado": 462.8
+      }
+    },
+    "Anamã": {
+      "nome": "Anamã",
+      "area_total": 2430,
+      "2006": {
+        "desmatado": 192.4
+      },
+      "2020": {
+        "desmatado": 202.6
+      },
+      "2013": {
+        "desmatado": 198.9
+      },
+      "2021": {
+        "desmatado": 204.3
+      },
+      "2008": {
+        "desmatado": 193.0
+      },
+      "2001": {
+        "desmatado": 188.3
+      },
+      "2014": {
+        "desmatado": 199.4
+      },
+      "2015": {
+        "desmatado": 200.4
+      },
+      "2007": {
+        "desmatado": 192.9
+      },
+      "2005": {
+        "desmatado": 192.3
+      },
+      "2012": {
+        "desmatado": 198.2
+      },
+      "2018": {
+        "desmatado": 201.6
+      },
+      "2010": {
+        "desmatado": 196.7
+      },
+      "2000": {
+        "desmatado": 177.0
+      },
+      "2003": {
+        "desmatado": 191.5
+      },
+      "2017": {
+        "desmatado": 201.4
+      },
+      "2009": {
+        "desmatado": 194.2
+      },
+      "2016": {
+        "desmatado": 200.4
+      },
+      "2019": {
+        "desmatado": 201.9
+      },
+      "2002": {
+        "desmatado": 189.6
+      },
+      "2022": {
+        "desmatado": 204.6
+      },
+      "2004": {
+        "desmatado": 191.8
+      },
+      "2011": {
+        "desmatado": 197.6
+      }
+    },
+    "Manacapuru": {
+      "nome": "Manacapuru",
+      "area_total": 7327,
+      "2002": {
+        "desmatado": 702.8
+      },
+      "2005": {
+        "desmatado": 748.5
+      },
+      "2006": {
+        "desmatado": 752.3
+      },
+      "2010": {
+        "desmatado": 782.2
+      },
+      "2016": {
+        "desmatado": 810.0
+      },
+      "2012": {
+        "desmatado": 792.4
+      },
+      "2000": {
+        "desmatado": 633.3
+      },
+      "2007": {
+        "desmatado": 754.5
+      },
+      "2015": {
+        "desmatado": 805.7
+      },
+      "2020": {
+        "desmatado": 829.5
+      },
+      "2009": {
+        "desmatado": 771.4
+      },
+      "2001": {
+        "desmatado": 693.7
+      },
+      "2022": {
+        "desmatado": 837.1
+      },
+      "2003": {
+        "desmatado": 737.6
+      },
+      "2013": {
+        "desmatado": 794.2
+      },
+      "2008": {
+        "desmatado": 756.7
+      },
+      "2017": {
+        "desmatado": 812.5
+      },
+      "2011": {
+        "desmatado": 791.0
+      },
+      "2021": {
+        "desmatado": 835.4
+      },
+      "2018": {
+        "desmatado": 814.5
+      },
+      "2019": {
+        "desmatado": 818.6
+      },
+      "2004": {
+        "desmatado": 745.5
+      },
+      "2014": {
+        "desmatado": 797.7
+      }
+    },
+    "Beruri": {
+      "nome": "Beruri",
+      "area_total": 17262,
+      "2007": {
+        "desmatado": 201.0
+      },
+      "2008": {
+        "desmatado": 203.4
+      },
+      "2019": {
+        "desmatado": 228.0
+      },
+      "2016": {
+        "desmatado": 222.0
+      },
+      "2020": {
+        "desmatado": 231.3
+      },
+      "2010": {
+        "desmatado": 209.6
+      },
+      "2005": {
+        "desmatado": 200.1
+      },
+      "2002": {
+        "desmatado": 191.7
+      },
+      "2001": {
+        "desmatado": 189.4
+      },
+      "2004": {
+        "desmatado": 199.4
+      },
+      "2006": {
+        "desmatado": 200.5
+      },
+      "2003": {
+        "desmatado": 197.3
+      },
+      "2021": {
+        "desmatado": 238.0
+      },
+      "2017": {
+        "desmatado": 223.6
+      },
+      "2009": {
+        "desmatado": 205.4
+      },
+      "2015": {
+        "desmatado": 219.9
+      },
+      "2012": {
+        "desmatado": 212.6
+      },
+      "2018": {
+        "desmatado": 225.6
+      },
+      "2022": {
+        "desmatado": 245.3
+      },
+      "2011": {
+        "desmatado": 211.7
+      },
+      "2014": {
+        "desmatado": 217.5
+      },
+      "2013": {
+        "desmatado": 215.0
+      },
+      "2000": {
+        "desmatado": 181.6
+      }
+    },
+    "Autazes": {
+      "nome": "Autazes",
+      "area_total": 7710,
+      "2011": {
+        "desmatado": 1242.9
+      },
+      "2020": {
+        "desmatado": 1400.9
+      },
+      "2012": {
+        "desmatado": 1257.3
+      },
+      "2001": {
+        "desmatado": 1009.6
+      },
+      "2005": {
+        "desmatado": 1128.5
+      },
+      "2002": {
+        "desmatado": 1053.4
+      },
+      "2018": {
+        "desmatado": 1343.3
+      },
+      "2000": {
+        "desmatado": 980.6
+      },
+      "2009": {
+        "desmatado": 1213.2
+      },
+      "2014": {
+        "desmatado": 1281.4
+      },
+      "2019": {
+        "desmatado": 1378.1
+      },
+      "2008": {
+        "desmatado": 1203.2
+      },
+      "2003": {
+        "desmatado": 1074.4
+      },
+      "2013": {
+        "desmatado": 1266.6
+      },
+      "2016": {
+        "desmatado": 1310.9
+      },
+      "2010": {
+        "desmatado": 1219.0
+      },
+      "2015": {
+        "desmatado": 1304.6
+      },
+      "2007": {
+        "desmatado": 1162.7
+      },
+      "2017": {
+        "desmatado": 1329.9
+      },
+      "2021": {
+        "desmatado": 1448.2
+      },
+      "2022": {
+        "desmatado": 1492.9
+      },
+      "2006": {
+        "desmatado": 1144.7
+      },
+      "2004": {
+        "desmatado": 1099.4
+      }
+    },
+    "Codajás": {
+      "nome": "Codajás",
+      "area_total": 18709,
+      "2002": {
+        "desmatado": 245.3
+      },
+      "2018": {
+        "desmatado": 272.4
+      },
+      "2021": {
+        "desmatado": 277.6
+      },
+      "2008": {
+        "desmatado": 259.0
+      },
+      "2007": {
+        "desmatado": 257.6
+      },
+      "2022": {
+        "desmatado": 279.5
+      },
+      "2015": {
+        "desmatado": 268.0
+      },
+      "2019": {
+        "desmatado": 274.9
+      },
+      "2000": {
+        "desmatado": 235.7
+      },
+      "2014": {
+        "desmatado": 267.0
+      },
+      "2005": {
+        "desmatado": 255.2
+      },
+      "2006": {
+        "desmatado": 255.2
+      },
+      "2011": {
+        "desmatado": 262.2
+      },
+      "2010": {
+        "desmatado": 261.4
+      },
+      "2003": {
+        "desmatado": 250.7
+      },
+      "2013": {
+        "desmatado": 263.9
+      },
+      "2016": {
+        "desmatado": 269.1
+      },
+      "2012": {
+        "desmatado": 262.8
+      },
+      "2009": {
+        "desmatado": 260.3
+      },
+      "2004": {
+        "desmatado": 253.9
+      },
+      "2001": {
+        "desmatado": 241.7
+      },
+      "2017": {
+        "desmatado": 270.5
+      },
+      "2020": {
+        "desmatado": 276.2
+      }
+    },
+    "Urucurituba": {
+      "nome": "Urucurituba",
+      "area_total": 2802,
+      "2005": {
+        "desmatado": 92.5
+      },
+      "2000": {
+        "desmatado": 82.3
+      },
+      "2003": {
+        "desmatado": 91.9
+      },
+      "2006": {
+        "desmatado": 92.8
+      },
+      "2002": {
+        "desmatado": 89.5
+      },
+      "2008": {
+        "desmatado": 93.7
+      },
+      "2021": {
+        "desmatado": 98.6
+      },
+      "2020": {
+        "desmatado": 97.8
+      },
+      "2014": {
+        "desmatado": 97.0
+      },
+      "2013": {
+        "desmatado": 96.1
+      },
+      "2016": {
+        "desmatado": 97.2
+      },
+      "2017": {
+        "desmatado": 97.3
+      },
+      "2015": {
+        "desmatado": 97.1
+      },
+      "2022": {
+        "desmatado": 100.0
+      },
+      "2018": {
+        "desmatado": 97.3
+      },
+      "2011": {
+        "desmatado": 95.3
+      },
+      "2001": {
+        "desmatado": 89.5
+      },
+      "2004": {
+        "desmatado": 92.1
+      },
+      "2012": {
+        "desmatado": 95.3
+      },
+      "2019": {
+        "desmatado": 97.7
+      },
+      "2009": {
+        "desmatado": 93.7
+      },
+      "2007": {
+        "desmatado": 93.1
+      },
+      "2010": {
+        "desmatado": 94.7
+      }
+    },
+    "Pauini": {
+      "nome": "Pauini",
+      "area_total": 41591,
+      "2001": {
+        "desmatado": 157.1
+      },
+      "2019": {
+        "desmatado": 292.1
+      },
+      "2010": {
+        "desmatado": 218.5
+      },
+      "2022": {
+        "desmatado": 372.5
+      },
+      "2011": {
+        "desmatado": 224.2
+      },
+      "2014": {
+        "desmatado": 248.0
+      },
+      "2018": {
+        "desmatado": 281.8
+      },
+      "2017": {
+        "desmatado": 273.7
+      },
+      "2020": {
+        "desmatado": 313.2
+      },
+      "2005": {
+        "desmatado": 194.8
+      },
+      "2006": {
+        "desmatado": 199.0
+      },
+      "2015": {
+        "desmatado": 254.5
+      },
+      "2012": {
+        "desmatado": 233.7
+      },
+      "2007": {
+        "desmatado": 207.1
+      },
+      "2021": {
+        "desmatado": 341.3
+      },
+      "2000": {
+        "desmatado": 149.5
+      },
+      "2016": {
+        "desmatado": 260.1
+      },
+      "2008": {
+        "desmatado": 210.2
+      },
+      "2002": {
+        "desmatado": 167.1
+      },
+      "2009": {
+        "desmatado": 213.4
+      },
+      "2003": {
+        "desmatado": 179.6
+      },
+      "2004": {
+        "desmatado": 185.7
+      },
+      "2013": {
+        "desmatado": 238.5
+      }
+    },
+    "Rio Preto da Eva": {
+      "nome": "Rio Preto da Eva",
+      "area_total": 5804,
+      "2001": {
+        "desmatado": 515.5
+      },
+      "2010": {
+        "desmatado": 564.6
+      },
+      "2013": {
+        "desmatado": 573.7
+      },
+      "2017": {
+        "desmatado": 582.9
+      },
+      "2008": {
+        "desmatado": 559.4
+      },
+      "2020": {
+        "desmatado": 591.3
+      },
+      "2022": {
+        "desmatado": 599.8
+      },
+      "2019": {
+        "desmatado": 588.3
+      },
+      "2021": {
+        "desmatado": 595.4
+      },
+      "2015": {
+        "desmatado": 576.6
+      },
+      "2004": {
+        "desmatado": 545.7
+      },
+      "2016": {
+        "desmatado": 580.6
+      },
+      "2014": {
+        "desmatado": 574.9
+      },
+      "2002": {
+        "desmatado": 523.1
+      },
+      "2007": {
+        "desmatado": 552.3
+      },
+      "2006": {
+        "desmatado": 548.9
+      },
+      "2018": {
+        "desmatado": 584.7
+      },
+      "2012": {
+        "desmatado": 573.1
+      },
+      "2005": {
+        "desmatado": 548.2
+      },
+      "2009": {
+        "desmatado": 560.7
+      },
+      "2003": {
+        "desmatado": 540.1
+      },
+      "2011": {
+        "desmatado": 570.2
+      },
+      "2000": {
+        "desmatado": 500.6
+      }
+    },
+    "Eirunepé": {
+      "nome": "Eirunepé",
+      "area_total": 14974,
+      "2006": {
+        "desmatado": 359.8
+      },
+      "2007": {
+        "desmatado": 361.0
+      },
+      "2020": {
+        "desmatado": 394.7
+      },
+      "2019": {
+        "desmatado": 391.8
+      },
+      "2001": {
+        "desmatado": 323.0
+      },
+      "2004": {
+        "desmatado": 356.6
+      },
+      "2011": {
+        "desmatado": 374.5
+      },
+      "2002": {
+        "desmatado": 331.4
+      },
+      "2003": {
+        "desmatado": 349.3
+      },
+      "2009": {
+        "desmatado": 365.8
+      },
+      "2014": {
+        "desmatado": 379.9
+      },
+      "2013": {
+        "desmatado": 376.8
+      },
+      "2012": {
+        "desmatado": 375.4
+      },
+      "2010": {
+        "desmatado": 371.2
+      },
+      "2005": {
+        "desmatado": 358.8
+      },
+      "2022": {
+        "desmatado": 407.4
+      },
+      "2018": {
+        "desmatado": 388.4
+      },
+      "2008": {
+        "desmatado": 364.1
+      },
+      "2021": {
+        "desmatado": 400.8
+      },
+      "2015": {
+        "desmatado": 380.0
+      },
+      "2016": {
+        "desmatado": 381.7
+      },
+      "2017": {
+        "desmatado": 384.5
+      },
+      "2000": {
+        "desmatado": 287.1
+      }
+    },
+    "Barreirinha": {
+      "nome": "Barreirinha",
+      "area_total": 5785,
+      "2019": {
+        "desmatado": 811.7
+      },
+      "2009": {
+        "desmatado": 764.6
+      },
+      "2014": {
+        "desmatado": 795.5
+      },
+      "2003": {
+        "desmatado": 735.5
+      },
+      "2000": {
+        "desmatado": 699.1
+      },
+      "2004": {
+        "desmatado": 739.2
+      },
+      "2022": {
+        "desmatado": 821.2
+      },
+      "2011": {
+        "desmatado": 783.2
+      },
+      "2020": {
+        "desmatado": 813.1
+      },
+      "2006": {
+        "desmatado": 749.4
+      },
+      "2005": {
+        "desmatado": 745.0
+      },
+      "2002": {
+        "desmatado": 718.5
+      },
+      "2001": {
+        "desmatado": 717.4
+      },
+      "2015": {
+        "desmatado": 801.3
+      },
+      "2021": {
+        "desmatado": 816.3
+      },
+      "2010": {
+        "desmatado": 778.2
+      },
+      "2018": {
+        "desmatado": 807.9
+      },
+      "2007": {
+        "desmatado": 754.0
+      },
+      "2017": {
+        "desmatado": 806.3
+      },
+      "2013": {
+        "desmatado": 789.1
+      },
+      "2008": {
+        "desmatado": 761.9
+      },
+      "2012": {
+        "desmatado": 786.0
+      },
+      "2016": {
+        "desmatado": 803.0
+      }
+    },
+    "São Sebastião do Uatumã": {
+      "nome": "São Sebastião do Uatumã",
+      "area_total": 10535,
+      "2001": {
+        "desmatado": 168.7
+      },
+      "2022": {
+        "desmatado": 232.1
+      },
+      "2012": {
+        "desmatado": 206.2
+      },
+      "2006": {
+        "desmatado": 188.3
+      },
+      "2007": {
+        "desmatado": 190.1
+      },
+      "2009": {
+        "desmatado": 197.8
+      },
+      "2013": {
+        "desmatado": 210.2
+      },
+      "2008": {
+        "desmatado": 195.6
+      },
+      "2020": {
+        "desmatado": 225.5
+      },
+      "2003": {
+        "desmatado": 181.3
+      },
+      "2014": {
+        "desmatado": 215.1
+      },
+      "2016": {
+        "desmatado": 217.6
+      },
+      "2002": {
+        "desmatado": 171.6
+      },
+      "2018": {
+        "desmatado": 221.9
+      },
+      "2017": {
+        "desmatado": 221.2
+      },
+      "2000": {
+        "desmatado": 151.4
+      },
+      "2021": {
+        "desmatado": 227.1
+      },
+      "2005": {
+        "desmatado": 186.7
+      },
+      "2011": {
+        "desmatado": 205.3
+      },
+      "2019": {
+        "desmatado": 224.2
+      },
+      "2015": {
+        "desmatado": 216.8
+      },
+      "2004": {
+        "desmatado": 185.2
+      },
+      "2010": {
+        "desmatado": 202.6
+      }
+    },
+    "Maraã": {
+      "nome": "Maraã",
+      "area_total": 17100,
+      "2011": {
+        "desmatado": 114.9
+      },
+      "2009": {
+        "desmatado": 108.6
+      },
+      "2013": {
+        "desmatado": 116.9
+      },
+      "2001": {
+        "desmatado": 86.6
+      },
+      "2015": {
+        "desmatado": 119.3
+      },
+      "2008": {
+        "desmatado": 108.1
+      },
+      "2012": {
+        "desmatado": 115.7
+      },
+      "2014": {
+        "desmatado": 119.2
+      },
+      "2020": {
+        "desmatado": 125.0
+      },
+      "2006": {
+        "desmatado": 104.7
+      },
+      "2004": {
+        "desmatado": 102.3
+      },
+      "2005": {
+        "desmatado": 103.8
+      },
+      "2003": {
+        "desmatado": 101.5
+      },
+      "2007": {
+        "desmatado": 105.1
+      },
+      "2022": {
+        "desmatado": 127.4
+      },
+      "2010": {
+        "desmatado": 114.3
+      },
+      "2018": {
+        "desmatado": 123.1
+      },
+      "2017": {
+        "desmatado": 122.0
+      },
+      "2002": {
+        "desmatado": 87.9
+      },
+      "2019": {
+        "desmatado": 124.1
+      },
+      "2021": {
+        "desmatado": 127.0
+      },
+      "2016": {
+        "desmatado": 121.0
+      },
+      "2000": {
+        "desmatado": 74.9
+      }
+    },
+    "Careiro": {
+      "nome": "Careiro",
+      "area_total": 6106,
+      "2016": {
+        "desmatado": 1126.8
+      },
+      "2020": {
+        "desmatado": 1136.2
+      },
+      "2001": {
+        "desmatado": 1001.9
+      },
+      "2005": {
+        "desmatado": 1078.3
+      },
+      "2012": {
+        "desmatado": 1115.7
+      },
+      "2018": {
+        "desmatado": 1129.3
+      },
+      "2003": {
+        "desmatado": 1062.8
+      },
+      "2004": {
+        "desmatado": 1073.7
+      },
+      "2015": {
+        "desmatado": 1125.3
+      },
+      "2002": {
+        "desmatado": 1030.0
+      },
+      "2006": {
+        "desmatado": 1084.8
+      },
+      "2022": {
+        "desmatado": 1149.4
+      },
+      "2017": {
+        "desmatado": 1128.4
+      },
+      "2013": {
+        "desmatado": 1119.7
+      },
+      "2010": {
+        "desmatado": 1109.6
+      },
+      "2019": {
+        "desmatado": 1131.8
+      },
+      "2008": {
+        "desmatado": 1093.6
+      },
+      "2021": {
+        "desmatado": 1143.1
+      },
+      "2007": {
+        "desmatado": 1087.3
+      },
+      "2014": {
+        "desmatado": 1120.2
+      },
+      "2011": {
+        "desmatado": 1114.4
+      },
+      "2000": {
+        "desmatado": 964.4
+      },
+      "2009": {
+        "desmatado": 1099.1
+      }
+    },
+    "Tabatinga": {
+      "nome": "Tabatinga",
+      "area_total": 3193,
+      "2022": {
+        "desmatado": 171.9
+      },
+      "2000": {
+        "desmatado": 137.0
+      },
+      "2001": {
+        "desmatado": 142.7
+      },
+      "2016": {
+        "desmatado": 164.0
+      },
+      "2004": {
+        "desmatado": 149.9
+      },
+      "2002": {
+        "desmatado": 146.5
+      },
+      "2007": {
+        "desmatado": 153.4
+      },
+      "2005": {
+        "desmatado": 150.8
+      },
+      "2008": {
+        "desmatado": 154.4
+      },
+      "2009": {
+        "desmatado": 155.5
+      },
+      "2014": {
+        "desmatado": 162.0
+      },
+      "2012": {
+        "desmatado": 158.1
+      },
+      "2015": {
+        "desmatado": 162.2
+      },
+      "2006": {
+        "desmatado": 151.4
+      },
+      "2019": {
+        "desmatado": 166.3
+      },
+      "2021": {
+        "desmatado": 170.6
+      },
+      "2011": {
+        "desmatado": 157.4
+      },
+      "2003": {
+        "desmatado": 149.4
+      },
+      "2017": {
+        "desmatado": 164.4
+      },
+      "2020": {
+        "desmatado": 166.9
+      },
+      "2013": {
+        "desmatado": 158.3
+      },
+      "2010": {
+        "desmatado": 156.5
+      },
+      "2018": {
+        "desmatado": 164.6
+      }
+    },
+    "Envira": {
+      "nome": "Envira",
+      "area_total": 7503,
+      "2020": {
+        "desmatado": 329.1
+      },
+      "2006": {
+        "desmatado": 220.1
+      },
+      "2013": {
+        "desmatado": 271.7
+      },
+      "2004": {
+        "desmatado": 206.8
+      },
+      "2017": {
+        "desmatado": 294.6
+      },
+      "2003": {
+        "desmatado": 189.7
+      },
+      "2007": {
+        "desmatado": 229.8
+      },
+      "2018": {
+        "desmatado": 306.2
+      },
+      "2008": {
+        "desmatado": 236.6
+      },
+      "2016": {
+        "desmatado": 290.0
+      },
+      "2012": {
+        "desmatado": 266.3
+      },
+      "2001": {
+        "desmatado": 154.7
+      },
+      "2021": {
+        "desmatado": 342.7
+      },
+      "2010": {
+        "desmatado": 252.5
+      },
+      "2000": {
+        "desmatado": 138.8
+      },
+      "2015": {
+        "desmatado": 285.6
+      },
+      "2019": {
+        "desmatado": 319.3
+      },
+      "2014": {
+        "desmatado": 280.5
+      },
+      "2002": {
+        "desmatado": 162.9
+      },
+      "2005": {
+        "desmatado": 213.6
+      },
+      "2011": {
+        "desmatado": 259.6
+      },
+      "2022": {
+        "desmatado": 361.7
+      },
+      "2009": {
+        "desmatado": 242.4
+      }
+    },
+    "Canutama": {
+      "nome": "Canutama",
+      "area_total": 33685,
+      "2011": {
+        "desmatado": 937.7
+      },
+      "2015": {
+        "desmatado": 1050.4
+      },
+      "2000": {
+        "desmatado": 451.2
+      },
+      "2010": {
+        "desmatado": 912.0
+      },
+      "2001": {
+        "desmatado": 479.0
+      },
+      "2008": {
+        "desmatado": 886.1
+      },
+      "2006": {
+        "desmatado": 806.0
+      },
+      "2012": {
+        "desmatado": 990.4
+      },
+      "2019": {
+        "desmatado": 1208.4
+      },
+      "2005": {
+        "desmatado": 733.6
+      },
+      "2016": {
+        "desmatado": 1076.8
+      },
+      "2018": {
+        "desmatado": 1148.5
+      },
+      "2004": {
+        "desmatado": 669.3
+      },
+      "2014": {
+        "desmatado": 1036.2
+      },
+      "2022": {
+        "desmatado": 1554.5
+      },
+      "2003": {
+        "desmatado": 609.5
+      },
+      "2002": {
+        "desmatado": 503.6
+      },
+      "2013": {
+        "desmatado": 1019.9
+      },
+      "2021": {
+        "desmatado": 1397.8
+      },
+      "2020": {
+        "desmatado": 1270.8
+      },
+      "2009": {
+        "desmatado": 900.0
+      },
+      "2007": {
+        "desmatado": 848.2
+      },
+      "2017": {
+        "desmatado": 1104.9
+      }
+    },
+    "Amaturá": {
+      "nome": "Amaturá",
+      "area_total": 4771,
+      "2022": {
+        "desmatado": 117.0
+      },
+      "2014": {
+        "desmatado": 114.4
+      },
+      "2001": {
+        "desmatado": 108.4
+      },
+      "2008": {
+        "desmatado": 110.8
+      },
+      "2000": {
+        "desmatado": 105.4
+      },
+      "2003": {
+        "desmatado": 109.5
+      },
+      "2007": {
+        "desmatado": 110.7
+      },
+      "2018": {
+        "desmatado": 116.2
+      },
+      "2010": {
+        "desmatado": 112.7
+      },
+      "2004": {
+        "desmatado": 110.4
+      },
+      "2021": {
+        "desmatado": 116.9
+      },
+      "2020": {
+        "desmatado": 116.4
+      },
+      "2009": {
+        "desmatado": 111.7
+      },
+      "2013": {
+        "desmatado": 114.4
+      },
+      "2012": {
+        "desmatado": 114.4
+      },
+      "2005": {
+        "desmatado": 110.4
+      },
+      "2016": {
+        "desmatado": 115.2
+      },
+      "2019": {
+        "desmatado": 116.2
+      },
+      "2017": {
+        "desmatado": 115.8
+      },
+      "2002": {
+        "desmatado": 108.4
+      },
+      "2006": {
+        "desmatado": 110.6
+      },
+      "2011": {
+        "desmatado": 114.2
+      },
+      "2015": {
+        "desmatado": 115.0
+      }
+    },
+    "Lábrea": {
+      "nome": "Lábrea",
+      "area_total": 68240,
+      "2000": {
+        "desmatado": 1297.2
+      },
+      "2003": {
+        "desmatado": 2121.9
+      },
+      "2016": {
+        "desmatado": 4144.1
+      },
+      "2005": {
+        "desmatado": 2687.7
+      },
+      "2015": {
+        "desmatado": 3833.9
+      },
+      "2001": {
+        "desmatado": 1480.6
+      },
+      "2008": {
+        "desmatado": 3104.9
+      },
+      "2014": {
+        "desmatado": 3597.1
+      },
+      "2002": {
+        "desmatado": 1692.5
+      },
+      "2009": {
+        "desmatado": 3149.5
+      },
+      "2017": {
+        "desmatado": 4421.0
+      },
+      "2021": {
+        "desmatado": 6041.4
+      },
+      "2012": {
+        "desmatado": 3347.8
+      },
+      "2018": {
+        "desmatado": 4736.5
+      },
+      "2004": {
+        "desmatado": 2481.4
+      },
+      "2007": {
+        "desmatado": 3039.7
+      },
+      "2022": {
+        "desmatado": 6741.0
+      },
+      "2020": {
+        "desmatado": 5501.2
+      },
+      "2013": {
+        "desmatado": 3464.6
+      },
+      "2011": {
+        "desmatado": 3264.2
+      },
+      "2019": {
+        "desmatado": 5118.3
+      },
+      "2010": {
+        "desmatado": 3189.1
+      },
+      "2006": {
+        "desmatado": 2926.8
+      }
+    },
+    "Itamarati": {
+      "nome": "Itamarati",
+      "area_total": 25296,
+      "2006": {
+        "desmatado": 116.7
+      },
+      "2019": {
+        "desmatado": 136.5
+      },
+      "2001": {
+        "desmatado": 103.9
+      },
+      "2011": {
+        "desmatado": 126.1
+      },
+      "2020": {
+        "desmatado": 137.8
+      },
+      "2018": {
+        "desmatado": 135.5
+      },
+      "2015": {
+        "desmatado": 133.3
+      },
+      "2002": {
+        "desmatado": 109.4
+      },
+      "2010": {
+        "desmatado": 124.6
+      },
+      "2016": {
+        "desmatado": 133.9
+      },
+      "2003": {
+        "desmatado": 112.3
+      },
+      "2007": {
+        "desmatado": 118.8
+      },
+      "2008": {
+        "desmatado": 120.3
+      },
+      "2022": {
+        "desmatado": 142.4
+      },
+      "2021": {
+        "desmatado": 138.9
+      },
+      "2013": {
+        "desmatado": 129.1
+      },
+      "2012": {
+        "desmatado": 127.6
+      },
+      "2004": {
+        "desmatado": 112.9
+      },
+      "2017": {
+        "desmatado": 134.7
+      },
+      "2014": {
+        "desmatado": 132.3
+      },
+      "2009": {
+        "desmatado": 121.3
+      },
+      "2005": {
+        "desmatado": 115.3
+      },
+      "2000": {
+        "desmatado": 98.4
+      }
+    },
+    "Nova Olinda do Norte": {
+      "nome": "Nova Olinda do Norte",
+      "area_total": 5558,
+      "2003": {
+        "desmatado": 388.6
+      },
+      "2010": {
+        "desmatado": 414.8
+      },
+      "2012": {
+        "desmatado": 420.1
+      },
+      "2016": {
+        "desmatado": 432.9
+      },
+      "2022": {
+        "desmatado": 468.7
+      },
+      "2004": {
+        "desmatado": 399.7
+      },
+      "2019": {
+        "desmatado": 444.0
+      },
+      "2018": {
+        "desmatado": 438.1
+      },
+      "2000": {
+        "desmatado": 359.2
+      },
+      "2007": {
+        "desmatado": 405.1
+      },
+      "2008": {
+        "desmatado": 411.3
+      },
+      "2021": {
+        "desmatado": 456.5
+      },
+      "2002": {
+        "desmatado": 377.4
+      },
+      "2006": {
+        "desmatado": 404.4
+      },
+      "2009": {
+        "desmatado": 412.5
+      },
+      "2014": {
+        "desmatado": 423.5
+      },
+      "2017": {
+        "desmatado": 436.2
+      },
+      "2013": {
+        "desmatado": 420.9
+      },
+      "2015": {
+        "desmatado": 429.1
+      },
+      "2005": {
+        "desmatado": 402.6
+      },
+      "2011": {
+        "desmatado": 417.9
+      },
+      "2001": {
+        "desmatado": 367.6
+      },
+      "2020": {
+        "desmatado": 450.1
+      }
+    },
+    "Tapauá": {
+      "nome": "Tapauá",
+      "area_total": 85365,
+      "2021": {
+        "desmatado": 436.0
+      },
+      "2011": {
+        "desmatado": 314.9
+      },
+      "2004": {
+        "desmatado": 291.7
+      },
+      "2018": {
+        "desmatado": 346.3
+      },
+      "2016": {
+        "desmatado": 324.4
+      },
+      "2020": {
+        "desmatado": 384.4
+      },
+      "2006": {
+        "desmatado": 297.0
+      },
+      "2002": {
+        "desmatado": 278.4
+      },
+      "2019": {
+        "desmatado": 367.5
+      },
+      "2007": {
+        "desmatado": 301.3
+      },
+      "2013": {
+        "desmatado": 318.2
+      },
+      "2003": {
+        "desmatado": 286.7
+      },
+      "2010": {
+        "desmatado": 310.5
+      },
+      "2008": {
+        "desmatado": 304.4
+      },
+      "2001": {
+        "desmatado": 272.3
+      },
+      "2014": {
+        "desmatado": 320.9
+      },
+      "2017": {
+        "desmatado": 328.7
+      },
+      "2022": {
+        "desmatado": 502.2
+      },
+      "2009": {
+        "desmatado": 305.1
+      },
+      "2005": {
+        "desmatado": 296.0
+      },
+      "2015": {
+        "desmatado": 321.4
+      },
+      "2012": {
+        "desmatado": 315.6
+      },
+      "2000": {
+        "desmatado": 266.7
+      }
+    },
+    "Uarini": {
+      "nome": "Uarini",
+      "area_total": 10279,
+      "2008": {
+        "desmatado": 238.9
+      },
+      "2016": {
+        "desmatado": 261.1
+      },
+      "2022": {
+        "desmatado": 282.3
+      },
+      "2010": {
+        "desmatado": 243.0
+      },
+      "2017": {
+        "desmatado": 263.7
+      },
+      "2002": {
+        "desmatado": 218.7
+      },
+      "2019": {
+        "desmatado": 271.5
+      },
+      "2000": {
+        "desmatado": 194.2
+      },
+      "2020": {
+        "desmatado": 275.0
+      },
+      "2006": {
+        "desmatado": 229.9
+      },
+      "2007": {
+        "desmatado": 232.2
+      },
+      "2013": {
+        "desmatado": 246.9
+      },
+      "2011": {
+        "desmatado": 244.3
+      },
+      "2001": {
+        "desmatado": 199.0
+      },
+      "2009": {
+        "desmatado": 239.4
+      },
+      "2004": {
+        "desmatado": 225.2
+      },
+      "2012": {
+        "desmatado": 246.3
+      },
+      "2003": {
+        "desmatado": 221.9
+      },
+      "2018": {
+        "desmatado": 269.1
+      },
+      "2015": {
+        "desmatado": 256.0
+      },
+      "2021": {
+        "desmatado": 281.0
+      },
+      "2014": {
+        "desmatado": 255.5
+      },
+      "2005": {
+        "desmatado": 228.5
+      }
+    },
+    "Carauari": {
+      "nome": "Carauari",
+      "area_total": 25776,
+      "2009": {
+        "desmatado": 290.1
+      },
+      "2003": {
+        "desmatado": 281.6
+      },
+      "2004": {
+        "desmatado": 282.7
+      },
+      "2005": {
+        "desmatado": 285.4
+      },
+      "2021": {
+        "desmatado": 301.0
+      },
+      "2017": {
+        "desmatado": 296.4
+      },
+      "2001": {
+        "desmatado": 268.1
+      },
+      "2007": {
+        "desmatado": 287.2
+      },
+      "2018": {
+        "desmatado": 297.9
+      },
+      "2006": {
+        "desmatado": 285.7
+      },
+      "2002": {
+        "desmatado": 277.3
+      },
+      "2014": {
+        "desmatado": 294.4
+      },
+      "2011": {
+        "desmatado": 291.9
+      },
+      "2015": {
+        "desmatado": 294.8
+      },
+      "2022": {
+        "desmatado": 302.9
+      },
+      "2020": {
+        "desmatado": 299.9
+      },
+      "2000": {
+        "desmatado": 258.2
+      },
+      "2008": {
+        "desmatado": 289.5
+      },
+      "2012": {
+        "desmatado": 292.4
+      },
+      "2016": {
+        "desmatado": 296.0
+      },
+      "2010": {
+        "desmatado": 291.4
+      },
+      "2013": {
+        "desmatado": 293.3
+      },
+      "2019": {
+        "desmatado": 298.5
+      }
+    },
+    "Coari": {
+      "nome": "Coari",
+      "area_total": 57842,
+      "2010": {
+        "desmatado": 767.5
+      },
+      "2021": {
+        "desmatado": 800.4
+      },
+      "2004": {
+        "desmatado": 751.2
+      },
+      "2001": {
+        "desmatado": 727.0
+      },
+      "2012": {
+        "desmatado": 772.3
+      },
+      "2005": {
+        "desmatado": 753.3
+      },
+      "2011": {
+        "desmatado": 771.3
+      },
+      "2013": {
+        "desmatado": 776.4
+      },
+      "2016": {
+        "desmatado": 783.8
+      },
+      "2000": {
+        "desmatado": 711.1
+      },
+      "2017": {
+        "desmatado": 785.9
+      },
+      "2022": {
+        "desmatado": 802.3
+      },
+      "2015": {
+        "desmatado": 780.5
+      },
+      "2003": {
+        "desmatado": 746.7
+      },
+      "2014": {
+        "desmatado": 779.8
+      },
+      "2002": {
+        "desmatado": 733.2
+      },
+      "2009": {
+        "desmatado": 760.5
+      },
+      "2006": {
+        "desmatado": 753.4
+      },
+      "2019": {
+        "desmatado": 791.4
+      },
+      "2007": {
+        "desmatado": 756.8
+      },
+      "2020": {
+        "desmatado": 795.3
+      },
+      "2018": {
+        "desmatado": 787.9
+      },
+      "2008": {
+        "desmatado": 759.9
+      }
+    },
+    "Nhamundá": {
+      "nome": "Nhamundá",
+      "area_total": 14107,
+      "2010": {
+        "desmatado": 474.1
+      },
+      "2001": {
+        "desmatado": 431.4
+      },
+      "2013": {
+        "desmatado": 483.4
+      },
+      "2020": {
+        "desmatado": 505.8
+      },
+      "2002": {
+        "desmatado": 435.1
+      },
+      "2019": {
+        "desmatado": 502.0
+      },
+      "2003": {
+        "desmatado": 440.9
+      },
+      "2021": {
+        "desmatado": 510.4
+      },
+      "2017": {
+        "desmatado": 494.2
+      },
+      "2011": {
+        "desmatado": 478.1
+      },
+      "2016": {
+        "desmatado": 492.4
+      },
+      "2012": {
+        "desmatado": 480.8
+      },
+      "2000": {
+        "desmatado": 421.7
+      },
+      "2018": {
+        "desmatado": 499.0
+      },
+      "2008": {
+        "desmatado": 456.0
+      },
+      "2006": {
+        "desmatado": 452.8
+      },
+      "2014": {
+        "desmatado": 486.1
+      },
+      "2004": {
+        "desmatado": 444.9
+      },
+      "2022": {
+        "desmatado": 519.5
+      },
+      "2009": {
+        "desmatado": 460.4
+      },
+      "2007": {
+        "desmatado": 455.2
+      },
+      "2005": {
+        "desmatado": 449.9
+      },
+      "2015": {
+        "desmatado": 491.0
+      }
+    },
+    "Novo Airão": {
+      "nome": "Novo Airão",
+      "area_total": 37734,
+      "2022": {
+        "desmatado": 129.6
+      },
+      "2019": {
+        "desmatado": 127.2
+      },
+      "2005": {
+        "desmatado": 110.2
+      },
+      "2015": {
+        "desmatado": 121.1
+      },
+      "2010": {
+        "desmatado": 117.0
+      },
+      "2006": {
+        "desmatado": 110.4
+      },
+      "2008": {
+        "desmatado": 112.4
+      },
+      "2012": {
+        "desmatado": 118.7
+      },
+      "2021": {
+        "desmatado": 128.9
+      },
+      "2014": {
+        "desmatado": 120.5
+      },
+      "2009": {
+        "desmatado": 114.3
+      },
+      "2004": {
+        "desmatado": 110.1
+      },
+      "2000": {
+        "desmatado": 79.6
+      },
+      "2002": {
+        "desmatado": 103.8
+      },
+      "2017": {
+        "desmatado": 123.5
+      },
+      "2003": {
+        "desmatado": 108.4
+      },
+      "2001": {
+        "desmatado": 103.1
+      },
+      "2020": {
+        "desmatado": 127.9
+      },
+      "2018": {
+        "desmatado": 124.1
+      },
+      "2013": {
+        "desmatado": 119.3
+      },
+      "2011": {
+        "desmatado": 118.2
+      },
+      "2007": {
+        "desmatado": 111.5
+      },
+      "2016": {
+        "desmatado": 122.0
+      }
+    },
+    "Boca do Acre": {
+      "nome": "Boca do Acre",
+      "area_total": 21962,
+      "2010": {
+        "desmatado": 2053.3
+      },
+      "2011": {
+        "desmatado": 2111.9
+      },
+      "2012": {
+        "desmatado": 2165.4
+      },
+      "2001": {
+        "desmatado": 1264.8
+      },
+      "2017": {
+        "desmatado": 2500.4
+      },
+      "2020": {
+        "desmatado": 2893.9
+      },
+      "2003": {
+        "desmatado": 1637.0
+      },
+      "2008": {
+        "desmatado": 1977.7
+      },
+      "2016": {
+        "desmatado": 2406.2
+      },
+      "2006": {
+        "desmatado": 1905.4
+      },
+      "2009": {
+        "desmatado": 2001.9
+      },
+      "2015": {
+        "desmatado": 2317.8
+      },
+      "2005": {
+        "desmatado": 1829.9
+      },
+      "2021": {
+        "desmatado": 3094.1
+      },
+      "2007": {
+        "desmatado": 1939.5
+      },
+      "2014": {
+        "desmatado": 2271.6
+      },
+      "2022": {
+        "desmatado": 3274.4
+      },
+      "2000": {
+        "desmatado": 1209.9
+      },
+      "2013": {
+        "desmatado": 2199.0
+      },
+      "2002": {
+        "desmatado": 1379.4
+      },
+      "2019": {
+        "desmatado": 2751.8
+      },
+      "2018": {
+        "desmatado": 2607.7
+      },
+      "2004": {
+        "desmatado": 1768.4
+      }
+    },
+    "Careiro da Várzea": {
+      "nome": "Careiro da Várzea",
+      "area_total": 2677,
+      "2001": {
+        "desmatado": 379.1
+      },
+      "2009": {
+        "desmatado": 494.5
+      },
+      "2004": {
+        "desmatado": 445.8
+      },
+      "2008": {
+        "desmatado": 488.9
+      },
+      "2007": {
+        "desmatado": 475.1
+      },
+      "2005": {
+        "desmatado": 454.9
+      },
+      "2021": {
+        "desmatado": 600.6
+      },
+      "2011": {
+        "desmatado": 526.0
+      },
+      "2020": {
+        "desmatado": 583.4
+      },
+      "2022": {
+        "desmatado": 629.3
+      },
+      "2002": {
+        "desmatado": 432.3
+      },
+      "2003": {
+        "desmatado": 437.7
+      },
+      "2013": {
+        "desmatado": 533.6
+      },
+      "2019": {
+        "desmatado": 576.3
+      },
+      "2015": {
+        "desmatado": 546.9
+      },
+      "2016": {
+        "desmatado": 555.1
+      },
+      "2017": {
+        "desmatado": 560.6
+      },
+      "2018": {
+        "desmatado": 564.5
+      },
+      "2006": {
+        "desmatado": 465.7
+      },
+      "2010": {
+        "desmatado": 513.8
+      },
+      "2014": {
+        "desmatado": 537.4
+      },
+      "2012": {
+        "desmatado": 530.8
+      },
+      "2000": {
+        "desmatado": 368.4
+      }
+    },
+    "Tonantins": {
+      "nome": "Tonantins",
+      "area_total": 6433,
+      "2017": {
+        "desmatado": 92.6
+      },
+      "2012": {
+        "desmatado": 83.9
+      },
+      "2022": {
+        "desmatado": 94.6
+      },
+      "2003": {
+        "desmatado": 76.5
+      },
+      "2021": {
+        "desmatado": 94.5
+      },
+      "2013": {
+        "desmatado": 83.9
+      },
+      "2018": {
+        "desmatado": 92.7
+      },
+      "2009": {
+        "desmatado": 81.7
+      },
+      "2007": {
+        "desmatado": 81.0
+      },
+      "2015": {
+        "desmatado": 84.4
+      },
+      "2002": {
+        "desmatado": 74.2
+      },
+      "2020": {
+        "desmatado": 94.0
+      },
+      "2000": {
+        "desmatado": 67.7
+      },
+      "2001": {
+        "desmatado": 73.9
+      },
+      "2010": {
+        "desmatado": 82.6
+      },
+      "2006": {
+        "desmatado": 79.8
+      },
+      "2016": {
+        "desmatado": 84.7
+      },
+      "2005": {
+        "desmatado": 79.1
+      },
+      "2011": {
+        "desmatado": 83.6
+      },
+      "2004": {
+        "desmatado": 78.1
+      },
+      "2019": {
+        "desmatado": 92.9
+      },
+      "2014": {
+        "desmatado": 84.4
+      },
+      "2008": {
+        "desmatado": 81.3
+      }
+    },
+    "Atalaia do Norte": {
+      "nome": "Atalaia do Norte",
+      "area_total": 76400,
+      "2003": {
+        "desmatado": 224.7
+      },
+      "2014": {
+        "desmatado": 241.7
+      },
+      "2011": {
+        "desmatado": 238.9
+      },
+      "2010": {
+        "desmatado": 237.2
+      },
+      "2008": {
+        "desmatado": 233.4
+      },
+      "2007": {
+        "desmatado": 232.2
+      },
+      "2000": {
+        "desmatado": 196.1
+      },
+      "2021": {
+        "desmatado": 249.9
+      },
+      "2012": {
+        "desmatado": 240.4
+      },
+      "2006": {
+        "desmatado": 230.7
+      },
+      "2009": {
+        "desmatado": 234.8
+      },
+      "2016": {
+        "desmatado": 242.8
+      },
+      "2013": {
+        "desmatado": 241.3
+      },
+      "2022": {
+        "desmatado": 252.0
+      },
+      "2019": {
+        "desmatado": 247.2
+      },
+      "2005": {
+        "desmatado": 230.5
+      },
+      "2001": {
+        "desmatado": 197.8
+      },
+      "2017": {
+        "desmatado": 244.0
+      },
+      "2020": {
+        "desmatado": 248.2
+      },
+      "2015": {
+        "desmatado": 241.8
+      },
+      "2004": {
+        "desmatado": 227.5
+      },
+      "2018": {
+        "desmatado": 244.7
+      },
+      "2002": {
+        "desmatado": 217.8
+      }
+    },
+    "Alvarães": {
+      "nome": "Alvarães",
+      "area_total": 6049,
+      "2003": {
+        "desmatado": 289.3
+      },
+      "2012": {
+        "desmatado": 322.5
+      },
+      "2022": {
+        "desmatado": 360.8
+      },
+      "2019": {
+        "desmatado": 346.6
+      },
+      "2011": {
+        "desmatado": 321.8
+      },
+      "2010": {
+        "desmatado": 319.5
+      },
+      "2017": {
+        "desmatado": 338.4
+      },
+      "2018": {
+        "desmatado": 343.8
+      },
+      "2014": {
+        "desmatado": 329.6
+      },
+      "2015": {
+        "desmatado": 330.2
+      },
+      "2007": {
+        "desmatado": 300.4
+      },
+      "2020": {
+        "desmatado": 352.0
+      },
+      "2002": {
+        "desmatado": 279.7
+      },
+      "2001": {
+        "desmatado": 263.2
+      },
+      "2021": {
+        "desmatado": 359.4
+      },
+      "2016": {
+        "desmatado": 334.2
+      },
+      "2009": {
+        "desmatado": 312.9
+      },
+      "2005": {
+        "desmatado": 295.4
+      },
+      "2006": {
+        "desmatado": 298.3
+      },
+      "2000": {
+        "desmatado": 258.3
+      },
+      "2004": {
+        "desmatado": 290.8
+      },
+      "2008": {
+        "desmatado": 310.9
+      },
+      "2013": {
+        "desmatado": 323.3
+      }
+    },
+    "Japurá": {
+      "nome": "Japurá",
+      "area_total": 55750,
+      "2000": {
+        "desmatado": 43.5
+      },
+      "2012": {
+        "desmatado": 57.9
+      },
+      "2003": {
+        "desmatado": 47.7
+      },
+      "2015": {
+        "desmatado": 58.6
+      },
+      "2006": {
+        "desmatado": 50.2
+      },
+      "2016": {
+        "desmatado": 58.8
+      },
+      "2017": {
+        "desmatado": 59.4
+      },
+      "2002": {
+        "desmatado": 46.2
+      },
+      "2022": {
+        "desmatado": 80.7
+      },
+      "2014": {
+        "desmatado": 58.6
+      },
+      "2011": {
+        "desmatado": 57.5
+      },
+      "2005": {
+        "desmatado": 50.1
+      },
+      "2019": {
+        "desmatado": 60.9
+      },
+      "2004": {
+        "desmatado": 48.1
+      },
+      "2021": {
+        "desmatado": 67.4
+      },
+      "2010": {
+        "desmatado": 56.2
+      },
+      "2020": {
+        "desmatado": 63.1
+      },
+      "2007": {
+        "desmatado": 50.6
+      },
+      "2001": {
+        "desmatado": 45.3
+      },
+      "2013": {
+        "desmatado": 58.1
+      },
+      "2009": {
+        "desmatado": 52.6
+      },
+      "2008": {
+        "desmatado": 52.1
+      },
+      "2018": {
+        "desmatado": 60.4
+      }
+    },
+    "Presidente Figueiredo": {
+      "nome": "Presidente Figueiredo",
+      "area_total": 25511,
+      "2013": {
+        "desmatado": 739.6
+      },
+      "2009": {
+        "desmatado": 709.1
+      },
+      "2002": {
+        "desmatado": 596.2
+      },
+      "2010": {
+        "desmatado": 718.4
+      },
+      "2001": {
+        "desmatado": 583.4
+      },
+      "2006": {
+        "desmatado": 663.8
+      },
+      "2005": {
+        "desmatado": 658.0
+      },
+      "2021": {
+        "desmatado": 808.8
+      },
+      "2011": {
+        "desmatado": 730.1
+      },
+      "2008": {
+        "desmatado": 695.4
+      },
+      "2014": {
+        "desmatado": 746.2
+      },
+      "2015": {
+        "desmatado": 753.9
+      },
+      "2012": {
+        "desmatado": 735.5
+      },
+      "2000": {
+        "desmatado": 524.8
+      },
+      "2022": {
+        "desmatado": 823.9
+      },
+      "2020": {
+        "desmatado": 793.8
+      },
+      "2016": {
+        "desmatado": 760.3
+      },
+      "2018": {
+        "desmatado": 774.8
+      },
+      "2017": {
+        "desmatado": 768.9
+      },
+      "2019": {
+        "desmatado": 784.5
+      },
+      "2007": {
+        "desmatado": 676.4
+      },
+      "2003": {
+        "desmatado": 629.9
+      },
+      "2004": {
+        "desmatado": 644.4
+      }
+    },
+    "Borba": {
+      "nome": "Borba",
+      "area_total": 44193,
+      "2020": {
+        "desmatado": 578.2
+      },
+      "2014": {
+        "desmatado": 542.1
+      },
+      "2019": {
+        "desmatado": 565.9
+      },
+      "2009": {
+        "desmatado": 514.5
+      },
+      "2022": {
+        "desmatado": 631.3
+      },
+      "2002": {
+        "desmatado": 472.0
+      },
+      "2015": {
+        "desmatado": 546.2
+      },
+      "2016": {
+        "desmatado": 547.8
+      },
+      "2003": {
+        "desmatado": 480.6
+      },
+      "2021": {
+        "desmatado": 593.1
+      },
+      "2013": {
+        "desmatado": 539.7
+      },
+      "2010": {
+        "desmatado": 523.6
+      },
+      "2018": {
+        "desmatado": 555.2
+      },
+      "2007": {
+        "desmatado": 503.4
+      },
+      "2005": {
+        "desmatado": 500.6
+      },
+      "2004": {
+        "desmatado": 489.5
+      },
+      "2000": {
+        "desmatado": 465.1
+      },
+      "2008": {
+        "desmatado": 511.9
+      },
+      "2006": {
+        "desmatado": 502.3
+      },
+      "2017": {
+        "desmatado": 551.2
+      },
+      "2011": {
+        "desmatado": 535.3
+      },
+      "2012": {
+        "desmatado": 537.3
+      },
+      "2001": {
+        "desmatado": 468.7
+      }
+    },
+    "Maués": {
+      "nome": "Maués",
+      "area_total": 40009,
+      "2013": {
+        "desmatado": 1343.6
+      },
+      "2014": {
+        "desmatado": 1357.2
+      },
+      "2005": {
+        "desmatado": 1228.6
+      },
+      "2004": {
+        "desmatado": 1218.7
+      },
+      "2022": {
+        "desmatado": 1655.0
+      },
+      "2006": {
+        "desmatado": 1245.7
+      },
+      "2001": {
+        "desmatado": 1151.4
+      },
+      "2017": {
+        "desmatado": 1426.2
+      },
+      "2003": {
+        "desmatado": 1203.2
+      },
+      "2010": {
+        "desmatado": 1302.4
+      },
+      "2015": {
+        "desmatado": 1367.2
+      },
+      "2009": {
+        "desmatado": 1288.0
+      },
+      "2007": {
+        "desmatado": 1259.8
+      },
+      "2011": {
+        "desmatado": 1317.0
+      },
+      "2020": {
+        "desmatado": 1470.0
+      },
+      "2019": {
+        "desmatado": 1448.6
+      },
+      "2016": {
+        "desmatado": 1405.6
+      },
+      "2018": {
+        "desmatado": 1432.6
+      },
+      "2008": {
+        "desmatado": 1279.6
+      },
+      "2012": {
+        "desmatado": 1328.0
+      },
+      "2021": {
+        "desmatado": 1538.0
+      },
+      "2000": {
+        "desmatado": 1129.0
+      },
+      "2002": {
+        "desmatado": 1178.8
+      }
+    },
+    "São Paulo de Olivença": {
+      "nome": "São Paulo de Olivença",
+      "area_total": 19868,
+      "2000": {
+        "desmatado": 103.8
+      },
+      "2002": {
+        "desmatado": 167.4
+      },
+      "2020": {
+        "desmatado": 188.4
+      },
+      "2018": {
+        "desmatado": 182.0
+      },
+      "2008": {
+        "desmatado": 174.7
+      },
+      "2011": {
+        "desmatado": 177.2
+      },
+      "2013": {
+        "desmatado": 178.1
+      },
+      "2006": {
+        "desmatado": 173.1
+      },
+      "2021": {
+        "desmatado": 190.2
+      },
+      "2001": {
+        "desmatado": 117.0
+      },
+      "2015": {
+        "desmatado": 179.2
+      },
+      "2014": {
+        "desmatado": 178.8
+      },
+      "2022": {
+        "desmatado": 191.0
+      },
+      "2017": {
+        "desmatado": 181.8
+      },
+      "2003": {
+        "desmatado": 168.6
+      },
+      "2007": {
+        "desmatado": 174.4
+      },
+      "2010": {
+        "desmatado": 176.3
+      },
+      "2012": {
+        "desmatado": 177.8
+      },
+      "2009": {
+        "desmatado": 175.4
+      },
+      "2004": {
+        "desmatado": 171.2
+      },
+      "2016": {
+        "desmatado": 180.8
+      },
+      "2019": {
+        "desmatado": 184.9
+      },
+      "2005": {
+        "desmatado": 172.1
+      }
+    },
+    "Juruá": {
+      "nome": "Juruá",
+      "area_total": 19387,
+      "2022": {
+        "desmatado": 158.9
+      },
+      "2005": {
+        "desmatado": 137.6
+      },
+      "2006": {
+        "desmatado": 139.3
+      },
+      "2009": {
+        "desmatado": 145.2
+      },
+      "2019": {
+        "desmatado": 156.1
+      },
+      "2017": {
+        "desmatado": 154.4
+      },
+      "2014": {
+        "desmatado": 152.7
+      },
+      "2015": {
+        "desmatado": 152.9
+      },
+      "2016": {
+        "desmatado": 153.8
+      },
+      "2007": {
+        "desmatado": 140.3
+      },
+      "2012": {
+        "desmatado": 149.0
+      },
+      "2002": {
+        "desmatado": 126.9
+      },
+      "2018": {
+        "desmatado": 155.8
+      },
+      "2021": {
+        "desmatado": 158.5
+      },
+      "2013": {
+        "desmatado": 149.4
+      },
+      "2001": {
+        "desmatado": 118.4
+      },
+      "2004": {
+        "desmatado": 135.0
+      },
+      "2003": {
+        "desmatado": 134.5
+      },
+      "2020": {
+        "desmatado": 156.9
+      },
+      "2000": {
+        "desmatado": 114.9
+      },
+      "2008": {
+        "desmatado": 143.3
+      },
+      "2010": {
+        "desmatado": 148.1
+      },
+      "2011": {
+        "desmatado": 148.6
+      }
+    },
+    "Humaitá": {
+      "nome": "Humaitá",
+      "area_total": 33127,
+      "2001": {
+        "desmatado": 573.7
+      },
+      "2008": {
+        "desmatado": 661.2
+      },
+      "2003": {
+        "desmatado": 592.0
+      },
+      "2013": {
+        "desmatado": 704.7
+      },
+      "2014": {
+        "desmatado": 718.3
+      },
+      "2006": {
+        "desmatado": 627.2
+      },
+      "2020": {
+        "desmatado": 1024.7
+      },
+      "2005": {
+        "desmatado": 622.3
+      },
+      "2022": {
+        "desmatado": 1392.4
+      },
+      "2016": {
+        "desmatado": 744.9
+      },
+      "2019": {
+        "desmatado": 916.1
+      },
+      "2011": {
+        "desmatado": 685.4
+      },
+      "2021": {
+        "desmatado": 1222.5
+      },
+      "2007": {
+        "desmatado": 640.5
+      },
+      "2017": {
+        "desmatado": 779.5
+      },
+      "2010": {
+        "desmatado": 674.4
+      },
+      "2009": {
+        "desmatado": 666.4
+      },
+      "2000": {
+        "desmatado": 534.6
+      },
+      "2018": {
+        "desmatado": 826.9
+      },
+      "2015": {
+        "desmatado": 727.4
+      },
+      "2004": {
+        "desmatado": 606.5
+      },
+      "2002": {
+        "desmatado": 581.3
+      },
+      "2012": {
+        "desmatado": 694.0
+      }
+    },
+    "Benjamin Constant": {
+      "nome": "Benjamin Constant",
+      "area_total": 8728,
+      "2018": {
+        "desmatado": 191.9
+      },
+      "2021": {
+        "desmatado": 194.1
+      },
+      "2013": {
+        "desmatado": 189.9
+      },
+      "2022": {
+        "desmatado": 194.9
+      },
+      "2002": {
+        "desmatado": 178.0
+      },
+      "2008": {
+        "desmatado": 186.3
+      },
+      "2001": {
+        "desmatado": 176.8
+      },
+      "2014": {
+        "desmatado": 190.2
+      },
+      "2010": {
+        "desmatado": 187.4
+      },
+      "2009": {
+        "desmatado": 186.9
+      },
+      "2006": {
+        "desmatado": 183.0
+      },
+      "2011": {
+        "desmatado": 188.3
+      },
+      "2020": {
+        "desmatado": 192.4
+      },
+      "2000": {
+        "desmatado": 175.8
+      },
+      "2007": {
+        "desmatado": 185.7
+      },
+      "2004": {
+        "desmatado": 182.1
+      },
+      "2012": {
+        "desmatado": 188.5
+      },
+      "2015": {
+        "desmatado": 191.1
+      },
+      "2019": {
+        "desmatado": 192.3
+      },
+      "2017": {
+        "desmatado": 191.7
+      },
+      "2016": {
+        "desmatado": 191.3
+      },
+      "2005": {
+        "desmatado": 182.6
+      },
+      "2003": {
+        "desmatado": 181.8
+      }
+    },
+    "Manaus": {
+      "nome": "Manaus",
+      "area_total": 11427,
+      "2009": {
+        "desmatado": 1235.9
+      },
+      "2008": {
+        "desmatado": 1232.2
+      },
+      "2015": {
+        "desmatado": 1258.7
+      },
+      "2020": {
+        "desmatado": 1274.2
+      },
+      "2021": {
+        "desmatado": 1279.9
+      },
+      "2019": {
+        "desmatado": 1267.5
+      },
+      "2011": {
+        "desmatado": 1248.4
+      },
+      "2010": {
+        "desmatado": 1246.2
+      },
+      "2007": {
+        "desmatado": 1229.2
+      },
+      "2001": {
+        "desmatado": 1170.1
+      },
+      "2012": {
+        "desmatado": 1252.3
+      },
+      "2006": {
+        "desmatado": 1227.1
+      },
+      "2017": {
+        "desmatado": 1261.9
+      },
+      "2018": {
+        "desmatado": 1262.9
+      },
+      "2000": {
+        "desmatado": 1096.7
+      },
+      "2014": {
+        "desmatado": 1256.9
+      },
+      "2022": {
+        "desmatado": 1283.6
+      },
+      "2004": {
+        "desmatado": 1223.5
+      },
+      "2016": {
+        "desmatado": 1259.9
+      },
+      "2013": {
+        "desmatado": 1254.6
+      },
+      "2003": {
+        "desmatado": 1211.1
+      },
+      "2002": {
+        "desmatado": 1187.6
+      },
+      "2005": {
+        "desmatado": 1224.8
+      }
+    },
+    "Anori": {
+      "nome": "Anori",
+      "area_total": 5866,
+      "2015": {
+        "desmatado": 82.9
+      },
+      "2022": {
+        "desmatado": 84.5
+      },
+      "2010": {
+        "desmatado": 79.8
+      },
+      "2001": {
+        "desmatado": 70.7
+      },
+      "2007": {
+        "desmatado": 77.8
+      },
+      "2013": {
+        "desmatado": 81.8
+      },
+      "2004": {
+        "desmatado": 75.2
+      },
+      "2016": {
+        "desmatado": 83.2
+      },
+      "2000": {
+        "desmatado": 69.5
+      },
+      "2014": {
+        "desmatado": 82.4
+      },
+      "2003": {
+        "desmatado": 74.1
+      },
+      "2009": {
+        "desmatado": 79.3
+      },
+      "2021": {
+        "desmatado": 84.3
+      },
+      "2005": {
+        "desmatado": 77.2
+      },
+      "2002": {
+        "desmatado": 72.1
+      },
+      "2012": {
+        "desmatado": 81.0
+      },
+      "2008": {
+        "desmatado": 78.8
+      },
+      "2017": {
+        "desmatado": 83.4
+      },
+      "2020": {
+        "desmatado": 83.8
+      },
+      "2006": {
+        "desmatado": 77.8
+      },
+      "2018": {
+        "desmatado": 83.5
+      },
+      "2019": {
+        "desmatado": 83.5
+      },
+      "2011": {
+        "desmatado": 80.4
+      }
+    },
+    "Fonte Boa": {
+      "nome": "Fonte Boa",
+      "area_total": 12092,
+      "2002": {
+        "desmatado": 79.4
+      },
+      "2009": {
+        "desmatado": 97.4
+      },
+      "2000": {
+        "desmatado": 75.9
+      },
+      "2013": {
+        "desmatado": 100.9
+      },
+      "2005": {
+        "desmatado": 94.0
+      },
+      "2015": {
+        "desmatado": 103.2
+      },
+      "2016": {
+        "desmatado": 104.7
+      },
+      "2017": {
+        "desmatado": 105.1
+      },
+      "2012": {
+        "desmatado": 100.7
+      },
+      "2006": {
+        "desmatado": 94.7
+      },
+      "2019": {
+        "desmatado": 105.8
+      },
+      "2007": {
+        "desmatado": 94.8
+      },
+      "2001": {
+        "desmatado": 76.6
+      },
+      "2014": {
+        "desmatado": 102.5
+      },
+      "2022": {
+        "desmatado": 108.3
+      },
+      "2003": {
+        "desmatado": 93.9
+      },
+      "2020": {
+        "desmatado": 105.8
+      },
+      "2011": {
+        "desmatado": 100.6
+      },
+      "2010": {
+        "desmatado": 99.6
+      },
+      "2021": {
+        "desmatado": 106.4
+      },
+      "2008": {
+        "desmatado": 96.7
+      },
+      "2004": {
+        "desmatado": 94.0
+      },
+      "2018": {
+        "desmatado": 105.2
+      }
+    },
+    "Jutaí": {
+      "nome": "Jutaí",
+      "area_total": 69562,
+      "2015": {
+        "desmatado": 242.9
+      },
+      "2009": {
+        "desmatado": 229.1
+      },
+      "2013": {
+        "desmatado": 239.2
+      },
+      "2008": {
+        "desmatado": 228.3
+      },
+      "2000": {
+        "desmatado": 175.2
+      },
+      "2016": {
+        "desmatado": 244.5
+      },
+      "2006": {
+        "desmatado": 223.4
+      },
+      "2010": {
+        "desmatado": 234.0
+      },
+      "2019": {
+        "desmatado": 265.8
+      },
+      "2005": {
+        "desmatado": 222.3
+      },
+      "2018": {
+        "desmatado": 255.0
+      },
+      "2011": {
+        "desmatado": 237.1
+      },
+      "2017": {
+        "desmatado": 253.9
+      },
+      "2007": {
+        "desmatado": 224.4
+      },
+      "2021": {
+        "desmatado": 274.3
+      },
+      "2012": {
+        "desmatado": 237.8
+      },
+      "2003": {
+        "desmatado": 220.0
+      },
+      "2014": {
+        "desmatado": 241.8
+      },
+      "2002": {
+        "desmatado": 197.8
+      },
+      "2001": {
+        "desmatado": 188.5
+      },
+      "2022": {
+        "desmatado": 286.1
+      },
+      "2020": {
+        "desmatado": 273.1
+      },
+      "2004": {
+        "desmatado": 221.1
+      }
+    },
+    "Itacoatiara": {
+      "nome": "Itacoatiara",
+      "area_total": 8820,
+      "2002": {
+        "desmatado": 1580.6
+      },
+      "2004": {
+        "desmatado": 1634.0
+      },
+      "2005": {
+        "desmatado": 1643.6
+      },
+      "2010": {
+        "desmatado": 1719.4
+      },
+      "2011": {
+        "desmatado": 1736.9
+      },
+      "2000": {
+        "desmatado": 1448.3
+      },
+      "2013": {
+        "desmatado": 1747.1
+      },
+      "2019": {
+        "desmatado": 1798.7
+      },
+      "2006": {
+        "desmatado": 1658.6
+      },
+      "2001": {
+        "desmatado": 1524.4
+      },
+      "2018": {
+        "desmatado": 1784.6
+      },
+      "2015": {
+        "desmatado": 1760.9
+      },
+      "2009": {
+        "desmatado": 1700.3
+      },
+      "2022": {
+        "desmatado": 1851.5
+      },
+      "2016": {
+        "desmatado": 1768.8
+      },
+      "2003": {
+        "desmatado": 1604.1
+      },
+      "2021": {
+        "desmatado": 1825.4
+      },
+      "2020": {
+        "desmatado": 1808.9
+      },
+      "2014": {
+        "desmatado": 1754.9
+      },
+      "2012": {
+        "desmatado": 1743.0
+      },
+      "2008": {
+        "desmatado": 1694.8
+      },
+      "2007": {
+        "desmatado": 1667.9
+      },
+      "2017": {
+        "desmatado": 1779.9
+      }
+    },
+    "Urucará": {
+      "nome": "Urucará",
+      "area_total": 27952,
+      "2015": {
+        "desmatado": 344.4
+      },
+      "2016": {
+        "desmatado": 344.7
+      },
+      "2013": {
+        "desmatado": 342.6
+      },
+      "2005": {
+        "desmatado": 326.4
+      },
+      "2000": {
+        "desmatado": 299.2
+      },
+      "2022": {
+        "desmatado": 349.4
+      },
+      "2017": {
+        "desmatado": 345.3
+      },
+      "2018": {
+        "desmatado": 345.8
+      },
+      "2021": {
+        "desmatado": 348.1
+      },
+      "2004": {
+        "desmatado": 325.1
+      },
+      "2019": {
+        "desmatado": 346.7
+      },
+      "2003": {
+        "desmatado": 324.1
+      },
+      "2020": {
+        "desmatado": 347.2
+      },
+      "2001": {
+        "desmatado": 316.3
+      },
+      "2011": {
+        "desmatado": 339.8
+      },
+      "2012": {
+        "desmatado": 340.3
+      },
+      "2014": {
+        "desmatado": 344.0
+      },
+      "2007": {
+        "desmatado": 330.2
+      },
+      "2010": {
+        "desmatado": 338.0
+      },
+      "2006": {
+        "desmatado": 328.4
+      },
+      "2008": {
+        "desmatado": 332.3
+      },
+      "2002": {
+        "desmatado": 317.6
+      },
+      "2009": {
+        "desmatado": 333.9
+      }
+    },
+    "Novo Aripuanã": {
+      "nome": "Novo Aripuanã",
+      "area_total": 41236,
+      "2021": {
+        "desmatado": 2008.0
+      },
+      "2014": {
+        "desmatado": 1000.3
+      },
+      "2018": {
+        "desmatado": 1472.4
+      },
+      "2007": {
+        "desmatado": 797.6
+      },
+      "2011": {
+        "desmatado": 914.1
+      },
+      "2000": {
+        "desmatado": 534.7
+      },
+      "2013": {
+        "desmatado": 974.6
+      },
+      "2010": {
+        "desmatado": 896.3
+      },
+      "2001": {
+        "desmatado": 550.3
+      },
+      "2017": {
+        "desmatado": 1332.5
+      },
+      "2003": {
+        "desmatado": 599.3
+      },
+      "2020": {
+        "desmatado": 1813.6
+      },
+      "2006": {
+        "desmatado": 752.8
+      },
+      "2022": {
+        "desmatado": 2303.0
+      },
+      "2002": {
+        "desmatado": 565.2
+      },
+      "2005": {
+        "desmatado": 715.7
+      },
+      "2008": {
+        "desmatado": 860.3
+      },
+      "2012": {
+        "desmatado": 931.7
+      },
+      "2004": {
+        "desmatado": 651.4
+      },
+      "2016": {
+        "desmatado": 1205.9
+      },
+      "2019": {
+        "desmatado": 1703.3
+      },
+      "2015": {
+        "desmatado": 1053.5
+      },
+      "2009": {
+        "desmatado": 876.0
+      }
+    },
+    "Guajará": {
+      "nome": "Guajará",
+      "area_total": 7575,
+      "2018": {
+        "desmatado": 509.5
+      },
+      "2022": {
+        "desmatado": 608.4
+      },
+      "2012": {
+        "desmatado": 478.3
+      },
+      "2009": {
+        "desmatado": 459.0
+      },
+      "2000": {
+        "desmatado": 329.9
+      },
+      "2007": {
+        "desmatado": 453.5
+      },
+      "2010": {
+        "desmatado": 466.9
+      },
+      "2016": {
+        "desmatado": 492.9
+      },
+      "2015": {
+        "desmatado": 487.1
+      },
+      "2020": {
+        "desmatado": 549.0
+      },
+      "2011": {
+        "desmatado": 473.4
+      },
+      "2004": {
+        "desmatado": 441.7
+      },
+      "2002": {
+        "desmatado": 369.5
+      },
+      "2006": {
+        "desmatado": 451.1
+      },
+      "2019": {
+        "desmatado": 528.4
+      },
+      "2003": {
+        "desmatado": 399.7
+      },
+      "2021": {
+        "desmatado": 573.8
+      },
+      "2013": {
+        "desmatado": 481.4
+      },
+      "2008": {
+        "desmatado": 457.0
+      },
+      "2005": {
+        "desmatado": 450.2
+      },
+      "2001": {
+        "desmatado": 340.3
+      },
+      "2014": {
+        "desmatado": 482.6
+      },
+      "2017": {
+        "desmatado": 497.7
+      }
+    },
+    "Manaquiri": {
+      "nome": "Manaquiri",
+      "area_total": 3978,
+      "2006": {
+        "desmatado": 487.6
+      },
+      "2010": {
+        "desmatado": 492.7
+      },
+      "2000": {
+        "desmatado": 453.4
+      },
+      "2011": {
+        "desmatado": 494.4
+      },
+      "2021": {
+        "desmatado": 506.0
+      },
+      "2018": {
+        "desmatado": 500.9
+      },
+      "2007": {
+        "desmatado": 488.0
+      },
+      "2002": {
+        "desmatado": 475.1
+      },
+      "2022": {
+        "desmatado": 506.6
+      },
+      "2009": {
+        "desmatado": 490.7
+      },
+      "2014": {
+        "desmatado": 495.3
+      },
+      "2017": {
+        "desmatado": 500.4
+      },
+      "2013": {
+        "desmatado": 495.2
+      },
+      "2003": {
+        "desmatado": 483.2
+      },
+      "2005": {
+        "desmatado": 486.6
+      },
+      "2012": {
+        "desmatado": 494.5
+      },
+      "2001": {
+        "desmatado": 473.1
+      },
+      "2008": {
+        "desmatado": 488.7
+      },
+      "2004": {
+        "desmatado": 486.3
+      },
+      "2016": {
+        "desmatado": 499.4
+      },
+      "2015": {
+        "desmatado": 498.4
+      },
+      "2020": {
+        "desmatado": 504.4
+      },
+      "2019": {
+        "desmatado": 502.4
+      }
+    },
+    "Manicoré": {
+      "nome": "Manicoré",
+      "area_total": 48276,
+      "2007": {
+        "desmatado": 1427.4
+      },
+      "2021": {
+        "desmatado": 2383.0
+      },
+      "2017": {
+        "desmatado": 2006.3
+      },
+      "2006": {
+        "desmatado": 1388.0
+      },
+      "2001": {
+        "desmatado": 1041.7
+      },
+      "2008": {
+        "desmatado": 1468.4
+      },
+      "2020": {
+        "desmatado": 2248.3
+      },
+      "2004": {
+        "desmatado": 1206.4
+      },
+      "2013": {
+        "desmatado": 1719.1
+      },
+      "2011": {
+        "desmatado": 1615.7
+      },
+      "2015": {
+        "desmatado": 1820.9
+      },
+      "2005": {
+        "desmatado": 1310.0
+      },
+      "2022": {
+        "desmatado": 2629.9
+      },
+      "2018": {
+        "desmatado": 2087.0
+      },
+      "2000": {
+        "desmatado": 1006.7
+      },
+      "2003": {
+        "desmatado": 1146.1
+      },
+      "2016": {
+        "desmatado": 1906.9
+      },
+      "2009": {
+        "desmatado": 1498.2
+      },
+      "2014": {
+        "desmatado": 1748.4
+      },
+      "2012": {
+        "desmatado": 1676.2
+      },
+      "2019": {
+        "desmatado": 2168.6
+      },
+      "2002": {
+        "desmatado": 1062.1
+      },
+      "2010": {
+        "desmatado": 1561.1
+      }
+    },
+    "Santa Isabel do Rio Negro": {
+      "nome": "Santa Isabel do Rio Negro",
+      "area_total": 62932,
+      "2018": {
+        "desmatado": 219.8
+      },
+      "2020": {
+        "desmatado": 224.0
+      },
+      "2014": {
+        "desmatado": 217.4
+      },
+      "2021": {
+        "desmatado": 225.7
+      },
+      "2013": {
+        "desmatado": 216.5
+      },
+      "2002": {
+        "desmatado": 195.2
+      },
+      "2005": {
+        "desmatado": 205.2
+      },
+      "2022": {
+        "desmatado": 225.8
+      },
+      "2012": {
+        "desmatado": 216.4
+      },
+      "2010": {
+        "desmatado": 213.1
+      },
+      "2000": {
+        "desmatado": 186.6
+      },
+      "2006": {
+        "desmatado": 205.5
+      },
+      "2003": {
+        "desmatado": 202.1
+      },
+      "2016": {
+        "desmatado": 218.4
+      },
+      "2009": {
+        "desmatado": 207.4
+      },
+      "2004": {
+        "desmatado": 203.9
+      },
+      "2008": {
+        "desmatado": 207.3
+      },
+      "2019": {
+        "desmatado": 222.9
+      },
+      "2007": {
+        "desmatado": 206.0
+      },
+      "2015": {
+        "desmatado": 217.9
+      },
+      "2001": {
+        "desmatado": 192.5
+      },
+      "2017": {
+        "desmatado": 219.1
+      },
+      "2011": {
+        "desmatado": 215.0
+      }
+    },
+    "Caapiranga": {
+      "nome": "Caapiranga",
+      "area_total": 9463,
+      "2021": {
+        "desmatado": 255.2
+      },
+      "2005": {
+        "desmatado": 231.0
+      },
+      "2011": {
+        "desmatado": 241.2
+      },
+      "2012": {
+        "desmatado": 241.6
+      },
+      "2004": {
+        "desmatado": 230.1
+      },
+      "2008": {
+        "desmatado": 232.5
+      },
+      "2002": {
+        "desmatado": 217.2
+      },
+      "2016": {
+        "desmatado": 247.7
+      },
+      "2022": {
+        "desmatado": 256.0
+      },
+      "2015": {
+        "desmatado": 247.0
+      },
+      "2013": {
+        "desmatado": 242.0
+      },
+      "2001": {
+        "desmatado": 212.2
+      },
+      "2000": {
+        "desmatado": 203.1
+      },
+      "2007": {
+        "desmatado": 232.3
+      },
+      "2010": {
+        "desmatado": 240.3
+      },
+      "2017": {
+        "desmatado": 248.8
+      },
+      "2019": {
+        "desmatado": 250.7
+      },
+      "2003": {
+        "desmatado": 227.5
+      },
+      "2018": {
+        "desmatado": 249.7
+      },
+      "2006": {
+        "desmatado": 231.1
+      },
+      "2014": {
+        "desmatado": 243.3
+      },
+      "2020": {
+        "desmatado": 253.2
+      },
+      "2009": {
+        "desmatado": 234.7
+      }
+    },
+    "Tefé": {
+      "nome": "Tefé",
+      "area_total": 23389,
+      "2022": {
+        "desmatado": 714.6
+      },
+      "2016": {
+        "desmatado": 667.6
+      },
+      "2014": {
+        "desmatado": 657.2
+      },
+      "2013": {
+        "desmatado": 641.7
+      },
+      "2009": {
+        "desmatado": 624.6
+      },
+      "2018": {
+        "desmatado": 681.6
+      },
+      "2020": {
+        "desmatado": 699.6
+      },
+      "2003": {
+        "desmatado": 592.6
+      },
+      "2004": {
+        "desmatado": 595.0
+      },
+      "2005": {
+        "desmatado": 602.2
+      },
+      "2002": {
+        "desmatado": 577.2
+      },
+      "2021": {
+        "desmatado": 712.4
+      },
+      "2007": {
+        "desmatado": 610.6
+      },
+      "2001": {
+        "desmatado": 557.2
+      },
+      "2008": {
+        "desmatado": 620.3
+      },
+      "2011": {
+        "desmatado": 636.8
+      },
+      "2000": {
+        "desmatado": 543.7
+      },
+      "2017": {
+        "desmatado": 673.3
+      },
+      "2019": {
+        "desmatado": 689.1
+      },
+      "2015": {
+        "desmatado": 659.5
+      },
+      "2010": {
+        "desmatado": 633.4
+      },
+      "2012": {
+        "desmatado": 639.7
+      },
+      "2006": {
+        "desmatado": 606.2
+      }
+    },
+    "Santo Antônio do Içá": {
+      "nome": "Santo Antônio do Içá",
+      "area_total": 12306,
+      "2006": {
+        "desmatado": 130.0
+      },
+      "2009": {
+        "desmatado": 133.4
+      },
+      "2014": {
+        "desmatado": 137.2
+      },
+      "2010": {
+        "desmatado": 134.2
+      },
+      "2012": {
+        "desmatado": 137.2
+      },
+      "2022": {
+        "desmatado": 147.2
+      },
+      "2003": {
+        "desmatado": 127.2
+      },
+      "2020": {
+        "desmatado": 143.4
+      },
+      "2001": {
+        "desmatado": 125.7
+      },
+      "2021": {
+        "desmatado": 145.2
+      },
+      "2016": {
+        "desmatado": 138.3
+      },
+      "2004": {
+        "desmatado": 128.6
+      },
+      "2000": {
+        "desmatado": 111.3
+      },
+      "2019": {
+        "desmatado": 140.4
+      },
+      "2002": {
+        "desmatado": 126.5
+      },
+      "2011": {
+        "desmatado": 137.0
+      },
+      "2017": {
+        "desmatado": 139.5
+      },
+      "2007": {
+        "desmatado": 131.2
+      },
+      "2018": {
+        "desmatado": 139.9
+      },
+      "2008": {
+        "desmatado": 132.2
+      },
+      "2015": {
+        "desmatado": 137.3
+      },
+      "2005": {
+        "desmatado": 129.0
+      },
+      "2013": {
+        "desmatado": 137.2
+      }
+    },
+    "Boa Vista do Ramos": {
+      "nome": "Boa Vista do Ramos",
+      "area_total": 2590,
+      "2016": {
+        "desmatado": 208.7
+      },
+      "2017": {
+        "desmatado": 209.6
+      },
+      "2011": {
+        "desmatado": 204.9
+      },
+      "2000": {
+        "desmatado": 182.8
+      },
+      "2005": {
+        "desmatado": 198.0
+      },
+      "2009": {
+        "desmatado": 200.7
+      },
+      "2001": {
+        "desmatado": 190.5
+      },
+      "2006": {
+        "desmatado": 199.0
+      },
+      "2010": {
+        "desmatado": 203.5
+      },
+      "2003": {
+        "desmatado": 196.4
+      },
+      "2020": {
+        "desmatado": 211.8
+      },
+      "2012": {
+        "desmatado": 205.2
+      },
+      "2004": {
+        "desmatado": 196.7
+      },
+      "2014": {
+        "desmatado": 207.7
+      },
+      "2007": {
+        "desmatado": 200.3
+      },
+      "2021": {
+        "desmatado": 212.4
+      },
+      "2013": {
+        "desmatado": 205.9
+      },
+      "2018": {
+        "desmatado": 210.1
+      },
+      "2015": {
+        "desmatado": 208.2
+      },
+      "2002": {
+        "desmatado": 190.5
+      },
+      "2019": {
+        "desmatado": 211.2
+      },
+      "2008": {
+        "desmatado": 200.6
+      },
+      "2022": {
+        "desmatado": 215.3
+      }
+    },
+    "Itapiranga": {
+      "nome": "Itapiranga",
+      "area_total": 4473,
+      "2002": {
+        "desmatado": 125.9
+      },
+      "2005": {
+        "desmatado": 131.9
+      },
+      "2007": {
+        "desmatado": 133.0
+      },
+      "2019": {
+        "desmatado": 142.4
+      },
+      "2014": {
+        "desmatado": 139.4
+      },
+      "2017": {
+        "desmatado": 141.3
+      },
+      "2013": {
+        "desmatado": 138.6
+      },
+      "2012": {
+        "desmatado": 137.2
+      },
+      "2004": {
+        "desmatado": 131.2
+      },
+      "2021": {
+        "desmatado": 144.2
+      },
+      "2015": {
+        "desmatado": 140.2
+      },
+      "2003": {
+        "desmatado": 130.0
+      },
+      "2011": {
+        "desmatado": 136.8
+      },
+      "2006": {
+        "desmatado": 132.2
+      },
+      "2020": {
+        "desmatado": 142.6
+      },
+      "2000": {
+        "desmatado": 112.5
+      },
+      "2022": {
+        "desmatado": 145.9
+      },
+      "2016": {
+        "desmatado": 140.2
+      },
+      "2009": {
+        "desmatado": 134.5
+      },
+      "2018": {
+        "desmatado": 141.5
+      },
+      "2008": {
+        "desmatado": 134.2
+      },
+      "2010": {
+        "desmatado": 135.7
+      },
+      "2001": {
+        "desmatado": 121.2
+      }
+    },
+    "Apuí": {
+      "nome": "Apuí",
+      "area_total": 54232,
+      "2021": {
+        "desmatado": 3308.6
+      },
+      "2016": {
+        "desmatado": 2103.7
+      },
+      "2002": {
+        "desmatado": 1046.0
+      },
+      "2014": {
+        "desmatado": 1835.4
+      },
+      "2017": {
+        "desmatado": 2273.2
+      },
+      "2005": {
+        "desmatado": 1192.0
+      },
+      "2009": {
+        "desmatado": 1500.6
+      },
+      "2012": {
+        "desmatado": 1669.3
+      },
+      "2004": {
+        "desmatado": 1046.1
+      },
+      "2007": {
+        "desmatado": 1366.4
+      },
+      "2019": {
+        "desmatado": 2719.1
+      },
+      "2011": {
+        "desmatado": 1595.4
+      },
+      "2008": {
+        "desmatado": 1436.6
+      },
+      "2022": {
+        "desmatado": 4040.3
+      },
+      "2010": {
+        "desmatado": 1546.9
+      },
+      "2015": {
+        "desmatado": 1942.4
+      },
+      "2013": {
+        "desmatado": 1755.4
+      },
+      "2018": {
+        "desmatado": 2431.4
+      },
+      "2003": {
+        "desmatado": 1046.0
+      },
+      "2000": {
+        "desmatado": 955.9
+      },
+      "2020": {
+        "desmatado": 2978.7
+      },
+      "2006": {
+        "desmatado": 1272.4
+      },
+      "2001": {
+        "desmatado": 1013.1
+      }
+    },
+    "Barcelos": {
+      "nome": "Barcelos",
+      "area_total": 122501,
+      "2005": {
+        "desmatado": 193.5
+      },
+      "2016": {
+        "desmatado": 207.7
+      },
+      "2018": {
+        "desmatado": 210.0
+      },
+      "2017": {
+        "desmatado": 208.8
+      },
+      "2003": {
+        "desmatado": 187.8
+      },
+      "2002": {
+        "desmatado": 180.3
+      },
+      "2021": {
+        "desmatado": 223.8
+      },
+      "2015": {
+        "desmatado": 206.7
+      },
+      "2014": {
+        "desmatado": 206.4
+      },
+      "2006": {
+        "desmatado": 194.2
+      },
+      "2013": {
+        "desmatado": 204.6
+      },
+      "2020": {
+        "desmatado": 222.4
+      },
+      "2007": {
+        "desmatado": 195.4
+      },
+      "2001": {
+        "desmatado": 178.1
+      },
+      "2000": {
+        "desmatado": 146.1
+      },
+      "2019": {
+        "desmatado": 221.1
+      },
+      "2010": {
+        "desmatado": 200.8
+      },
+      "2012": {
+        "desmatado": 203.6
+      },
+      "2009": {
+        "desmatado": 197.4
+      },
+      "2022": {
+        "desmatado": 224.5
+      },
+      "2008": {
+        "desmatado": 196.9
+      },
+      "2004": {
+        "desmatado": 192.5
+      },
+      "2011": {
+        "desmatado": 202.3
+      }
+    },
+    "Ipixuna": {
+      "nome": "Ipixuna",
+      "area_total": 12081,
+      "2012": {
+        "desmatado": 221.9
+      },
+      "2002": {
+        "desmatado": 159.7
+      },
+      "2005": {
+        "desmatado": 199.1
+      },
+      "2010": {
+        "desmatado": 213.3
+      },
+      "2000": {
+        "desmatado": 149.7
+      },
+      "2019": {
+        "desmatado": 256.0
+      },
+      "2001": {
+        "desmatado": 153.5
+      },
+      "2007": {
+        "desmatado": 202.7
+      },
+      "2003": {
+        "desmatado": 174.7
+      },
+      "2021": {
+        "desmatado": 276.1
+      },
+      "2004": {
+        "desmatado": 189.8
+      },
+      "2009": {
+        "desmatado": 208.8
+      },
+      "2016": {
+        "desmatado": 238.7
+      },
+      "2020": {
+        "desmatado": 264.1
+      },
+      "2006": {
+        "desmatado": 200.7
+      },
+      "2011": {
+        "desmatado": 215.6
+      },
+      "2017": {
+        "desmatado": 241.0
+      },
+      "2015": {
+        "desmatado": 233.9
+      },
+      "2008": {
+        "desmatado": 208.0
+      },
+      "2014": {
+        "desmatado": 229.6
+      },
+      "2013": {
+        "desmatado": 228.4
+      },
+      "2022": {
+        "desmatado": 294.2
+      },
+      "2018": {
+        "desmatado": 248.3
+      }
+    }
+  },
+  "ranking_desmatamento": {
+    "Barcelos": {
+      "nome": "Barcelos",
+      "total_desmatamento": 122501
+    },
+    "São Gabriel da Cachoeira": {
+      "nome": "São Gabriel da Cachoeira",
+      "total_desmatamento": 108765
+    },
+    "Tapauá": {
+      "nome": "Tapauá",
+      "total_desmatamento": 85365
+    },
+    "Atalaia do Norte": {
+      "nome": "Atalaia do Norte",
+      "total_desmatamento": 76400
+    },
+    "Jutaí": {
+      "nome": "Jutaí",
+      "total_desmatamento": 69562
+    }
+  }
+}

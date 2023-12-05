@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2006,
+    "area_total": 12306,
+    "desmatado": 130.0,
+    "vegetacao_natural": 11650.7,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2009,
+    "area_total": 12306,
+    "desmatado": 133.4,
+    "vegetacao_natural": 11647.3,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2014,
+    "area_total": 12306,
+    "desmatado": 137.2,
+    "vegetacao_natural": 11643.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2010,
+    "area_total": 12306,
+    "desmatado": 134.2,
+    "vegetacao_natural": 11646.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2012,
+    "area_total": 12306,
+    "desmatado": 137.2,
+    "vegetacao_natural": 11643.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2022,
+    "area_total": 12306,
+    "desmatado": 147.2,
+    "vegetacao_natural": 11633.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2003,
+    "area_total": 12306,
+    "desmatado": 127.2,
+    "vegetacao_natural": 11653.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2020,
+    "area_total": 12306,
+    "desmatado": 143.4,
+    "vegetacao_natural": 11637.3,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2001,
+    "area_total": 12306,
+    "desmatado": 125.7,
+    "vegetacao_natural": 11655.0,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2021,
+    "area_total": 12306,
+    "desmatado": 145.2,
+    "vegetacao_natural": 11635.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2016,
+    "area_total": 12306,
+    "desmatado": 138.3,
+    "vegetacao_natural": 11642.4,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2004,
+    "area_total": 12306,
+    "desmatado": 128.6,
+    "vegetacao_natural": 11652.1,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2000,
+    "area_total": 12306,
+    "desmatado": 111.3,
+    "vegetacao_natural": 11669.4,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2019,
+    "area_total": 12306,
+    "desmatado": 140.4,
+    "vegetacao_natural": 11640.3,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2002,
+    "area_total": 12306,
+    "desmatado": 126.5,
+    "vegetacao_natural": 11654.2,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2011,
+    "area_total": 12306,
+    "desmatado": 137.0,
+    "vegetacao_natural": 11643.7,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2017,
+    "area_total": 12306,
+    "desmatado": 139.5,
+    "vegetacao_natural": 11641.2,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2007,
+    "area_total": 12306,
+    "desmatado": 131.2,
+    "vegetacao_natural": 11649.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2018,
+    "area_total": 12306,
+    "desmatado": 139.9,
+    "vegetacao_natural": 11640.8,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2008,
+    "area_total": 12306,
+    "desmatado": 132.2,
+    "vegetacao_natural": 11648.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2015,
+    "area_total": 12306,
+    "desmatado": 137.3,
+    "vegetacao_natural": 11643.4,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2005,
+    "area_total": 12306,
+    "desmatado": 129.0,
+    "vegetacao_natural": 11651.7,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  },
+  {
+    "ano": 2013,
+    "area_total": 12306,
+    "desmatado": 137.2,
+    "vegetacao_natural": 11643.5,
+    "nao_vegetacao_natural": 89.4,
+    "hidrografia": 435.9,
+    "nome_municipio": "Santo Antônio do Içá"
+  }
+]

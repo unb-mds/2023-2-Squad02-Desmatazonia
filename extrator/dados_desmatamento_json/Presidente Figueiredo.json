@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2013,
+    "area_total": 25511,
+    "desmatado": 739.6,
+    "vegetacao_natural": 21334.6,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2009,
+    "area_total": 25511,
+    "desmatado": 709.1,
+    "vegetacao_natural": 21365.1,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2002,
+    "area_total": 25511,
+    "desmatado": 596.2,
+    "vegetacao_natural": 21478.0,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2010,
+    "area_total": 25511,
+    "desmatado": 718.4,
+    "vegetacao_natural": 21355.8,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2001,
+    "area_total": 25511,
+    "desmatado": 583.4,
+    "vegetacao_natural": 21490.8,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2006,
+    "area_total": 25511,
+    "desmatado": 663.8,
+    "vegetacao_natural": 21410.4,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2005,
+    "area_total": 25511,
+    "desmatado": 658.0,
+    "vegetacao_natural": 21416.2,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2021,
+    "area_total": 25511,
+    "desmatado": 808.8,
+    "vegetacao_natural": 21265.4,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2011,
+    "area_total": 25511,
+    "desmatado": 730.1,
+    "vegetacao_natural": 21344.1,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2008,
+    "area_total": 25511,
+    "desmatado": 695.4,
+    "vegetacao_natural": 21378.8,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2014,
+    "area_total": 25511,
+    "desmatado": 746.2,
+    "vegetacao_natural": 21328.0,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2015,
+    "area_total": 25511,
+    "desmatado": 753.9,
+    "vegetacao_natural": 21320.3,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2012,
+    "area_total": 25511,
+    "desmatado": 735.5,
+    "vegetacao_natural": 21338.7,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2000,
+    "area_total": 25511,
+    "desmatado": 524.8,
+    "vegetacao_natural": 21549.4,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2022,
+    "area_total": 25511,
+    "desmatado": 823.9,
+    "vegetacao_natural": 21250.3,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2020,
+    "area_total": 25511,
+    "desmatado": 793.8,
+    "vegetacao_natural": 21280.4,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2016,
+    "area_total": 25511,
+    "desmatado": 760.3,
+    "vegetacao_natural": 21313.9,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2018,
+    "area_total": 25511,
+    "desmatado": 774.8,
+    "vegetacao_natural": 21299.4,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2017,
+    "area_total": 25511,
+    "desmatado": 768.9,
+    "vegetacao_natural": 21305.3,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2019,
+    "area_total": 25511,
+    "desmatado": 784.5,
+    "vegetacao_natural": 21289.7,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2007,
+    "area_total": 25511,
+    "desmatado": 676.4,
+    "vegetacao_natural": 21397.8,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2003,
+    "area_total": 25511,
+    "desmatado": 629.9,
+    "vegetacao_natural": 21444.3,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  },
+  {
+    "ano": 2004,
+    "area_total": 25511,
+    "desmatado": 644.4,
+    "vegetacao_natural": 21429.8,
+    "nao_vegetacao_natural": 1.0,
+    "hidrografia": 3435.8,
+    "nome_municipio": "Presidente Figueiredo"
+  }
+]

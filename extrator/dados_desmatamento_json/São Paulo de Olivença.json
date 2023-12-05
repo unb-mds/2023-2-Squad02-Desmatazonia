@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2000,
+    "area_total": 19868,
+    "desmatado": 103.8,
+    "vegetacao_natural": 19138.7,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2002,
+    "area_total": 19868,
+    "desmatado": 167.4,
+    "vegetacao_natural": 19075.1,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2020,
+    "area_total": 19868,
+    "desmatado": 188.4,
+    "vegetacao_natural": 19054.1,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2018,
+    "area_total": 19868,
+    "desmatado": 182.0,
+    "vegetacao_natural": 19060.5,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2008,
+    "area_total": 19868,
+    "desmatado": 174.7,
+    "vegetacao_natural": 19067.8,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2011,
+    "area_total": 19868,
+    "desmatado": 177.2,
+    "vegetacao_natural": 19065.3,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2013,
+    "area_total": 19868,
+    "desmatado": 178.1,
+    "vegetacao_natural": 19064.4,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2006,
+    "area_total": 19868,
+    "desmatado": 173.1,
+    "vegetacao_natural": 19069.4,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2021,
+    "area_total": 19868,
+    "desmatado": 190.2,
+    "vegetacao_natural": 19052.3,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2001,
+    "area_total": 19868,
+    "desmatado": 117.0,
+    "vegetacao_natural": 19125.5,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2015,
+    "area_total": 19868,
+    "desmatado": 179.2,
+    "vegetacao_natural": 19063.3,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2014,
+    "area_total": 19868,
+    "desmatado": 178.8,
+    "vegetacao_natural": 19063.7,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2022,
+    "area_total": 19868,
+    "desmatado": 191.0,
+    "vegetacao_natural": 19051.5,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2017,
+    "area_total": 19868,
+    "desmatado": 181.8,
+    "vegetacao_natural": 19060.7,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2003,
+    "area_total": 19868,
+    "desmatado": 168.6,
+    "vegetacao_natural": 19073.9,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2007,
+    "area_total": 19868,
+    "desmatado": 174.4,
+    "vegetacao_natural": 19068.1,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2010,
+    "area_total": 19868,
+    "desmatado": 176.3,
+    "vegetacao_natural": 19066.2,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2012,
+    "area_total": 19868,
+    "desmatado": 177.8,
+    "vegetacao_natural": 19064.7,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2009,
+    "area_total": 19868,
+    "desmatado": 175.4,
+    "vegetacao_natural": 19067.1,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2004,
+    "area_total": 19868,
+    "desmatado": 171.2,
+    "vegetacao_natural": 19071.3,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2016,
+    "area_total": 19868,
+    "desmatado": 180.8,
+    "vegetacao_natural": 19061.7,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2019,
+    "area_total": 19868,
+    "desmatado": 184.9,
+    "vegetacao_natural": 19057.6,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  },
+  {
+    "ano": 2005,
+    "area_total": 19868,
+    "desmatado": 172.1,
+    "vegetacao_natural": 19070.4,
+    "nao_vegetacao_natural": 81.2,
+    "hidrografia": 544.3,
+    "nome_municipio": "São Paulo de Olivença"
+  }
+]

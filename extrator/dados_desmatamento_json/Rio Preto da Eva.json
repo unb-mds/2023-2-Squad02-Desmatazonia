@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2001,
+    "area_total": 5804,
+    "desmatado": 515.5,
+    "vegetacao_natural": 5277.4,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2010,
+    "area_total": 5804,
+    "desmatado": 564.6,
+    "vegetacao_natural": 5228.3,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2013,
+    "area_total": 5804,
+    "desmatado": 573.7,
+    "vegetacao_natural": 5219.2,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2017,
+    "area_total": 5804,
+    "desmatado": 582.9,
+    "vegetacao_natural": 5210.0,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2008,
+    "area_total": 5804,
+    "desmatado": 559.4,
+    "vegetacao_natural": 5233.5,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2020,
+    "area_total": 5804,
+    "desmatado": 591.3,
+    "vegetacao_natural": 5201.6,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2022,
+    "area_total": 5804,
+    "desmatado": 599.8,
+    "vegetacao_natural": 5193.1,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2019,
+    "area_total": 5804,
+    "desmatado": 588.3,
+    "vegetacao_natural": 5204.6,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2021,
+    "area_total": 5804,
+    "desmatado": 595.4,
+    "vegetacao_natural": 5197.5,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2015,
+    "area_total": 5804,
+    "desmatado": 576.6,
+    "vegetacao_natural": 5216.3,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2004,
+    "area_total": 5804,
+    "desmatado": 545.7,
+    "vegetacao_natural": 5247.2,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2016,
+    "area_total": 5804,
+    "desmatado": 580.6,
+    "vegetacao_natural": 5212.3,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2014,
+    "area_total": 5804,
+    "desmatado": 574.9,
+    "vegetacao_natural": 5218.0,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2002,
+    "area_total": 5804,
+    "desmatado": 523.1,
+    "vegetacao_natural": 5269.8,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2007,
+    "area_total": 5804,
+    "desmatado": 552.3,
+    "vegetacao_natural": 5240.6,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2006,
+    "area_total": 5804,
+    "desmatado": 548.9,
+    "vegetacao_natural": 5244.0,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2018,
+    "area_total": 5804,
+    "desmatado": 584.7,
+    "vegetacao_natural": 5208.2,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2012,
+    "area_total": 5804,
+    "desmatado": 573.1,
+    "vegetacao_natural": 5219.8,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2005,
+    "area_total": 5804,
+    "desmatado": 548.2,
+    "vegetacao_natural": 5244.7,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2009,
+    "area_total": 5804,
+    "desmatado": 560.7,
+    "vegetacao_natural": 5232.2,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2003,
+    "area_total": 5804,
+    "desmatado": 540.1,
+    "vegetacao_natural": 5252.8,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2011,
+    "area_total": 5804,
+    "desmatado": 570.2,
+    "vegetacao_natural": 5222.7,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  },
+  {
+    "ano": 2000,
+    "area_total": 5804,
+    "desmatado": 500.6,
+    "vegetacao_natural": 5292.3,
+    "nao_vegetacao_natural": 0.1,
+    "hidrografia": 11.0,
+    "nome_municipio": "Rio Preto da Eva"
+  }
+]

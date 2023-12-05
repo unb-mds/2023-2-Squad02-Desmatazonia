@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2000,
+    "area_total": 68240,
+    "desmatado": 1297.2,
+    "vegetacao_natural": 64693.6,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2003,
+    "area_total": 68240,
+    "desmatado": 2121.9,
+    "vegetacao_natural": 63868.9,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2016,
+    "area_total": 68240,
+    "desmatado": 4144.1,
+    "vegetacao_natural": 61846.7,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2005,
+    "area_total": 68240,
+    "desmatado": 2687.7,
+    "vegetacao_natural": 63303.1,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2015,
+    "area_total": 68240,
+    "desmatado": 3833.9,
+    "vegetacao_natural": 62156.9,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2001,
+    "area_total": 68240,
+    "desmatado": 1480.6,
+    "vegetacao_natural": 64510.2,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2008,
+    "area_total": 68240,
+    "desmatado": 3104.9,
+    "vegetacao_natural": 62885.9,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2014,
+    "area_total": 68240,
+    "desmatado": 3597.1,
+    "vegetacao_natural": 62393.7,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2002,
+    "area_total": 68240,
+    "desmatado": 1692.5,
+    "vegetacao_natural": 64298.3,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2009,
+    "area_total": 68240,
+    "desmatado": 3149.5,
+    "vegetacao_natural": 62841.3,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2017,
+    "area_total": 68240,
+    "desmatado": 4421.0,
+    "vegetacao_natural": 61569.8,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2021,
+    "area_total": 68240,
+    "desmatado": 6041.4,
+    "vegetacao_natural": 59949.4,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2012,
+    "area_total": 68240,
+    "desmatado": 3347.8,
+    "vegetacao_natural": 62643.0,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2018,
+    "area_total": 68240,
+    "desmatado": 4736.5,
+    "vegetacao_natural": 61254.3,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2004,
+    "area_total": 68240,
+    "desmatado": 2481.4,
+    "vegetacao_natural": 63509.4,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2007,
+    "area_total": 68240,
+    "desmatado": 3039.7,
+    "vegetacao_natural": 62951.1,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2022,
+    "area_total": 68240,
+    "desmatado": 6741.0,
+    "vegetacao_natural": 59249.8,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2020,
+    "area_total": 68240,
+    "desmatado": 5501.2,
+    "vegetacao_natural": 60489.6,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2013,
+    "area_total": 68240,
+    "desmatado": 3464.6,
+    "vegetacao_natural": 62526.2,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2011,
+    "area_total": 68240,
+    "desmatado": 3264.2,
+    "vegetacao_natural": 62726.6,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2019,
+    "area_total": 68240,
+    "desmatado": 5118.3,
+    "vegetacao_natural": 60872.5,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2010,
+    "area_total": 68240,
+    "desmatado": 3189.1,
+    "vegetacao_natural": 62801.7,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  },
+  {
+    "ano": 2006,
+    "area_total": 68240,
+    "desmatado": 2926.8,
+    "vegetacao_natural": 63064.0,
+    "nao_vegetacao_natural": 1808.0,
+    "hidrografia": 441.2,
+    "nome_municipio": "Lábrea"
+  }
+]

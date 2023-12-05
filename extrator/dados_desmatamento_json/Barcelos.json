@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2005,
+    "area_total": 122501,
+    "desmatado": 193.5,
+    "vegetacao_natural": 100849.8,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2016,
+    "area_total": 122501,
+    "desmatado": 207.7,
+    "vegetacao_natural": 100835.6,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2018,
+    "area_total": 122501,
+    "desmatado": 210.0,
+    "vegetacao_natural": 100833.3,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2017,
+    "area_total": 122501,
+    "desmatado": 208.8,
+    "vegetacao_natural": 100834.5,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2003,
+    "area_total": 122501,
+    "desmatado": 187.8,
+    "vegetacao_natural": 100855.5,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2002,
+    "area_total": 122501,
+    "desmatado": 180.3,
+    "vegetacao_natural": 100863.0,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2021,
+    "area_total": 122501,
+    "desmatado": 223.8,
+    "vegetacao_natural": 100819.5,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2015,
+    "area_total": 122501,
+    "desmatado": 206.7,
+    "vegetacao_natural": 100836.6,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2014,
+    "area_total": 122501,
+    "desmatado": 206.4,
+    "vegetacao_natural": 100836.9,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2006,
+    "area_total": 122501,
+    "desmatado": 194.2,
+    "vegetacao_natural": 100849.1,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2013,
+    "area_total": 122501,
+    "desmatado": 204.6,
+    "vegetacao_natural": 100838.7,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2020,
+    "area_total": 122501,
+    "desmatado": 222.4,
+    "vegetacao_natural": 100820.9,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2007,
+    "area_total": 122501,
+    "desmatado": 195.4,
+    "vegetacao_natural": 100847.9,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2001,
+    "area_total": 122501,
+    "desmatado": 178.1,
+    "vegetacao_natural": 100865.2,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2000,
+    "area_total": 122501,
+    "desmatado": 146.1,
+    "vegetacao_natural": 100897.2,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2019,
+    "area_total": 122501,
+    "desmatado": 221.1,
+    "vegetacao_natural": 100822.2,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2010,
+    "area_total": 122501,
+    "desmatado": 200.8,
+    "vegetacao_natural": 100842.5,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2012,
+    "area_total": 122501,
+    "desmatado": 203.6,
+    "vegetacao_natural": 100839.7,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2009,
+    "area_total": 122501,
+    "desmatado": 197.4,
+    "vegetacao_natural": 100845.9,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2022,
+    "area_total": 122501,
+    "desmatado": 224.5,
+    "vegetacao_natural": 100818.8,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2008,
+    "area_total": 122501,
+    "desmatado": 196.9,
+    "vegetacao_natural": 100846.4,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2004,
+    "area_total": 122501,
+    "desmatado": 192.5,
+    "vegetacao_natural": 100850.8,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  },
+  {
+    "ano": 2011,
+    "area_total": 122501,
+    "desmatado": 202.3,
+    "vegetacao_natural": 100841.0,
+    "nao_vegetacao_natural": 16957.5,
+    "hidrografia": 4500.2,
+    "nome_municipio": "Barcelos"
+  }
+]

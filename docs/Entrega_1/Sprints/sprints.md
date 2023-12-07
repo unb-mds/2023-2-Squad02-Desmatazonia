@@ -169,6 +169,27 @@ Realizada no dia 29 e 30 de novembro  de 2023 por meio de conversas e reuniões 
   - Refatoração dos dados json: Amanda.
   - Análise sobre a documentação que falta: Larissa e Isaque.
   - Estudo sobre a importância e como funciona os testes: Larissa.
+  - Estudo sobre Beautiful Soup e Web Scraping: Amanda
+  - Refatorar o site: Amanda.
+
+
+### Sprint 12
+
+Realizada no dia 06/12/2023 por meio de uma reunião no teams.
+
+**Objetivo da reunião:** Foi verificado que há alguns atrasos e pendências para a finalização do projeto. Assim como é essencial prepará-lo para a entrega. Desse modo, houve um diálogo sobre quais seriam a diretrizes necessárias.
+
+**Importante:** O nome do projeto ficou decidido como “Desmatazônia”.
+
+**Planing**
+
+ - Finalizar os gráficos e implementá-los no front: Alana e Harleny.
+ - Customizar o front com logo e nomes: Alana.
+ - Finalizar a refatoração de dados e conectá-lo com o front: Amanda
+ - Realizar o release note: Isaque e Larissa.
+ - Complementar a documentação: Isaque, Larissa e Amanda.
+ - Atualizar e complementar as issues passadas: Larissa.
+ - Atualizar o README: Isaque.
 
 
 ## Histórico de Versões
@@ -187,3 +208,4 @@ Realizada no dia 29 e 30 de novembro  de 2023 por meio de conversas e reuniões 
 | 1.0| 13/11/2023  | Larissa Stéfane | Documentando Sprint9 |
 | 1.1| 22/11/2023  | Larissa Stéfane | Documentando Sprint10 |
 | 1.2| 01/12/2023  | Larissa Stéfane | Documentando Sprint11 |
+| 1.3| 07/12/2023  | Larissa Stéfane | Documentando Sprint12 |

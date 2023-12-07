@@ -7,10 +7,10 @@ const Cob = () => {
         {Cob}
         <div>
           <h1 className="text-center text-4xl mt-10 font-[PoppinsMedium]">
-            Licita <span className="text-green-500">Amazonas</span>
+            Desmata<span className="text-green-500">Zônia</span>
           </h1>
           <p className="text-center text-sm font-[PoppinsRegular]">
-            Licitações do Estado de Amazonas no seu alcance
+            Desmatamentos do Estado de Amazonas no seu alcance
           </p>
 
           <div className="flex flex-col items-center mt-8 ">
@@ -19,11 +19,13 @@ const Cob = () => {
           </div>
           <div className="flex flex-col gap-2">
             <h1 className="text-center text-xl mt-8 font-[PoppinsSemiBold]">
-              O que é Licitação?
+              O que é Desmatamento?
             </h1>
             <p className="text-center text-base pl-6 font-[PoppinsLight]">
-              É um serviço administrativo que permite a contratação de um
-              serviço terceirizado ou a aquisição de um determinado bem.
+              O desmatamento é a remoção da vegetação nativa de uma área,
+              causado principalmente pela atuação humana para atividades
+              produtivas como: agricultura, pecuária, exploração madeireira,
+              mineração e infraestrutura e urbana.
             </p>
           </div>
 
@@ -31,8 +33,8 @@ const Cob = () => {
             Coletamos e Organizamos os Dados <br /> dos{" "}
             <span className="text-green-500">62 municípios</span> do Amazonas
             <br />
-            para Impactar a Transparência e Eficiência <br /> dos Processos de
-            Compras Públicas Municipais.
+            para Impactar a Transparência e Eficiência <br /> dos desmatamentos
+            Municipais.
           </p>
         </div>
 

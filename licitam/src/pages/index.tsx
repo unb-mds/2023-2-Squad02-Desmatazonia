@@ -26,8 +26,8 @@ const Home = () => {
             className={`flex flex-col items-center justify-between px-24 py-12 ${inter.className}`}
           >
             <div className="text-left">
-              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87]">
-                Acompanhe as licitações dos Municípios do Amazonas
+              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87] text-center">
+                Acompanhe sobre o desmatamento dos Municípios do Amazonas
               </p>
             </div>
 

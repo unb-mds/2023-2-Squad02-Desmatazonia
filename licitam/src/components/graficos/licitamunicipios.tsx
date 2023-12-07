@@ -3,34 +3,51 @@ import dynamic from "next/dynamic";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
-export default function Licitamunicipios() {
+export default function Desmatamunicipios() {
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {
     fetch(
-      "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/main/extrator/docs/site/dados/geral.json",
+      "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json",
       {}
     )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
         setData(data);
+      })
+      .catch((error) => {
+        console.error("Erro na requisição:", error);
       });
   }, []);
 
+  function dadosAno(municipio: string, ano: string) {
+    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/desmatamento/dados_desmatamento_json/${municipio}.json`;
+
+    fetch(url, {})
+      .then((res) => res.json())
+      .then((data) => {
+        const detalhe = ano in data.detalhe ? data.detalhe[ano] as Record<string, DetalheAno> : {};
+        // Faça o que precisar com os dados do ano específico
+        console.log(detalhe);
+      })
+      .catch((error) => {
+        console.error("Erro na requisição:", error);
+      });
+  }
+
   const series = useMemo(() => {
-    if (!data) return [];
-    console.log(data);
-    const ranking_licitacoes = data["ranking_licitacao"];
-    return Object.values(ranking_licitacoes).map(
-      (elemento: any) => elemento.num
+    if (!data || !data["dados_desmatamento"]) return [];
+    const desmatado = data["dados_desmatamento"];
+    return Object.values(desmatado).map(
+      (elemento: any) => elemento.desmatado
     );
   }, [data]);
 
   const labels = useMemo(() => {
-    if (!data) return [];
-    const ranking_licitacoes = data["ranking_licitacao"];
-    return Object.values(ranking_licitacoes).map(
+    if (!data || !data["dados_desmatamento"]) return [];
+    const desmatado = data["dados_desmatamento"];
+    return Object.values(desmatado).map(
       (elemento: any) => elemento.nome
     );
   }, [data]);
@@ -89,10 +106,11 @@ export default function Licitamunicipios() {
       },
     };
   }, [labels, series]);
+
   return (
     <section className="bg-[#ffffff79] w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
-        Municípios com maior número de Licitações
+        Municípios com maior número de Desmatamento
       </h1>
       <Chart
         options={chartData.options}

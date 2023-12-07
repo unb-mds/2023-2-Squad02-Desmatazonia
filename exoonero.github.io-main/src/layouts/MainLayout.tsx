@@ -4,6 +4,12 @@ import OKBRIcon from "@/assets/svgs/okbr-icon";
 import { useMemo } from "react";
 import { Source_Sans_Pro } from "next/font/google";
 import { IfalIcon } from "@/assets/svgs/icons";
+import { css } from 'styled-components';
+import styled from 'styled-components';
+
+const StyledComponent = styled.div`
+  font-family: 'Source Sans Pro', sans-serif;
+`;
 
 const sourceSansPro = Source_Sans_Pro({
   weight: ["300", "400", "600"],
@@ -18,7 +24,6 @@ interface MainLayoutProps {
 export function MainLayout({ children, activeButton }: MainLayoutProps) {
   const anos = useMemo(
     () => [
-      "2023",
       "2022",
       "2021",
       "2020",
@@ -28,6 +33,20 @@ export function MainLayout({ children, activeButton }: MainLayoutProps) {
       "2016",
       "2015",
       "2014",
+      "2013",
+      "2012",
+      "2011",
+      "2010",
+      "2009",
+      "2008",
+      "2007",
+      "2006",
+      "2005",
+      "2004",
+      "2003",
+      "2002",
+      "2001",
+      "2000",
     ],
     []
   );

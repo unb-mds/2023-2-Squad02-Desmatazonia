@@ -7,7 +7,7 @@ export default function CidadesExoneracao() {
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/exoonero/extrator/main/docs/site/dados/geral.json", {})
+    fetch("https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/i37_refatoração/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json", {})
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -16,17 +16,17 @@ export default function CidadesExoneracao() {
 
   const series = useMemo(() => {
     if (!data) return [];
-    const rankingExoneracoes = data["ranking_exoneracoes"];
-    return Object.values(rankingExoneracoes).map((elemento: any) => elemento.num);
+    const rankingDesmatamento = data["ranking_desmatamento"];
+    return Object.values(rankingDesmatamento).map((elemento: any) => elemento.num);
   }, [data]);
 
   const labels = useMemo(() => {
     if (!data) return [];
-    const rankingExoneracoes = data["ranking_exoneracoes"];
-    return Object.values(rankingExoneracoes).map((elemento: any) => elemento.nome);
+    const rankingDesmatamento = data["ranking_desmatamento"];
+    return Object.values(rankingDesmatamento).map((elemento: any) => elemento.nome);
   }, [data]);
 
-  const chartData = useMemo(()=>{
+  const chartData = useMemo(() => {
     return {
       options: {
         dataLabels: {
@@ -83,7 +83,7 @@ export default function CidadesExoneracao() {
   return (
     <section className="bg-white w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
       <h1 className="mb-3 font-bold text-xl text-center pt-5">
-        Cidades que mais exoneraram
+        Municípios da Amazonia Legal que mais desmataram
       </h1>
       <Chart
         options={chartData.options}

@@ -1,9 +1,12 @@
 function generateAnos() {
-  const currentYear = new Date().getFullYear();
+  const startYear = 2000;
+  const endYear = 2022;
   const anos = [];
-  for (let year = 2000; year <= currentYear; year++) {
+
+  for (let year = startYear; year <= endYear; year++) {
     anos.push({ ano: year.toString() });
   }
+
   return anos;
 }
 

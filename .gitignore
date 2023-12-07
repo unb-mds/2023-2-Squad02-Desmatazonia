@@ -1,3 +1,4 @@
+
 # Ignorar todos os diretórios chamados node_modules
 node_modules/
 
@@ -9,3 +10,9 @@ site/
 
 # ignorar mypy cache
 .mypy_cache/
+
+/node_modules
+node_modules
+
+/.github
+.0github

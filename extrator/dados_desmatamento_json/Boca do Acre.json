@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2010,
+    "area_total": 21962,
+    "desmatado": 2053.3,
+    "vegetacao_natural": 19726.1,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2011,
+    "area_total": 21962,
+    "desmatado": 2111.9,
+    "vegetacao_natural": 19667.5,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2012,
+    "area_total": 21962,
+    "desmatado": 2165.4,
+    "vegetacao_natural": 19614.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2001,
+    "area_total": 21962,
+    "desmatado": 1264.8,
+    "vegetacao_natural": 20514.6,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2017,
+    "area_total": 21962,
+    "desmatado": 2500.4,
+    "vegetacao_natural": 19279.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2020,
+    "area_total": 21962,
+    "desmatado": 2893.9,
+    "vegetacao_natural": 18885.5,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2003,
+    "area_total": 21962,
+    "desmatado": 1637.0,
+    "vegetacao_natural": 20142.4,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2008,
+    "area_total": 21962,
+    "desmatado": 1977.7,
+    "vegetacao_natural": 19801.7,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2016,
+    "area_total": 21962,
+    "desmatado": 2406.2,
+    "vegetacao_natural": 19373.2,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2006,
+    "area_total": 21962,
+    "desmatado": 1905.4,
+    "vegetacao_natural": 19874.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2009,
+    "area_total": 21962,
+    "desmatado": 2001.9,
+    "vegetacao_natural": 19777.5,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2015,
+    "area_total": 21962,
+    "desmatado": 2317.8,
+    "vegetacao_natural": 19461.6,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2005,
+    "area_total": 21962,
+    "desmatado": 1829.9,
+    "vegetacao_natural": 19949.5,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2021,
+    "area_total": 21962,
+    "desmatado": 3094.1,
+    "vegetacao_natural": 18685.3,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2007,
+    "area_total": 21962,
+    "desmatado": 1939.5,
+    "vegetacao_natural": 19839.9,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2014,
+    "area_total": 21962,
+    "desmatado": 2271.6,
+    "vegetacao_natural": 19507.8,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2022,
+    "area_total": 21962,
+    "desmatado": 3274.4,
+    "vegetacao_natural": 18505.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2000,
+    "area_total": 21962,
+    "desmatado": 1209.9,
+    "vegetacao_natural": 20569.5,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2013,
+    "area_total": 21962,
+    "desmatado": 2199.0,
+    "vegetacao_natural": 19580.4,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2002,
+    "area_total": 21962,
+    "desmatado": 1379.4,
+    "vegetacao_natural": 20400.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2019,
+    "area_total": 21962,
+    "desmatado": 2751.8,
+    "vegetacao_natural": 19027.6,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2018,
+    "area_total": 21962,
+    "desmatado": 2607.7,
+    "vegetacao_natural": 19171.7,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  },
+  {
+    "ano": 2004,
+    "area_total": 21962,
+    "desmatado": 1768.4,
+    "vegetacao_natural": 20011.0,
+    "nao_vegetacao_natural": 58.5,
+    "hidrografia": 124.1,
+    "nome_municipio": "Boca do Acre"
+  }
+]

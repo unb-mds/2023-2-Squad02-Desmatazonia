@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2003,
+    "area_total": 5558,
+    "desmatado": 388.6,
+    "vegetacao_natural": 4471.2,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2010,
+    "area_total": 5558,
+    "desmatado": 414.8,
+    "vegetacao_natural": 4445.0,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2012,
+    "area_total": 5558,
+    "desmatado": 420.1,
+    "vegetacao_natural": 4439.7,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2016,
+    "area_total": 5558,
+    "desmatado": 432.9,
+    "vegetacao_natural": 4426.9,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2022,
+    "area_total": 5558,
+    "desmatado": 468.7,
+    "vegetacao_natural": 4391.1,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2004,
+    "area_total": 5558,
+    "desmatado": 399.7,
+    "vegetacao_natural": 4460.1,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2019,
+    "area_total": 5558,
+    "desmatado": 444.0,
+    "vegetacao_natural": 4415.8,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2018,
+    "area_total": 5558,
+    "desmatado": 438.1,
+    "vegetacao_natural": 4421.7,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2000,
+    "area_total": 5558,
+    "desmatado": 359.2,
+    "vegetacao_natural": 4500.6,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2007,
+    "area_total": 5558,
+    "desmatado": 405.1,
+    "vegetacao_natural": 4454.7,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2008,
+    "area_total": 5558,
+    "desmatado": 411.3,
+    "vegetacao_natural": 4448.5,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2021,
+    "area_total": 5558,
+    "desmatado": 456.5,
+    "vegetacao_natural": 4403.3,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2002,
+    "area_total": 5558,
+    "desmatado": 377.4,
+    "vegetacao_natural": 4482.4,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2006,
+    "area_total": 5558,
+    "desmatado": 404.4,
+    "vegetacao_natural": 4455.4,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2009,
+    "area_total": 5558,
+    "desmatado": 412.5,
+    "vegetacao_natural": 4447.3,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2014,
+    "area_total": 5558,
+    "desmatado": 423.5,
+    "vegetacao_natural": 4436.3,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2017,
+    "area_total": 5558,
+    "desmatado": 436.2,
+    "vegetacao_natural": 4423.6,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2013,
+    "area_total": 5558,
+    "desmatado": 420.9,
+    "vegetacao_natural": 4438.9,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2015,
+    "area_total": 5558,
+    "desmatado": 429.1,
+    "vegetacao_natural": 4430.7,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2005,
+    "area_total": 5558,
+    "desmatado": 402.6,
+    "vegetacao_natural": 4457.2,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2011,
+    "area_total": 5558,
+    "desmatado": 417.9,
+    "vegetacao_natural": 4441.9,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2001,
+    "area_total": 5558,
+    "desmatado": 367.6,
+    "vegetacao_natural": 4492.2,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  },
+  {
+    "ano": 2020,
+    "area_total": 5558,
+    "desmatado": 450.1,
+    "vegetacao_natural": 4409.7,
+    "nao_vegetacao_natural": 280.1,
+    "hidrografia": 418.1,
+    "nome_municipio": "Nova Olinda do Norte"
+  }
+]

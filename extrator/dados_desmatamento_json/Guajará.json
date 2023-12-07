@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2018,
+    "area_total": 7575,
+    "desmatado": 509.5,
+    "vegetacao_natural": 6857.6,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2022,
+    "area_total": 7575,
+    "desmatado": 608.4,
+    "vegetacao_natural": 6758.7,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2012,
+    "area_total": 7575,
+    "desmatado": 478.3,
+    "vegetacao_natural": 6888.8,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2009,
+    "area_total": 7575,
+    "desmatado": 459.0,
+    "vegetacao_natural": 6908.1,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2000,
+    "area_total": 7575,
+    "desmatado": 329.9,
+    "vegetacao_natural": 7037.2,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2007,
+    "area_total": 7575,
+    "desmatado": 453.5,
+    "vegetacao_natural": 6913.6,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2010,
+    "area_total": 7575,
+    "desmatado": 466.9,
+    "vegetacao_natural": 6900.2,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2016,
+    "area_total": 7575,
+    "desmatado": 492.9,
+    "vegetacao_natural": 6874.2,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2015,
+    "area_total": 7575,
+    "desmatado": 487.1,
+    "vegetacao_natural": 6880.0,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2020,
+    "area_total": 7575,
+    "desmatado": 549.0,
+    "vegetacao_natural": 6818.1,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2011,
+    "area_total": 7575,
+    "desmatado": 473.4,
+    "vegetacao_natural": 6893.7,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2004,
+    "area_total": 7575,
+    "desmatado": 441.7,
+    "vegetacao_natural": 6925.4,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2002,
+    "area_total": 7575,
+    "desmatado": 369.5,
+    "vegetacao_natural": 6997.6,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2006,
+    "area_total": 7575,
+    "desmatado": 451.1,
+    "vegetacao_natural": 6916.0,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2019,
+    "area_total": 7575,
+    "desmatado": 528.4,
+    "vegetacao_natural": 6838.7,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2003,
+    "area_total": 7575,
+    "desmatado": 399.7,
+    "vegetacao_natural": 6967.4,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2021,
+    "area_total": 7575,
+    "desmatado": 573.8,
+    "vegetacao_natural": 6793.3,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2013,
+    "area_total": 7575,
+    "desmatado": 481.4,
+    "vegetacao_natural": 6885.7,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2008,
+    "area_total": 7575,
+    "desmatado": 457.0,
+    "vegetacao_natural": 6910.1,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2005,
+    "area_total": 7575,
+    "desmatado": 450.2,
+    "vegetacao_natural": 6916.9,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2001,
+    "area_total": 7575,
+    "desmatado": 340.3,
+    "vegetacao_natural": 7026.8,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2014,
+    "area_total": 7575,
+    "desmatado": 482.6,
+    "vegetacao_natural": 6884.5,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  },
+  {
+    "ano": 2017,
+    "area_total": 7575,
+    "desmatado": 497.7,
+    "vegetacao_natural": 6869.4,
+    "nao_vegetacao_natural": 201.1,
+    "hidrografia": 6.8,
+    "nome_municipio": "Guajará"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2005,
+    "area_total": 2802,
+    "desmatado": 92.5,
+    "vegetacao_natural": 32.9,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2000,
+    "area_total": 2802,
+    "desmatado": 82.3,
+    "vegetacao_natural": 43.1,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2003,
+    "area_total": 2802,
+    "desmatado": 91.9,
+    "vegetacao_natural": 33.5,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2006,
+    "area_total": 2802,
+    "desmatado": 92.8,
+    "vegetacao_natural": 32.6,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2002,
+    "area_total": 2802,
+    "desmatado": 89.5,
+    "vegetacao_natural": 35.9,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2008,
+    "area_total": 2802,
+    "desmatado": 93.7,
+    "vegetacao_natural": 31.7,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2021,
+    "area_total": 2802,
+    "desmatado": 98.6,
+    "vegetacao_natural": 26.8,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2020,
+    "area_total": 2802,
+    "desmatado": 97.8,
+    "vegetacao_natural": 27.6,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2014,
+    "area_total": 2802,
+    "desmatado": 97.0,
+    "vegetacao_natural": 28.4,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2013,
+    "area_total": 2802,
+    "desmatado": 96.1,
+    "vegetacao_natural": 29.3,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2016,
+    "area_total": 2802,
+    "desmatado": 97.2,
+    "vegetacao_natural": 28.2,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2017,
+    "area_total": 2802,
+    "desmatado": 97.3,
+    "vegetacao_natural": 28.1,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2015,
+    "area_total": 2802,
+    "desmatado": 97.1,
+    "vegetacao_natural": 28.3,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2022,
+    "area_total": 2802,
+    "desmatado": 100.0,
+    "vegetacao_natural": 25.4,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2018,
+    "area_total": 2802,
+    "desmatado": 97.3,
+    "vegetacao_natural": 28.1,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2011,
+    "area_total": 2802,
+    "desmatado": 95.3,
+    "vegetacao_natural": 30.1,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2001,
+    "area_total": 2802,
+    "desmatado": 89.5,
+    "vegetacao_natural": 35.9,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2004,
+    "area_total": 2802,
+    "desmatado": 92.1,
+    "vegetacao_natural": 33.3,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2012,
+    "area_total": 2802,
+    "desmatado": 95.3,
+    "vegetacao_natural": 30.1,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2019,
+    "area_total": 2802,
+    "desmatado": 97.7,
+    "vegetacao_natural": 27.7,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2009,
+    "area_total": 2802,
+    "desmatado": 93.7,
+    "vegetacao_natural": 31.7,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2007,
+    "area_total": 2802,
+    "desmatado": 93.1,
+    "vegetacao_natural": 32.3,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  },
+  {
+    "ano": 2010,
+    "area_total": 2802,
+    "desmatado": 94.7,
+    "vegetacao_natural": 30.7,
+    "nao_vegetacao_natural": 1690.7,
+    "hidrografia": 985.9,
+    "nome_municipio": "Urucurituba"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2001,
+    "area_total": 2677,
+    "desmatado": 379.1,
+    "vegetacao_natural": 964.4,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2009,
+    "area_total": 2677,
+    "desmatado": 494.5,
+    "vegetacao_natural": 849.0,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2004,
+    "area_total": 2677,
+    "desmatado": 445.8,
+    "vegetacao_natural": 897.7,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2008,
+    "area_total": 2677,
+    "desmatado": 488.9,
+    "vegetacao_natural": 854.6,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2007,
+    "area_total": 2677,
+    "desmatado": 475.1,
+    "vegetacao_natural": 868.4,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2005,
+    "area_total": 2677,
+    "desmatado": 454.9,
+    "vegetacao_natural": 888.6,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2021,
+    "area_total": 2677,
+    "desmatado": 600.6,
+    "vegetacao_natural": 742.9,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2011,
+    "area_total": 2677,
+    "desmatado": 526.0,
+    "vegetacao_natural": 817.5,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2020,
+    "area_total": 2677,
+    "desmatado": 583.4,
+    "vegetacao_natural": 760.1,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2022,
+    "area_total": 2677,
+    "desmatado": 629.3,
+    "vegetacao_natural": 714.2,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2002,
+    "area_total": 2677,
+    "desmatado": 432.3,
+    "vegetacao_natural": 911.2,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2003,
+    "area_total": 2677,
+    "desmatado": 437.7,
+    "vegetacao_natural": 905.8,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2013,
+    "area_total": 2677,
+    "desmatado": 533.6,
+    "vegetacao_natural": 809.9,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2019,
+    "area_total": 2677,
+    "desmatado": 576.3,
+    "vegetacao_natural": 767.2,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2015,
+    "area_total": 2677,
+    "desmatado": 546.9,
+    "vegetacao_natural": 796.6,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2016,
+    "area_total": 2677,
+    "desmatado": 555.1,
+    "vegetacao_natural": 788.4,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2017,
+    "area_total": 2677,
+    "desmatado": 560.6,
+    "vegetacao_natural": 782.9,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2018,
+    "area_total": 2677,
+    "desmatado": 564.5,
+    "vegetacao_natural": 779.0,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2006,
+    "area_total": 2677,
+    "desmatado": 465.7,
+    "vegetacao_natural": 877.8,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2010,
+    "area_total": 2677,
+    "desmatado": 513.8,
+    "vegetacao_natural": 829.7,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2014,
+    "area_total": 2677,
+    "desmatado": 537.4,
+    "vegetacao_natural": 806.1,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2012,
+    "area_total": 2677,
+    "desmatado": 530.8,
+    "vegetacao_natural": 812.7,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  },
+  {
+    "ano": 2000,
+    "area_total": 2677,
+    "desmatado": 368.4,
+    "vegetacao_natural": 975.1,
+    "nao_vegetacao_natural": 709.9,
+    "hidrografia": 623.6,
+    "nome_municipio": "Careiro da Várzea"
+  }
+]

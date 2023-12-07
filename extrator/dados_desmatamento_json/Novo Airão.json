@@ -1,0 +1,209 @@
+[
+  {
+    "ano": 2022,
+    "area_total": 37734,
+    "desmatado": 129.6,
+    "vegetacao_natural": 36070.3,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2019,
+    "area_total": 37734,
+    "desmatado": 127.2,
+    "vegetacao_natural": 36072.7,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2005,
+    "area_total": 37734,
+    "desmatado": 110.2,
+    "vegetacao_natural": 36089.7,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2015,
+    "area_total": 37734,
+    "desmatado": 121.1,
+    "vegetacao_natural": 36078.8,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2010,
+    "area_total": 37734,
+    "desmatado": 117.0,
+    "vegetacao_natural": 36082.9,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2006,
+    "area_total": 37734,
+    "desmatado": 110.4,
+    "vegetacao_natural": 36089.5,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2008,
+    "area_total": 37734,
+    "desmatado": 112.4,
+    "vegetacao_natural": 36087.5,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2012,
+    "area_total": 37734,
+    "desmatado": 118.7,
+    "vegetacao_natural": 36081.2,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2021,
+    "area_total": 37734,
+    "desmatado": 128.9,
+    "vegetacao_natural": 36071.0,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2014,
+    "area_total": 37734,
+    "desmatado": 120.5,
+    "vegetacao_natural": 36079.4,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2009,
+    "area_total": 37734,
+    "desmatado": 114.3,
+    "vegetacao_natural": 36085.6,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2004,
+    "area_total": 37734,
+    "desmatado": 110.1,
+    "vegetacao_natural": 36089.8,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2000,
+    "area_total": 37734,
+    "desmatado": 79.6,
+    "vegetacao_natural": 36120.3,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2002,
+    "area_total": 37734,
+    "desmatado": 103.8,
+    "vegetacao_natural": 36096.1,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2017,
+    "area_total": 37734,
+    "desmatado": 123.5,
+    "vegetacao_natural": 36076.4,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2003,
+    "area_total": 37734,
+    "desmatado": 108.4,
+    "vegetacao_natural": 36091.5,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2001,
+    "area_total": 37734,
+    "desmatado": 103.1,
+    "vegetacao_natural": 36096.8,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2020,
+    "area_total": 37734,
+    "desmatado": 127.9,
+    "vegetacao_natural": 36072.0,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2018,
+    "area_total": 37734,
+    "desmatado": 124.1,
+    "vegetacao_natural": 36075.8,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2013,
+    "area_total": 37734,
+    "desmatado": 119.3,
+    "vegetacao_natural": 36080.6,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2011,
+    "area_total": 37734,
+    "desmatado": 118.2,
+    "vegetacao_natural": 36081.7,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2007,
+    "area_total": 37734,
+    "desmatado": 111.5,
+    "vegetacao_natural": 36088.4,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  },
+  {
+    "ano": 2016,
+    "area_total": 37734,
+    "desmatado": 122.0,
+    "vegetacao_natural": 36077.9,
+    "nao_vegetacao_natural": 211.3,
+    "hidrografia": 1322.8,
+    "nome_municipio": "Novo Airão"
+  }
+]

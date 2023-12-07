@@ -157,6 +157,20 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
   - Refatorar busca de dados: Larissa
 
 
+### Sprint 11
+Realizada no dia 29 e 30 de novembro  de 2023 por meio de conversas e reuniões no whatzapp.
+
+**Objetivo da reunião:** A medida que o projeto foi se desenvolvendo e alguns parâmetros se tornaram mais complexos, foi necessário falar sobre alguns pontos cruciais, como verificar a qualidade do código, verificar os dados capturados até agora e como seria o funcionamento dos gráficos.
+
+**Planing**
+
+  - Estudo e início da reimplementação dos gráficos: Harleny e Alana.
+  - Atualização e correção do front: Amanda e Isaque.
+  - Refatoração dos dados json: Amanda.
+  - Análise sobre a documentação que falta: Larissa e Isaque.
+  - Estudo sobre a importância e como funciona os testes: Larissa.
+
+
 ## Histórico de Versões
 
 | Versão  |  Data  | Autor  |  Descrição  |
@@ -172,3 +186,4 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
 | 0.9 | 02/11/2023  | Larissa Stéfane | Documentando Sprint8 |
 | 1.0| 13/11/2023  | Larissa Stéfane | Documentando Sprint9 |
 | 1.1| 22/11/2023  | Larissa Stéfane | Documentando Sprint10 |
+| 1.2| 01/12/2023  | Larissa Stéfane | Documentando Sprint11 |

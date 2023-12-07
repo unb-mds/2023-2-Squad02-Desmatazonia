@@ -24,36 +24,37 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
   const [dataDesmatamento, setDataDesmatamento] = useState<number[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const mostrarTodosAnos = ano === "todos";
-  function dadosGeraisAnos(){
+  function dadosGeraisAnos() {
     const url =
       municipio === "geral"
         ? "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
         : `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
-
+  
     fetch(url, {})
       .then((res) => res.json())
       .then((data) => {
         const detalhe = data.detalhe as Record<string, Detalhe>;
         const desmatado: number[] = [];
         const primeiroAnoComDados = Number(Object.keys(detalhe).sort()[0]);
-        for (let ano = 2014; ano < primeiroAnoComDados; ano++) {
+        for (let ano = 2000; ano < primeiroAnoComDados; ano++) {
           desmatado.push(0);
         }
         Object.values(detalhe).forEach((elemento) => {
-          let desmatado = elemento.resumo.num_desmatado;
-            desmatado.push(desmatado)
+          let desmatadoElemento = elemento.resumo.num_desmatado;
+          desmatado.push(desmatadoElemento);
         });
         setDataDesmatamento(desmatado);
       });
   }
+  
   function dadosAno() {
-    const url = `https://github.com/unb-mds/2023-2-Squad02/blob/Front/desmatamento/dados_desmatamento_json/${municipio}.json`;
+    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
     fetch(url, {})
       .then((res) => res.json())
       .then((data) => {
-          const detalhe = ano in data.detalhe ? data.detalhe[ano] as Record<string, DetalheAno> : {};
-          const desmatado: number[] = Array(12).fill(0);
-          delete detalhe.resumo;
+        const detalhe = ano in data.detalhe ? data.detalhe[ano] as Record<string, DetalheAno> : {};
+        const desmatado: number[] = Array(12).fill(0);
+        delete detalhe.resumo;
         for (const [mes, dados] of Object.entries(detalhe)) {
           const index = Number(mes) - 1;
           desmatado[index] = dados.num_desmatado;

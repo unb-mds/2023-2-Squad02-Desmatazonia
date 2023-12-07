@@ -13,28 +13,10 @@ export default function Desmatamunicipios() {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        console.log("Dados recebidos", data);
         setData(data);
       })
-      .catch((error) => {
-        console.error("Erro na requisição:", error);
-      });
   }, []);
-
-  function dadosAno(municipio: string, ano: string) {
-    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/desmatamento/dados_desmatamento_json/${municipio}.json`;
-
-    fetch(url, {})
-      .then((res) => res.json())
-      .then((data) => {
-        const detalhe = ano in data.detalhe ? data.detalhe[ano] as Record<string, DetalheAno> : {};
-        // Faça o que precisar com os dados do ano específico
-        console.log(detalhe);
-      })
-      .catch((error) => {
-        console.error("Erro na requisição:", error);
-      });
-  }
 
   const series = useMemo(() => {
     if (!data || !data["dados_desmatamento"]) return [];

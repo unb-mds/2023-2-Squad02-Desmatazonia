@@ -49,9 +49,8 @@ const Home = () => {
               <Anos />
             </div>
 
-            <TotalAtos></TotalAtos>
-
-            <Licitamunicipios></Licitamunicipios>
+            <TotalAtos municipio={"municipio"} ano={"ano"} />
+            <Licitamunicipios />
           </main>
         </div>
       </div>

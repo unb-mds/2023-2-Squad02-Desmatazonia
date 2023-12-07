@@ -39,8 +39,8 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
           desmatado.push(0);
         }
         Object.values(detalhe).forEach((elemento) => {
-          let desmatado = elemento.resumo.num_desmatado;
-          desmatado.push(desmatado);
+          let desmatadoElemento = elemento.resumo.num_desmatado;
+          desmatado.push(desmatadoElemento);
         });
         setDataDesmatamento(desmatado);
       });

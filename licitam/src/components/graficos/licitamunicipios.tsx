@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 export default function Desmatamunicipios() {
-  const [data, setData] = useState<any>(null);
+  const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
     fetch(
@@ -13,7 +13,6 @@ export default function Desmatamunicipios() {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data.ranking_desmatamento);
         setData(data.ranking_desmatamento);
       })
       .catch((error) => {
@@ -22,22 +21,21 @@ export default function Desmatamunicipios() {
   }, []);
 
   const series = useMemo(() => {
-    if (!data || !data["dados_desmatamento"]) return [];
-    const desmatado = data["dados_desmatamento"];
-    return Object.values(desmatado).map((elemento: any) => elemento.desmatado);
+    if (!data) return [];
+
+    return Object.values(data).map((item) => item.total_desmatamento);
   }, [data]);
 
   const labels = useMemo(() => {
-    if (!data || !data["dados_desmatamento"]) return [];
-    const desmatado = data["dados_desmatamento"];
-    return Object.values(desmatado).map((elemento: any) => elemento.nome);
-  }, [data]);
+    if (!data) return [];
 
+    return Object.values(data).map((item) => item.nome);
+  }, [data]);
   const chartData = useMemo(() => {
     return {
       options: {
         dataLabels: {
-          enabled: false,
+          enabled: true,
         },
         stroke: {
           width: 0.5,
@@ -52,7 +50,7 @@ export default function Desmatamunicipios() {
         chart: {
           type: "donut" as const,
           donut: {
-            size: "85%",
+            size: "100%",
           },
           height: 200,
           width: 500,
@@ -74,7 +72,7 @@ export default function Desmatamunicipios() {
             breakpoint: 480,
             options: {
               chart: {
-                width: 300,
+                width: 400,
               },
               legend: {
                 position: "bottom",
@@ -83,15 +81,22 @@ export default function Desmatamunicipios() {
           },
         ],
         labels: labels,
-        colors: ["#800080", "#A020F0", "#9932CC", "#8A2BE2", "#9370DB"],
+        // colors: ["#800080", "#A020F0", "#9932CC", "#8A2BE2", "#9370DB"],
+        colors: [
+          "rgba(255, 99, 132)",
+          "rgba(54, 162, 235)",
+          "rgba(255, 206, 86)",
+          "rgba(75, 192, 192)",
+          "rgba(153, 102, 255)",
+        ],
       },
     };
   }, [labels, series]);
 
   return (
-    <section className="bg-[#ffffff79] w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
+    <section className=" mt-14 w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
-        Municípios com maior número de Desmatamento
+        Ranking dos Municípios
       </h1>
       <Chart
         options={chartData.options}

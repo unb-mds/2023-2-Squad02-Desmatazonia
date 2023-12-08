@@ -138,8 +138,8 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
 
   return (
     <section className="w-full 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
-      <h1 className="mb-3 font-bold text-xl text-center pt-5 text-[#433d87]">
-        Desmatamento no Periodo:
+      <h1 className="mb-3 font-bold text-xl text-center pt-5 text-[#433d87c4] ">
+        Ano de {ano}
       </h1>
       <Chart
         options={chartData?.options}

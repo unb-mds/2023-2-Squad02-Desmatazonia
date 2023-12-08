@@ -4527,7 +4527,7 @@
       }
     }
   },
-  "ranking_desmatamento": {
+  "ranking_desmatamento":[ {
     "0": {
       "nome": "Barcelos",
       "total_desmatamento": 122501
@@ -4548,5 +4548,5 @@
       "nome": "Jutaí",
       "total_desmatamento": 69562
     }
-  }
+  }]
 }

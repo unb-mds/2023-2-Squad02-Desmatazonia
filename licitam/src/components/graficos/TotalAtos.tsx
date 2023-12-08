@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import React, { useMemo, useState, useEffect } from "react";
 import dynamic from "next/dynamic";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
@@ -20,11 +21,13 @@ interface TotalAtosProps {
   ano: "todos" | string;
 }
 
+ChartJS.register(ArcElement, Tooltip, Legend);
+
 export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
-  const [dataDesmatamento, setDataDesmatamento] = useState<number[]>([]);
-  const [categories, setCategories] = useState<string[]>([]);
+  const [dataDesmatamento, setDataDesmatamento] = useState<any[]>([]);
   const mostrarTodosAnos = ano === "todos";
-  function dadosGeraisAnos(){
+  function dadosGeraisAnos() {
+    console.log(municipio);
     const url =
       municipio === "geral"
         ? "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
@@ -33,46 +36,51 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
     fetch(url, {})
       .then((res) => res.json())
       .then((data) => {
-        const detalhe = data.detalhe as Record<string, Detalhe>;
+        console.log(data);
+        const detalhe = data.detalhe;
         const desmatado: number[] = [];
-        const primeiroAnoComDados = Number(Object.keys(detalhe).sort()[0]);
+        const primeiroAnoComDados = Object.keys(detalhe);
+        console.log(primeiroAnoComDados);
         for (let ano = 2014; ano < primeiroAnoComDados; ano++) {
           desmatado.push(0);
         }
         Object.values(detalhe).forEach((elemento) => {
           let desmatado = elemento.resumo.num_desmatado;
-            desmatado.push(desmatado)
+          console.log(desmatado);
+          desmatado.push(desmatado);
         });
         setDataDesmatamento(desmatado);
       });
   }
   function dadosAno() {
-    const url = `https://github.com/unb-mds/2023-2-Squad02/blob/Front/desmatamento/dados_desmatamento_json/${municipio}.json`;
+    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
     fetch(url, {})
       .then((res) => res.json())
       .then((data) => {
-          const detalhe = ano in data.detalhe ? data.detalhe[ano] as Record<string, DetalheAno> : {};
-          const desmatado: number[] = Array(12).fill(0);
-          delete detalhe.resumo;
-        for (const [mes, dados] of Object.entries(detalhe)) {
-          const index = Number(mes) - 1;
-          desmatado[index] = dados.num_desmatado;
-        }
-        setDataDesmatamento(desmatado);
+        const detalhe = data.filter((item: any) => item.ano === Number(ano));
+        setDataDesmatamento(detalhe);
       });
   }
   useEffect(() => {
-    mostrarTodosAnos? dadosGeraisAnos(): dadosAno()
-  }, [municipio]);
+    mostrarTodosAnos ? dadosGeraisAnos() : dadosAno();
+  }, [municipio, ano]);
+
   const chartData = useMemo(() => {
     return {
       options: {
         series: [
-          {
-            name: "Desmatamento" as const,
-            data: dataDesmatamento,
-          },
-        ] as any,
+          dataDesmatamento[0]?.desmatado,
+          dataDesmatamento[0]?.hidrografia,
+          dataDesmatamento[0]?.nao_vegetacao_natural,
+          dataDesmatamento[0]?.vegetacao_natural,
+        ],
+        labels: [
+          "Desmatado",
+          "Hidrografia",
+          "Vegetação não natural",
+          "Vegetação natural",
+        ],
+
         legend: {
           position: "top" as const,
           horizontalAlign: "center" as const,
@@ -89,77 +97,21 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
           fontSize: "16" as string,
           fontFamily: "Source Sans Pro, sans-serif",
         },
-        plotOptions: {
-          bar: {
-            horizontal: false,
-            borderRadius: 4,
-            columnWidth: "60%",
-            endingShape: "rounded",
-          },
-        },
+
         dataLabels: {
-          enabled: false,
+          enabled: true,
         },
         stroke: {
           show: true,
-          width: 4,
-          colors: ["transparent"],
-        },
-        xaxis: {
-          categories: mostrarTodosAnos? [
-            "2000",
-            "2001",
-            "2002",
-            "2003",
-            "2004",
-            "2005",
-            "2006",
-            "2007",
-            "2008",
-            "2009",
-            "2010",
-            "2011",
-            "2012",
-            "2013",
-            "2014",
-            "2015",
-            "2016",
-            "2017",
-            "2018",
-            "2019",
-            "2020",
-            "2021",
-            "2022",
-            "2023",
-          ] : [
-            "Jan", 
-            "Fev", 
-            "Mar", 
-            "Abr", 
-            "Mai", 
-            "Jun",
-            "Jul", 
-            "Ago", 
-            "Set", 
-            "Out", 
-            "Nov", 
-            "Dez",
+          width: 1,
+          colors: [
+            "rgba(255, 99, 132, 1)",
+            "rgba(54, 162, 235, 1)",
+            "rgba(255, 206, 86, 1)",
+            "rgba(75, 192, 192, 1)",
           ],
-          labels: {
-            style: {
-              fontFamily: "Source Sans Pro, sans-serif",
-              fontSize: "10" as const,
-              fontWeight: 800,
-            },
-          },
         },
-        yaxis: {
-          labels: {
-            formatter: function (val: number) {
-              return val.toLocaleString();
-            },
-          },
-        },
+
         tooltip: {
           intersect: false,
           shared: true,
@@ -167,25 +119,34 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         grid: {
           show: false,
         },
-        
+        chart: {
+          type: "pie",
+        },
         fill: {
           opacity: 1,
         },
-        colors: ["#57C5ED", "#EC6666"],
+        // colors: ["#EC6666", "#57C5ED", "#f7eb0c", "#68bc44"],
+        colors: [
+          "rgba(255, 99, 132, 0.5)",
+          "rgba(54, 162, 235, 0.5)",
+          "rgba(255, 206, 86, 0.5)",
+          "rgba(75, 192, 192, 0.5)",
+        ],
       },
     };
   }, [dataDesmatamento]);
+
   return (
-    <section className="bg-white w-full 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
-      <h1 className="mb-3 font-bold text-xl text-center pt-5">
+    <section className="w-full 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
+      <h1 className="mb-3 font-bold text-xl text-center pt-5 text-[#433d87]">
         Desmatamento no Periodo:
       </h1>
       <Chart
-        options={chartData.options}
-        series={chartData.options.series}
-        type="bar"
+        options={chartData?.options}
+        series={chartData?.options.series}
+        type="pie"
         width="100%"
-        height="70%"
+        height="100%"
       />
     </section>
   );

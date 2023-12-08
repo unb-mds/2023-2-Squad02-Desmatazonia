@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/_navbar";
 import Cob from "@/components/_cob";
 import Municipios from "@/components/_municipios";
@@ -10,6 +10,9 @@ import { Inter, Source_Sans_3 } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
+  const [municipioSelecionado, setMunicipioSelecionado] = useState("Alvarães");
+  const [anoSelecionado, setAnoSelecionado] = useState("2022");
+
   return (
     <div className="container">
       <div className="navbar">
@@ -45,11 +48,14 @@ const Home = () => {
             </div>
 
             <div className="flex gap-2 w-full mt-4">
-              <Municipios />
-              <Anos />
+              <Municipios setMunicipioSelecionado={setMunicipioSelecionado} />
+              <Anos setAnoSelecionado={setAnoSelecionado} />
             </div>
 
-            <TotalAtos></TotalAtos>
+            <TotalAtos
+              municipio={municipioSelecionado}
+              ano={anoSelecionado}
+            ></TotalAtos>
 
             <Licitamunicipios></Licitamunicipios>
           </main>

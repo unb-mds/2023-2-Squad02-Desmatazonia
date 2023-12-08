@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "react-apexcharts": "^1.4.1"
+    "chart.js": "^4.4.1",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-hook-form": "^7.48.2",
+    "recharts": "^2.10.3"
   }
 }

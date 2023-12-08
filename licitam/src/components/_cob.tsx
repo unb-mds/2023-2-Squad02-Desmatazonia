@@ -4,7 +4,6 @@ const Cob = () => {
   return (
     <main className="min-h-screen h-[100%]">
       <div className="flex flex-col items-center justify-between h-[80%] mr-2 ">
-        {Cob}
         <div>
           <h1 className="text-center text-4xl mt-10 font-[PoppinsMedium]">
             Desmata<span className="text-green-500">Zônia</span>

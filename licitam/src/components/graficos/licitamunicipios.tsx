@@ -14,9 +14,6 @@ export default function Desmatamunicipios() {
       .then((res) => res.json())
       .then((data) => {
         setData(data.ranking_desmatamento);
-      })
-      .catch((error) => {
-        console.error("Erro na requisição:", error);
       });
   }, []);
 

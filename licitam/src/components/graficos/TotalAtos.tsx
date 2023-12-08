@@ -52,6 +52,7 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         setDataDesmatamento(desmatado);
       });
   }
+
   function dadosAno() {
     const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
     fetch(url, {})

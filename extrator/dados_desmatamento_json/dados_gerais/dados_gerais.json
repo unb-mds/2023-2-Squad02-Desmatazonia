@@ -4528,23 +4528,23 @@
     }
   },
   "ranking_desmatamento": {
-    "Barcelos": {
+    "0": {
       "nome": "Barcelos",
       "total_desmatamento": 122501
     },
-    "São Gabriel da Cachoeira": {
+    "1": {
       "nome": "São Gabriel da Cachoeira",
       "total_desmatamento": 108765
     },
-    "Tapauá": {
+    "2": {
       "nome": "Tapauá",
       "total_desmatamento": 85365
     },
-    "Atalaia do Norte": {
+    "3": {
       "nome": "Atalaia do Norte",
       "total_desmatamento": 76400
     },
-    "Jutaí": {
+    "4": {
       "nome": "Jutaí",
       "total_desmatamento": 69562
     }

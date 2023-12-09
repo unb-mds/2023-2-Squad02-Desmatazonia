@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "@/components/_navbar";
 import Cob from "@/components/_cob";
 import Municipios from "@/components/_municipios";
@@ -6,10 +6,14 @@ import Anos from "@/components/_anos";
 import TotalAtos from "@/components/graficos/TotalAtos";
 import Licitamunicipios from "@/components/graficos/licitamunicipios";
 import { Inter, Source_Sans_3 } from "next/font/google";
+import Barras from "@/components/graficos/barras";
 
 const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
+  const [municipioSelecionado, setMunicipioSelecionado] = useState("geral");
+  const [anoSelecionado, setAnoSelecionado] = useState("todos");
+
   return (
     <div className="container">
       <div className="navbar">
@@ -26,31 +30,40 @@ const Home = () => {
             className={`flex flex-col items-center justify-between px-24 py-12 ${inter.className}`}
           >
             <div className="text-left">
-              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87]">
-                Acompanhe as licitações dos Municípios do Amazonas
+              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87] text-center">
+                Acompanhe dados sobre os Municípios do Amazonas
               </p>
             </div>
 
             <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
-              <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
+              {/* <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
                 Reunimos os Diários Oficiais Municipais do Estado do Amazonas,
                 disponibilizados pela Associação dos Municípios Amazonenses
                 (AMA).
-              </h2>
+              </h2> */}
 
-              <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 text-base">
-                Escolha o município desejado <br />e explore os dados de
-                negócios públicos na Amazônia!
+              <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 mb-3 text-base">
+                Escolha o município desejado e explore os dados na Amazônia!
               </h2>
             </div>
 
             <div className="flex gap-2 w-full mt-4">
-              <Municipios />
-              <Anos />
+              <Municipios setMunicipioSelecionado={setMunicipioSelecionado} />
+              <Anos setAnoSelecionado={setAnoSelecionado} />
             </div>
 
-            <TotalAtos></TotalAtos>
-
+            {municipioSelecionado && municipioSelecionado !== "geral" && (
+              <Barras
+                municipio={municipioSelecionado}
+                ano={anoSelecionado}
+              ></Barras>
+            )}
+            {municipioSelecionado && municipioSelecionado !== "geral" && (
+              <TotalAtos
+                municipio={municipioSelecionado}
+                ano={anoSelecionado}
+              ></TotalAtos>
+            )}
             <Licitamunicipios></Licitamunicipios>
           </main>
         </div>

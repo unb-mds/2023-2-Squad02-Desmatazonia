@@ -3,43 +3,45 @@ import dynamic from "next/dynamic";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
-export default function Licitamunicipios() {
-  const [data, setData] = useState<any>(null);
+export default function Desmatamunicipios() {
+  const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/main/extrator/docs/site/dados/geral.json",
-      {}
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setData(data);
-      });
+    const fetchData = async () => {
+      const response = await fetch(
+        "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
+      );
+      const jsonData = await response.json();
+      setData(jsonData.ranking_desmatamento);
+    };
+
+    fetchData();
   }, []);
 
   const series = useMemo(() => {
     if (!data) return [];
-    console.log(data);
-    const ranking_licitacoes = data["ranking_licitacao"];
-    return Object.values(ranking_licitacoes).map(
-      (elemento: any) => elemento.num
-    );
+
+    return Object.values(data).map((item) => item.total_desmatamento);
   }, [data]);
 
   const labels = useMemo(() => {
     if (!data) return [];
-    const ranking_licitacoes = data["ranking_licitacao"];
-    return Object.values(ranking_licitacoes).map(
-      (elemento: any) => elemento.nome
-    );
-  }, [data]);
 
+    return Object.values(data).map((item) => item.nome);
+  }, [data]);
   const chartData = useMemo(() => {
     return {
       options: {
+        chart: {
+          type: "donut" as const,
+          donut: {
+            size: "100%",
+          },
+          height: 200,
+          width: 500,
+        },
         dataLabels: {
-          enabled: false,
+          enabled: true,
         },
         stroke: {
           width: 0.5,
@@ -51,14 +53,7 @@ export default function Licitamunicipios() {
           },
         },
         series: series,
-        chart: {
-          type: "donut" as const,
-          donut: {
-            size: "85%",
-          },
-          height: 200,
-          width: 500,
-        },
+
         legend: {
           position: "bottom" as const,
           fontSize: "12px",
@@ -76,7 +71,7 @@ export default function Licitamunicipios() {
             breakpoint: 480,
             options: {
               chart: {
-                width: 300,
+                width: 400,
               },
               legend: {
                 position: "bottom",
@@ -85,22 +80,32 @@ export default function Licitamunicipios() {
           },
         ],
         labels: labels,
-        colors: ["#800080", "#A020F0", "#9932CC", "#8A2BE2", "#9370DB"],
+        // colors: ["#800080", "#A020F0", "#9932CC", "#8A2BE2", "#9370DB"],
+        colors: [
+          "rgba(255, 99, 132)",
+          "rgba(54, 162, 235)",
+          "rgba(255, 206, 86)",
+          "rgba(75, 192, 192)",
+          "rgba(153, 102, 255)",
+        ],
       },
     };
   }, [labels, series]);
+
   return (
-    <section className="bg-[#ffffff79] w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
+    <section className="bg-white w-full 4xl:w-[31%] h-[17rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl pb-6">
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
-        Municípios com maior número de Licitações
+        Ranking dos municípios mais desmatados (km²)
       </h1>
-      <Chart
-        options={chartData.options}
-        series={chartData.options.series}
-        type="donut"
-        width="100%"
-        height="80%"
-      />
+      {chartData && (
+        <Chart
+          options={chartData?.options}
+          series={chartData?.options?.series}
+          type="donut"
+          width="100%"
+          height="90%"
+        />
+      )}
     </section>
   );
 }

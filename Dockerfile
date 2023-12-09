@@ -1,6 +1,6 @@
 FROM node:16-alpine AS builder
 
-RUN cd licitsm
+WORKDIR /licitam
 
 RUN apk add --no-cache libc6-compat
 WORKDIR /app

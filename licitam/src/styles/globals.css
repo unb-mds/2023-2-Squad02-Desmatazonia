@@ -28,10 +28,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom,
+  background: linear-gradient(
+      to bottom,
       transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
-
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 
   margin: 0;
   padding: 0;
@@ -48,7 +50,6 @@ body {
   float: right;
 }
 
-
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
@@ -56,7 +57,7 @@ body {
   float: left;
   flex-direction: column;
   justify-content: center;
-  height:100vh;
+  height: 100vh;
   align-items: center;
   justify-items: center;
 }
@@ -67,7 +68,6 @@ body {
   /* background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2); */
   float: left;
   background: #433d87;
-
 }
 
 .div-principal {
@@ -137,4 +137,25 @@ a {
   width: 50px;
   margin: 10px 0;
   color: #ffffff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #433d87c4;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #433d87a6;
 }

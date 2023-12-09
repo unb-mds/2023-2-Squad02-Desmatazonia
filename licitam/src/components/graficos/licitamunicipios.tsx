@@ -7,14 +7,15 @@ export default function Desmatamunicipios() {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json",
-      {}
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data.ranking_desmatamento);
-      });
+    const fetchData = async () => {
+      const response = await fetch(
+        "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
+      );
+      const jsonData = await response.json();
+      setData(jsonData.ranking_desmatamento);
+    };
+
+    fetchData();
   }, []);
 
   const series = useMemo(() => {
@@ -31,6 +32,14 @@ export default function Desmatamunicipios() {
   const chartData = useMemo(() => {
     return {
       options: {
+        chart: {
+          type: "donut",
+          donut: {
+            size: "100%",
+          },
+          height: 200,
+          width: 500,
+        },
         dataLabels: {
           enabled: true,
         },
@@ -44,14 +53,7 @@ export default function Desmatamunicipios() {
           },
         },
         series: series,
-        chart: {
-          type: "donut" as const,
-          donut: {
-            size: "100%",
-          },
-          height: 200,
-          width: 500,
-        },
+
         legend: {
           position: "bottom" as const,
           fontSize: "12px",
@@ -91,16 +93,16 @@ export default function Desmatamunicipios() {
   }, [labels, series]);
 
   return (
-    <section className=" mt-14 w-[100%] 2xl:w-[48%] 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
+    <section className="bg-white w-full 4xl:w-[31%] h-[17rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl pb-6">
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
-        Ranking dos Municípios
+        Ranking dos municípios mais desmatados (km²)
       </h1>
       <Chart
-        options={chartData.options}
-        series={chartData.options.series}
+        options={chartData?.options}
+        series={chartData?.options?.series}
         type="donut"
         width="100%"
-        height="80%"
+        height="90%"
       />
     </section>
   );

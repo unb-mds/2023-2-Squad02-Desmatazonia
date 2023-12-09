@@ -11,8 +11,8 @@ import Barras from "@/components/graficos/barras";
 const inter = Inter({ subsets: ["latin"] });
 
 const Home = () => {
-  const [municipioSelecionado, setMunicipioSelecionado] = useState("Alvarães");
-  const [anoSelecionado, setAnoSelecionado] = useState("2022");
+  const [municipioSelecionado, setMunicipioSelecionado] = useState("geral");
+  const [anoSelecionado, setAnoSelecionado] = useState("todos");
 
   return (
     <div className="container">
@@ -31,20 +31,19 @@ const Home = () => {
           >
             <div className="text-left">
               <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87] text-center">
-                Acompanhe sobre o desmatamento dos Municípios do Amazonas
+                Acompanhe dados sobre os Municípios do Amazonas
               </p>
             </div>
 
             <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
-              <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
+              {/* <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
                 Reunimos os Diários Oficiais Municipais do Estado do Amazonas,
                 disponibilizados pela Associação dos Municípios Amazonenses
                 (AMA).
-              </h2>
+              </h2> */}
 
-              <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 text-base">
-                Escolha o município desejado <br />e explore os dados de
-                negócios públicos na Amazônia!
+              <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 mb-3 text-base">
+                Escolha o município desejado e explore os dados na Amazônia!
               </h2>
             </div>
 
@@ -53,16 +52,18 @@ const Home = () => {
               <Anos setAnoSelecionado={setAnoSelecionado} />
             </div>
 
-            <Barras
-              municipio={municipioSelecionado}
-              ano={anoSelecionado}
-            ></Barras>
-
-            <TotalAtos
-              municipio={municipioSelecionado}
-              ano={anoSelecionado}
-            ></TotalAtos>
-
+            {municipioSelecionado && municipioSelecionado !== "geral" && (
+              <Barras
+                municipio={municipioSelecionado}
+                ano={anoSelecionado}
+              ></Barras>
+            )}
+            {municipioSelecionado && municipioSelecionado !== "geral" && (
+              <TotalAtos
+                municipio={municipioSelecionado}
+                ano={anoSelecionado}
+              ></TotalAtos>
+            )}
             <Licitamunicipios></Licitamunicipios>
           </main>
         </div>

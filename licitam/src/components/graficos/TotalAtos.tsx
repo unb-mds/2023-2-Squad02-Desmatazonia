@@ -25,42 +25,30 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
   const [dataDesmatamento, setDataDesmatamento] = useState<any[]>([]);
-  const mostrarTodosAnos = ano === "todos";
-  function dadosGeraisAnos() {
-    console.log(municipio);
-    const url =
-      municipio === "geral"
-        ? "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
-        : `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
-
-    fetch(url, {})
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        const detalhe = data.detalhe;
-        const desmatado: number[] = [];
-        const primeiroAnoComDados = Object.keys(detalhe);
-        console.log(primeiroAnoComDados);
-        for (let ano = 2014; ano < primeiroAnoComDados; ano++) {
-          desmatado.push(0);
-        }
-        Object.values(detalhe).forEach((elemento) => {
-          let desmatado = elemento.resumo.num_desmatado;
-          console.log(desmatado);
-          desmatado.push(desmatado);
-        });
-        setDataDesmatamento(desmatado);
-      });
-  }
-
-  function dadosAno() {
+  const mostrarTodosAnos = ano === "todos" ? true : false;
+  async function dadosGeraisAnos() {
     const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
-    fetch(url, {})
-      .then((res) => res.json())
-      .then((data) => {
-        const detalhe = data.filter((item: any) => item.ano === Number(ano));
-        setDataDesmatamento(detalhe);
-      });
+
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      const detalhe = data.filter((item: any) => item.ano === 2022);
+      setDataDesmatamento(detalhe);
+    } catch (error) {
+      console.error("Error fetching or processing data", error);
+    }
+  }
+  async function dadosAno() {
+    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
+
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      const detalhe = data.filter((item: any) => item.ano === Number(ano));
+      setDataDesmatamento(detalhe);
+    } catch (error) {
+      console.error("Error fetching or processing data", error);
+    }
   }
   useEffect(() => {
     mostrarTodosAnos ? dadosGeraisAnos() : dadosAno();
@@ -69,6 +57,9 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
   const chartData = useMemo(() => {
     return {
       options: {
+        chart: {
+          type: "pie",
+        },
         series: [
           // dataDesmatamento[0]?.desmatado,
           // dataDesmatamento[0]?.hidrografia,
@@ -103,14 +94,7 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
           enabled: true,
         },
         stroke: {
-          show: true,
-          width: 1,
-          colors: [
-            // "rgba(255, 99, 132, 1)",
-            // "rgba(54, 162, 235, 1)",
-            "rgba(255, 206, 86, 1)",
-            "rgba(75, 192, 192, 1)",
-          ],
+          show: false,
         },
 
         tooltip: {
@@ -120,34 +104,26 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         grid: {
           show: false,
         },
-        chart: {
-          type: "pie",
-        },
+
         fill: {
           opacity: 1,
         },
-        // colors: ["#EC6666", "#57C5ED", "#f7eb0c", "#68bc44"],
-        colors: [
-          // "rgba(255, 99, 132, 0.5)",
-          // "rgba(54, 162, 235, 0.5)",
-          "rgba(255, 206, 86, 0.5)",
-          "rgba(75, 192, 192, 0.5)",
-        ],
+        colors: ["rgba(255, 206, 86)", "#34CAAB"],
       },
     };
   }, [dataDesmatamento]);
 
   return (
-    <section className="w-full 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
-      <h1 className="mb-3 font-bold text-xl text-center pt-5 text-[#433d87c4] ">
-        Ano de {ano}
+    <section className="bg-white w-full 4xl:w-[31%] h-[20rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
+      <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
+        Vegetação
       </h1>
       <Chart
-        options={chartData?.options}
-        series={chartData?.options.series}
+        options={chartData.options}
+        series={chartData.options.series}
         type="pie"
         width="100%"
-        height="100%"
+        height="80%"
       />
     </section>
   );

@@ -70,14 +70,14 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
     return {
       options: {
         series: [
-          dataDesmatamento[0]?.desmatado,
-          dataDesmatamento[0]?.hidrografia,
+          // dataDesmatamento[0]?.desmatado,
+          // dataDesmatamento[0]?.hidrografia,
           dataDesmatamento[0]?.nao_vegetacao_natural,
           dataDesmatamento[0]?.vegetacao_natural,
         ],
         labels: [
-          "Desmatado",
-          "Hidrografia",
+          // "Desmatado",
+          // "Hidrografia",
           "Vegetação não natural",
           "Vegetação natural",
         ],
@@ -106,8 +106,8 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
           show: true,
           width: 1,
           colors: [
-            "rgba(255, 99, 132, 1)",
-            "rgba(54, 162, 235, 1)",
+            // "rgba(255, 99, 132, 1)",
+            // "rgba(54, 162, 235, 1)",
             "rgba(255, 206, 86, 1)",
             "rgba(75, 192, 192, 1)",
           ],
@@ -128,8 +128,8 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         },
         // colors: ["#EC6666", "#57C5ED", "#f7eb0c", "#68bc44"],
         colors: [
-          "rgba(255, 99, 132, 0.5)",
-          "rgba(54, 162, 235, 0.5)",
+          // "rgba(255, 99, 132, 0.5)",
+          // "rgba(54, 162, 235, 0.5)",
           "rgba(255, 206, 86, 0.5)",
           "rgba(75, 192, 192, 0.5)",
         ],

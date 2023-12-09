@@ -6,6 +6,7 @@ import Anos from "@/components/_anos";
 import TotalAtos from "@/components/graficos/TotalAtos";
 import Licitamunicipios from "@/components/graficos/licitamunicipios";
 import { Inter, Source_Sans_3 } from "next/font/google";
+import Barras from "@/components/graficos/barras";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,6 +52,11 @@ const Home = () => {
               <Municipios setMunicipioSelecionado={setMunicipioSelecionado} />
               <Anos setAnoSelecionado={setAnoSelecionado} />
             </div>
+
+            <Barras
+              municipio={municipioSelecionado}
+              ano={anoSelecionado}
+            ></Barras>
 
             <TotalAtos
               municipio={municipioSelecionado}

@@ -10,6 +10,7 @@ interface Detalhe {
   };
   num_desmatado: number;
 }
+
 interface DetalheAno {
   num_desmatado: number;
 }
@@ -19,7 +20,7 @@ interface TotalAtosProps {
   ano: "todos" | string;
 }
 
-export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
+export default function Barras({ municipio, ano }: TotalAtosProps) {
   const [dataDesmatamento, setDataDesmatamento] = useState<number[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const mostrarTodosAnos = ano === "todos";
@@ -29,44 +30,73 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         ? "https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json"
         : `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/${municipio}.json`;
 
-    fetch(url, {})
+    fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        const detalhe = data.detalhe as Record<string, Detalhe>;
-        const desmatado: number[] = [];
-        const primeiroAnoComDados = Number(Object.keys(detalhe).sort()[0]);
-        for (let ano = 2014; ano < primeiroAnoComDados; ano++) {
-          desmatado.push(0);
-        }
-        Object.values(detalhe).forEach((elemento) => {
-          let desmatadoElemento = elemento.resumo.num_desmatado;
-          desmatado.push(desmatadoElemento);
+        const detalhe = data.detalhe as Record<string, any>;
+        const dadosDesmatamento = {};
+
+        Object.keys(detalhe).forEach((localidade) => {
+          const desmatamentoLocal = detalhe[localidade];
+          const desmatadoAnos = {};
+
+          Object.keys(desmatamentoLocal).forEach((ano) => {
+            if (ano !== "nome" && ano !== "area_total") {
+              desmatadoAnos[ano] = desmatamentoLocal[ano].desmatado;
+            }
+          });
+
+          dadosDesmatamento[localidade] = desmatadoAnos;
         });
-        setDataDesmatamento(desmatado);
+
+        setDataDesmatamento(dadosDesmatamento);
       });
   }
+
   function dadosAno() {
-    const url = `https://github.com/unb-mds/2023-2-Squad02/blob/Front/desmatamento/dados_desmatamento_json/${municipio}.json`;
-    fetch(url, {})
+    const url = `https://raw.githubusercontent.com/unb-mds/2023-2-Squad02/Front/extrator/dados_desmatamento_json/dados_gerais/dados_gerais.json`;
+    fetch(url)
       .then((res) => res.json())
       .then((data) => {
-        const detalhe =
-          ano in data.detalhe
-            ? (data.detalhe[ano] as Record<string, DetalheAno>)
-            : {};
-        const desmatado: number[] = Array(12).fill(0);
-        delete detalhe.resumo;
-        for (const [mes, dados] of Object.entries(detalhe)) {
-          const index = Number(mes) - 1;
-          desmatado[index] = dados.num_desmatado;
+        if (!data.detalhe) {
+          console.error("Erro: 'detalhe' não encontrado nos dados recebidos.");
+          return;
         }
-        setDataDesmatamento(desmatado);
+
+        const detalhe = data.detalhe;
+        const desmatamentoPorMunicipio = {};
+
+        Object.keys(detalhe).forEach((localidade) => {
+          const dadosMunicipio = detalhe[localidade];
+          const anos = Object.keys(dadosMunicipio)
+            .filter(
+              (key) =>
+                typeof dadosMunicipio[key] === "object" &&
+                dadosMunicipio[key].desmatado
+            )
+            .sort((a, b) => a - b);
+
+          const desmatamentoAnos: any = [];
+          anos.forEach((year) => {
+            desmatamentoAnos[year] = dadosMunicipio[year].desmatado;
+            // teste =
+          });
+
+          desmatamentoPorMunicipio[localidade] = desmatamentoAnos;
+        });
+        console.log(desmatamentoPorMunicipio[municipio]);
+        let dados: any = [];
+        Object.values(desmatamentoPorMunicipio[municipio]).forEach(
+          (item: any) => {
+            dados.push(item);
+          }
+        );
+        setDataDesmatamento(dados);
       });
   }
   useEffect(() => {
     mostrarTodosAnos ? dadosGeraisAnos() : dadosAno();
   }, [municipio]);
-
   const chartData = useMemo(() => {
     return {
       options: {
@@ -106,50 +136,34 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         stroke: {
           show: true,
           width: 4,
-          colors: ["transparent"],
+          colors: [],
         },
         xaxis: {
-          categories: mostrarTodosAnos
-            ? [
-                "2000",
-                "2001",
-                "2002",
-                "2003",
-                "2004",
-                "2005",
-                "2006",
-                "2007",
-                "2008",
-                "2009",
-                "2010",
-                "2011",
-                "2012",
-                "2013",
-                "2014",
-                "2015",
-                "2016",
-                "2017",
-                "2018",
-                "2019",
-                "2020",
-                "2021",
-                "2022",
-                "2023",
-              ]
-            : [
-                "Jan",
-                "Fev",
-                "Mar",
-                "Abr",
-                "Mai",
-                "Jun",
-                "Jul",
-                "Ago",
-                "Set",
-                "Out",
-                "Nov",
-                "Dez",
-              ],
+          categories: [
+            "2000",
+            "2001",
+            "2002",
+            "2003",
+            "2004",
+            "2005",
+            "2006",
+            "2007",
+            "2008",
+            "2009",
+            "2010",
+            "2011",
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016",
+            "2017",
+            "2018",
+            "2019",
+            "2020",
+            "2021",
+            "2022",
+          ],
           labels: {
             style: {
               fontFamily: "Source Sans Pro, sans-serif",
@@ -176,22 +190,21 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
         fill: {
           opacity: 1,
         },
-        colors: ["#57C5ED", "#EC6666"],
+        // colors: ["#57C5ED", "#EC6666"],
       },
     };
   }, [dataDesmatamento]);
-
   return (
-    <section className="bg-[#ffffff79] w-full 4xl:w-[31%] h-[19rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
-      <h1 className="mb-3 text-xl text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
+    <section className="bg-white w-full 4xl:w-[31%] h-[17rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl pt-[2rem]">
+      {/* <h1 className="mb-3 font-bold text-xl text-center pt-5 text-[#433d87]">
         Desmatamento no Periodo:
-      </h1>
+      </h1> */}
       <Chart
         options={chartData.options}
         series={chartData.options.series}
         type="bar"
         width="100%"
-        height="70%"
+        height="92%"
       />
     </section>
   );

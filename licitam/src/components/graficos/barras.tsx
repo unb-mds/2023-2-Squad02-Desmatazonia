@@ -35,7 +35,7 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
     }
 
     const detalhe = data.detalhe;
-    const desmatamentoPorMunicipio = {};
+    const desmatamentoPorMunicipio: any = {};
 
     Object.keys(detalhe).forEach((localidade) => {
       const dadosMunicipio = detalhe[localidade];
@@ -45,12 +45,11 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
             typeof dadosMunicipio[key] === "object" &&
             dadosMunicipio[key].desmatado
         )
-        .sort((a, b) => a - b);
+        .sort((a, b) => parseInt(a) - parseInt(b));
 
       const desmatamentoAnos: any = [];
       anos.forEach((year) => {
         desmatamentoAnos[year] = dadosMunicipio[year].desmatado;
-        // teste =
       });
 
       desmatamentoPorMunicipio[localidade] = desmatamentoAnos;
@@ -70,7 +69,7 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
       const data = await response.json();
 
       const detalhe = data.detalhe;
-      const desmatamentoPorMunicipio = {};
+      const desmatamentoPorMunicipio: any = {};
 
       Object.keys(detalhe).forEach((localidade) => {
         const dadosMunicipio = detalhe[localidade];
@@ -80,9 +79,9 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
               typeof dadosMunicipio[key] === "object" &&
               dadosMunicipio[key].desmatado
           )
-          .sort((a, b) => a - b);
+          .sort((a, b) => parseInt(a) - parseInt(b));
 
-        const desmatamentoAnos = {};
+        const desmatamentoAnos: any = {};
         anos.forEach((year) => {
           desmatamentoAnos[year] = dadosMunicipio[year].desmatado;
         });
@@ -128,7 +127,7 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
     return {
       options: {
         chart: {
-          type: "bar",
+          type: "bar" as const,
         },
         series: [
           {
@@ -221,13 +220,16 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
         Desmatamento (km²)
       </h1>
-      <Chart
-        options={chartData.options}
-        series={chartData.options.series}
-        type="bar"
-        width="100%"
-        height="85%"
-      />
+
+      {chartData.options && (
+        <Chart
+          options={chartData.options}
+          series={chartData.options.series}
+          type="bar"
+          width="100%"
+          height="85%"
+        />
+      )}
     </section>
   );
 }

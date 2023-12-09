@@ -58,7 +58,7 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
     return {
       options: {
         chart: {
-          type: "pie",
+          type: "pie" as const,
         },
         series: [
           // dataDesmatamento[0]?.desmatado,
@@ -118,13 +118,16 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
         Vegetação
       </h1>
-      <Chart
-        options={chartData.options}
-        series={chartData.options.series}
-        type="pie"
-        width="100%"
-        height="80%"
-      />
+
+      {dataDesmatamento && dataDesmatamento[0] && chartData && (
+        <Chart
+          options={chartData.options}
+          series={chartData.options.series}
+          type="pie"
+          width="100%"
+          height="80%"
+        />
+      )}
     </section>
   );
 }

@@ -33,7 +33,7 @@ export default function Desmatamunicipios() {
     return {
       options: {
         chart: {
-          type: "donut",
+          type: "donut" as const,
           donut: {
             size: "100%",
           },
@@ -97,13 +97,15 @@ export default function Desmatamunicipios() {
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
         Ranking dos municípios mais desmatados (km²)
       </h1>
-      <Chart
-        options={chartData?.options}
-        series={chartData?.options?.series}
-        type="donut"
-        width="100%"
-        height="90%"
-      />
+      {chartData && (
+        <Chart
+          options={chartData?.options}
+          series={chartData?.options?.series}
+          type="donut"
+          width="100%"
+          height="90%"
+        />
+      )}
     </section>
   );
 }

@@ -1,7 +1,6 @@
 "use client";
 import React, { useMemo, useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
@@ -20,8 +19,6 @@ interface TotalAtosProps {
   municipio: string;
   ano: "todos" | string;
 }
-
-ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
   const [dataDesmatamento, setDataDesmatamento] = useState<any[]>([]);
@@ -116,7 +113,7 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
   return (
     <section className="bg-white w-full 4xl:w-[31%] h-[20rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
       <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
-        Vegetação
+        Vegetação (km²)
       </h1>
 
       {dataDesmatamento && dataDesmatamento[0] && chartData && (

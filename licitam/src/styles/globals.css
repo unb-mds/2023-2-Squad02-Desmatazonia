@@ -54,7 +54,7 @@ body {
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
-  background: #4d4790c4;
+  background: #4d4790ce;
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -68,7 +68,7 @@ body {
   height: 100vh;
   /* background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2); */
   float: left;
-  background: #433d87f2;
+  background: #433d87;
 }
 
 .div-principal {

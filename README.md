@@ -1,6 +1,8 @@
 <!-- <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=44947C&height=120&section=header"/> -->
 <div align="center">
   <h3>2023-2-Squad02</h3>
+<!--<h1>DesmataZônia</h1>  -->
+ <img width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> 
 </div>
 
 <!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+nosso+repositório!)](https://git.io/typing-svg) -->

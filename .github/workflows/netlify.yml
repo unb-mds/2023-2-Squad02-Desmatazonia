@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    run: cd licitam 
+   
     - uses: actions/checkout@v2
     - name: Use Node.js 16.x
       uses: actions/setup-node@v2
@@ -18,6 +18,7 @@ jobs:
         cache: 'npm'
         cache-dependency-path: package-lock.json
     - name: Install dependencies
+      run: cd licitam 
       run: npm install 
     - name: Build file
       run: npm run build

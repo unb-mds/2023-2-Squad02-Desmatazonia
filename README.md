@@ -5,9 +5,7 @@
   <br>
   Squad 2
   <br>
-  <a href="https://desmatazonia.netlify.app/"><img src="https://github.com/
-unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/
-logo-desmatazonia.png" alt="Exoonero logo" width="200"></a>
+  <a href="https://desmatazonia.netlify.app/"> <img width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> </a>
   <br>
   Exoonero - Extrator
   <br>

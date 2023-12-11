@@ -23,7 +23,7 @@
 
   Na versão inicial do projeto, o foco estava na extração de dados relacionados a licitações no estado do Amazonas. Para isso, foi utilizado um extrator de dados para realizar buscas automatizadas no Diário Oficial do Amazonas, obtendo informações sobre processos licitatórios. Assim, o extrator permitiu a coleta de dados relevantes, incluindo detalhes sobre contratos, empresas envolvidas e valores licitados. 
 
-  No entanto, um desafio significativo surgiu devido à limitação temporal desses dados, que se estendiam apenas até o ano de 2020, além de o fato de as informações sobre as licitações não serem as mais interessantes para serem trabalhadas sobre o Amazonas. Essas restrições motivou uma revisão estratégica do escopo do projeto, levando à transição para dados de desmatamento nos municípios do Amazonas, uma abordagem mais abrangente e impactante para o contexto ambiental da região. 
+  No entanto, um desafio significativo surgiu devido à limitação temporal desses dados, que se estendiam apenas até o ano de 2020, além de o fato de as informações sobre as licitações não serem as mais interessantes para serem trabalhadas sobre o Amazonas. Essas restrições motivaram uma revisão estratégica do escopo do projeto, levando à transição para dados de desmatamento nos municípios do Amazonas, uma abordagem mais abrangente e impactante para o contexto ambiental da região. 
 
   ### Sobre o protótipo inicial:
 

@@ -1,4 +1,4 @@
-site_name: Squad 2
+site_name: DesmataZônia
 
 theme:
   icon:
@@ -28,3 +28,5 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: blue
+extra:
+  logo: licitam/public/images/logo-desmatazonia.png

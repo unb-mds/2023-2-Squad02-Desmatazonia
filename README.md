@@ -4,8 +4,7 @@
 DesmataZônia
 
 <a href="https://desmatazonia.netlify.app/"><img 
-width=30% src="https://github.com/unb-mds/
-2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /></a> 
+width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /></a> 
  </h1>
 
 <h3 align="center"> Bem-vindos ao repositório do squad 2!</h3>

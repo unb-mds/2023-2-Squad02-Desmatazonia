@@ -1,15 +1,13 @@
 <!-- <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=44947C&height=120&section=header"/> -->
-<div align="center">
-  <h3>2023-2-Squad02</h3>
-<!--<h1>DesmataZônia</h1>  -->
- <img width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> 
-</div>
+<!DOCTYPE html>
+<h1 align = "center">
+DesmataZônia
 
-<!-- [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=ffffff&size=35&center=true&vCenter=true&width=1000&lines=Bem-vindo+ao+nosso+repositório!)](https://git.io/typing-svg) -->
+<a href="https://desmatazonia.netlify.app/"><img 
+width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /></a> 
+ </h1>
 
-<div align="center">
-  <h2>Bem vindo ao nosso repositório! </h2>
-</div> 
+<h3 align="center"> Bem-vindos ao repositório do squad 2!</h3>
 
 ## Conteúdos
 
@@ -45,27 +43,30 @@ Projeto contribuinte ao projeto do [Querido Diário](https://queridodiario.ok.or
 ## 📄 Dependências Globais
   Certifique-se de ter as seguintes dependências globais instaladas antes de prosseguir:
 
-  	python -v: 3.11
+  ```
+  python -v: 3.11
 
-	docker -v: 24.0.4
-  
- 	node -v : 18.8
-  
-	nvm -v : 9.8
-  
-	yarn --version: 0.32+git
-	
- 	nextjs 13.5.6
-  
+  docker -v: 24.0.4
+    
+  node -v : 18.8
+    
+  nvm -v : 9.8
+    
+  yarn --version: 0.32+git
+    
+  nextjs 13.5.6
+  ```
 
 ## ⚙️ Execução
   Após instalar as dependências, você pode executar o projeto da seguinte maneira:
- 
-	npm run dev
-	# or
-	yarn dev
-	# or
-	pnpm dev
+
+  ```
+  npm run dev
+  # or
+  yarn dev
+  # or
+  pnpm dev
+  ```
 
   Abra http://localhost:3000 com seu navegador para ver o resultado.
 

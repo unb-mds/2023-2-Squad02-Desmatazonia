@@ -15,7 +15,7 @@ width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#fluxo-de-processamento">Fluxo de Processamento</a> •
+  <a href="#manual">Manual</a> •
   <a href="#como-usar">Como Usar</a> •
   <a href="#testes">Testes</a> 
 </p>
@@ -25,9 +25,7 @@ width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/
 O principal objetivo do projeto é coletar, converter em texto e organizar por municípios os dados provenientes do projeto PRODES, que realiza o monitoramento do desmatamento por corte raso na Amazônia Legal por meio de satélites. Utilizamos a base de dados tratada disponível no site [basedosdados.org](https://basedosdados.org/dataset/e5c87240-ecce-4856-97c5-e6b84984bf42?table=d7a76d45-c363-4494-826d-1580e997ebf0), a qual nos proporcionou informações públicas e gratuitas sobre o desmatamento anual, a hidrografia, a vegetação e o bioma de cada unidade estadual.
 
 Além da segmentação dos dados por município, as informações de cada unidade estadual são categorizadas em termos de área total desmatada e área desmatada por ano.
-## Fluxo de Processamento
 
-![image](https://github.com/exoonero/extrator/assets/89322317/853fc4e4-c44c-4557-a59b-cd6152a4b825)<br>
 ### Manual
 ```
 Carregamento da bade de dados tratada -> pré-processamento dos dados -> Arquivo csv -> extrator_desmatamento.py -> Arquivos processados do csv em formato JSON -> extrair_dados_gerais.py -> Arquivo processado do desmatamento por ano por município.
@@ -65,20 +63,9 @@ billing_project_id="<YOUR_PROJECT_ID>")
 <br>
 
 ## Testes
-Atualmente temos mais de 60 casos de teste, que aferem a corretude dos dados.
 
-<strong>Executar os testes</strong><br>
-```
-python -m unittest integracao_test.py
-```
-Ou
-```
-python3 -m unittest integracao_test.py
-```
 ## Related
 
-[DesmataZônia](https://exoonero.org) - Website do Projeto onde os dados aqui capturados são exibidos.
+[DesmataZônia](https://desmatazonia.netlify.app) - Website do Projeto onde os dados aqui capturados são exibidos.
 
-Os dados exibidos no site estão na pasta: docs/site/dados <br>
-E podem ser gerados executando o código docs/site_home_data.py <br>
-Que é responsável por gerar arquivos jsons contabilizando diários, nomeações e exonerações com base nos arquivos  gerados com a execução do <strong>Fluxo de Processamento Automático</strong>, mostrado tópicos [acima](https://github.com/exoonero/extrator/edit/main/README.md#autom%C3%A1tico).
+Os dados exibidos no site estão na pasta: extrator/dados_desmatamento 

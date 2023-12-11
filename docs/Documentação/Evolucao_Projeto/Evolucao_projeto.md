@@ -29,7 +29,7 @@
 
   **Ideias para os gráficos iniciais.**
 
-<div align="center">
+  <div align="center">
   <img src="imagens/graficoMDS1.png">
 </div>
 

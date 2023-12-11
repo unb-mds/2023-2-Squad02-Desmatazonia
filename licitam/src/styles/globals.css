@@ -45,8 +45,6 @@ body {
 .container {
   display: flex;
   width: 100%;
-  
-  
 }
 
 
@@ -70,7 +68,7 @@ body {
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
-  background: #024d2aa2;
+  background: #06945298;
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -84,7 +82,7 @@ body {
   height: 100vh;
   /* background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2); */
   float: left;
-  background: #063f22f2;
+  background: #05793dee;
 }
 
 .div-principal {
@@ -158,7 +156,7 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
@@ -168,11 +166,11 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #433d87c4;
-  border-radius: 6px;
+  background: #05793dee;
+  border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #433d87a6;
+  background: #05793d7c;
 }

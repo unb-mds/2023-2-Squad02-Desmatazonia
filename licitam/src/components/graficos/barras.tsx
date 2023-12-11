@@ -217,7 +217,7 @@ export default function Barras({ municipio, ano }: TotalAtosProps) {
   }, [dataDesmatamento, ano, municipio]);
   return (
     <section className="bg-white w-full 4xl:w-[31%] h-[17rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl pb-6">
-      <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
+      <h1 className="mb-3 text-base text-center text-[#228B22] pt-5 font-[PoppinsMedium]">
         Desmatamento (km²)
       </h1>
 

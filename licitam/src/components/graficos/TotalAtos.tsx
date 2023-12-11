@@ -112,7 +112,7 @@ export default function TotalAtos({ municipio, ano }: TotalAtosProps) {
 
   return (
     <section className="bg-white w-full 4xl:w-[31%] h-[20rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl">
-      <h1 className="mb-3 text-base text-center text-[#433d87c4] pt-5 font-[PoppinsMedium]">
+      <h1 className="mb-3 text-base text-center text-[#228B22] pt-5 font-[PoppinsMedium]">
         Vegetação (km²)
       </h1>
 

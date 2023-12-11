@@ -2,9 +2,7 @@
 <h1 align="center">
 
   <a href="https://desmatazonia.netlify.app/"><img 
-width=30% src="https://github.com/unb-mds/
-2023-2-Squad02-Desmatazonia/blob/main/licitam/public/
-images/logo-desmatazonia.png" /> </a>
+width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> </a>
   <br>
   Extrator
     <br>
@@ -56,15 +54,15 @@ table_id='municipio_bioma',
 billing_project_id="<YOUR_PROJECT_ID>")
 ```
 > **Note**
-> No [site](https://basedosdados.org/dataset/e5c87240-ecce-4856-97c5-e6b84984bf42?table=d7a76d45-c363-4494-826d-1580e997ebf0), as opções para carregar os dados utilizando SQL, R, Stata, e realizar o download estão disponíveis.
-1. Pré-processar a base de dados e salvá-la em um arquivo CSV usando o `database_desmatamento.ipynb`.
+> No [site](https://basedosdados.org/dataset/e5c87240-ecce-4856-97c5-e6b84984bf42?table=d7a76d45-c363-4494-826d-1580e997ebf0), as opções para carregar os dados utilizando SQL, R, Stata, e realizar o download estão disponíveis.<br>
+2. Pré-processar a base de dados e salvá-la em um arquivo CSV usando o `database_desmatamento.ipynb`.<br>
 
-2. Extrair informações relevantes do arquivo CSV, separando-as por municípios, e salvá-las em arquivos JSON usando o `extrator_desmatamento.py`.
+3. Extrair informações relevantes do arquivo CSV, separando-as por municípios, e salvá-las em arquivos JSON usando o `extrator_desmatamento.py`.<br>
 
-3. Extrair informações sobre a área total desmatada e a área desmatada por ano de cada município, salvando-as em um único arquivo JSON com o `extrator_dados_gerais.py`.
+4. Extrair informações sobre a área total desmatada e a área desmatada por ano de cada município, salvando-as em um único arquivo JSON com o `extrator_dados_gerais.py`.<br>
 
-4. Criar um JSON contendo o nome de todos os municípios usando o `municípios.py`.
-
+5. Criar um JSON contendo o nome de todos os municípios usando o `municípios.py`.
+<br>
 
 ## Testes
 Atualmente temos mais de 60 casos de teste, que aferem a corretude dos dados.

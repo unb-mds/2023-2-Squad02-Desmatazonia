@@ -29,7 +29,7 @@ O principal objetivo do projeto é coletar, converter em texto e organizar por m
 
 Além da segmentação dos dados por município, as informações de cada unidade estadual são categorizadas em termos de área total desmatada e área desmatada por ano.
 
-### Fluxo de Processamento
+## Fluxo de Processamento
 Para tornar mais fácil o fluxo de processamento, o projeto foi dividido em duas fases.
 
 1. Na primeira fase, o principal objetivo foi propor e avaliar com sucesso um algoritmo capaz de separar o conteúdo do monitoramento de desmatamento do PRODES por município. Essa etapa foi concluída com êxito na primeira versão, concentrando-se na coleta e na segmentação por municípios.
@@ -38,13 +38,13 @@ Para tornar mais fácil o fluxo de processamento, o projeto foi dividido em duas
 
 
  
-### Manual
+## Manual
 ```
 Carregamento da bade de dados tratada -> pré-processamento dos dados -> Arquivo csv 
 -> extrator_desmatamento.py -> Arquivos processados do csv em formato JSON -> 
 extrair_dados_gerais.py -> Arquivo processado do desmatamento por ano por município.
 ```
-### Carregamento dos dados
+## Carregamento dos dados
 ```
 import basedosdados as bd
 
@@ -75,8 +75,6 @@ billing_project_id="<YOUR_PROJECT_ID>")
 
 5. Criar um JSON contendo o nome de todos os municípios usando o `municípios.py`.
 <br>
-
-## Testes
 
 ## Related
 

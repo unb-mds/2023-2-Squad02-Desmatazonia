@@ -33,6 +33,12 @@ Reunião realizada no dia 5 de setembro pelo Discord.
 
 **Objetivo da reunião:** Tarefas necessárias para atingir metas e temas para o projeto.
 
+**Retroespectiva:**
+
+- O grupo se conheceu e definiu um esquema de organização e realização do projeto.
+- Foram iniciados os estudos teóricos.
+- Foram revisados git e github.
+
 **Planing:**
 
 - Escolher três possíveis temas para o projeto (escolher 3 estados do Norte). Todos os integrantes.
@@ -46,6 +52,12 @@ Reunião realizada no dia 5 de setembro pelo Discord.
 Reunião realizada no dia 20 de setembro pelo Discord.
 
 **Objetivo da reunião:**  Utilização do Bootstrap.
+
+**Retroespectiva:**
+
+- Foi discutido sobre o tema do projeto.
+  - Inicialmente foi pensado sobre o tema de licitações do estado do Amazonas.
+- Foram realidados estudos sobre o "Diário Oficial" da Open Knowledge Brasil.
 
 **Planing:**
 
@@ -64,6 +76,12 @@ Reunião pelo WhatsApp no dia 28 de setembro.
 
 **Objetivo da reunião:** Definição Tema do projeto
 
+**Retroespectiva:**
+
+- Foi necessário uma preparação dos integrantes para trabalhar no github
+- Foi iniciada a extração de dados das licitações do Amazonas.
+- Foram analisados códigos de repositórios anteriores.
+
 **Planing:**
 
 - Estudar e compreender a dinâmica de MDS e sanar dúvidas. Todos os integrantes.
@@ -74,6 +92,13 @@ Reunião pelo WhatsApp no dia 28 de setembro.
 Criação de grupo da turma no Teams com reuniões duas vezes por semana nas terças e quartas às 21:30.
 
 **Objetivo da reunião:** Atividades a serem realizadas até a entrega para o dia 11 de outubro.
+
+**Retroespectiva:**
+
+- Reorganização do grupo.
+- Apoio aos integrantes com dificuldades.
+- Finalização do extrator.
+
 
 **Planing:**
 
@@ -91,6 +116,12 @@ Reunião realizada pelo whatzapp no dia 11 de outubro.
 mudar o designer do site para algo mais parecido com o do exoornero. Além de organizar as
 outras atividades para a realese 1 (entrega para o dia 25).
 
+**Retroespetiva:**
+
+- Inicio da documentação.
+- Estudo e preparação da arquitetura.
+- Estilização do Frontend.
+
 **Planing:**
 
 - Refazer o layout no Figma: Harleny
@@ -104,6 +135,12 @@ Reunião realizada no dia 18 de outubro pelo teams.
 
 **Objetivo da reunião:** Alinhar atividades para entrega da Release 1. É necessário focar mais no front, na metodologia Scrum e sobre as
 atividades que faltam ser completadas.
+
+**Retroespectiva:**
+
+- Reverificação da arquitetura.
+- Redefinição das tecnologias do Frontend.
+- Criação do git projects.
 
 **Planing:**
 
@@ -119,6 +156,13 @@ Realizada no grupo do whatzapp  no dia 02/11/2023
 
 **Objetivo da reunião:** Na reunião realizada via WhatsApp, o nosso grupo avaliou o andamento do projeto e identificou pontos cruciais que demandam atenção para prosseguirmos. Uma das principais questões em discussão é a necessidade de mudar o tema do projeto para explorar a relação do Meio Ambiente no Amazonas, mas não sabemos em que contexto ainda. Como essa decisão requer uma análise aprofundada foi decidido que será um ponto de discussão crucial que ocorrerá na próxima reunião por vídeo conferência. Além disso, discutimos a importância de definir pesquisas e informações necessárias para sustentar o progresso do desenvolvimento.
 
+**Retroespectiva:**
+
+- Reestilização do Frontend.
+- Trabalho no Front.
+- Finalização da documentação para a Release 1.
+- Organização do extrator.
+
 **Planing**
 
 - Estudar e pesquisar a integração contínua (CI) e a entrega contínua (CD). : Alana Gabriele
@@ -133,6 +177,12 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
 
 **Objetivo da reunião:** Continuar a discurssão sobre a organização das pesquisas para o desenvolvimento da segunda etapa do projeto e procurar por uma nova base de dados mais atualizada sobre o meio ambiente no Amazonas.
 
+**Retroespectiva:**
+
+- Mudança de tema: Desmatamento na Amazônia.
+- Estudo sobre testes de software.
+- Estudo sobre o extreme programming.
+
 **Planing**
 
 - Pesquisar por uma nova base de dados: Larissa Stéfane e Gustavo
@@ -145,6 +195,12 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
   Realizada no dia 22/11/2023 por meio de uma reunião no Teams
 
   **Objetivo da reunião:** Discutir sobre a organização e planejamento do grupo para as próximas duas semanas e se preparar para a entrega final do projeto. Para isso, foram definidas algumas sprints.
+
+  **Retroespectiva:**
+
+  - Organização das sprints.
+  - Continuação do desenvolvimento do Frontend.
+  - Definição de uma nova base de dados para o projeto.
 
   **Planing**
 
@@ -161,6 +217,12 @@ Realizada após a aula durante a manhã e outra no teams pela noite no dia 08/11
 Realizada no dia 29 e 30 de novembro  de 2023 por meio de conversas e reuniões no whatzapp.
 
 **Objetivo da reunião:** A medida que o projeto foi se desenvolvendo e alguns parâmetros se tornaram mais complexos, foi necessário falar sobre alguns pontos cruciais, como verificar a qualidade do código, verificar os dados capturados até agora e como seria o funcionamento dos gráficos.
+
+**Retroespectiva:**
+
+- Foi realizado um estudo sobre a refatoração da busca de dados.
+- Preparação dos gráficos.
+- Estudo sobre importância dos testes de software.
 
 **Planing**
 
@@ -180,6 +242,13 @@ Realizada no dia 06/12/2023 por meio de uma reunião no teams.
 **Objetivo da reunião:** Foi verificado que há alguns atrasos e pendências para a finalização do projeto. Assim como é essencial prepará-lo para a entrega. Desse modo, houve um diálogo sobre quais seriam a diretrizes necessárias.
 
 **Importante:** O nome do projeto ficou decidido como “Desmatazônia”.
+
+**Retroespectiva:**
+
+- Reimplementação dos gráficos.
+- Estudo sobre beautiful soup.
+- Refatoração dos dados Json.
+- EStudo sobre o funcionamento dos testes.
 
 **Planing**
 
@@ -209,3 +278,4 @@ Realizada no dia 06/12/2023 por meio de uma reunião no teams.
 | 1.1| 22/11/2023  | Larissa Stéfane | Documentando Sprint10 |
 | 1.2| 01/12/2023  | Larissa Stéfane | Documentando Sprint11 |
 | 1.3| 07/12/2023  | Larissa Stéfane | Documentando Sprint12 |
+| 1.4| 10/12/2023  | Isaque Santos | Implementando as retroespectivas |

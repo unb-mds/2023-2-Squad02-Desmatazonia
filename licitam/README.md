@@ -1,3 +1,13 @@
+<h1 align="center">
+
+  <a href="https://desmatazonia.netlify.app/"><img 
+width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> </a>
+  <br>
+  Site
+    <br>
+</h1>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

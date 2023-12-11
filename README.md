@@ -84,3 +84,6 @@ Projeto contribuinte ao projeto do [Querido Diário](https://queridodiario.ok.or
 ## Licença ©
 
 Este software está sob licença [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©
+
+
+a

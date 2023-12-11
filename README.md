@@ -94,6 +94,3 @@ Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) 
 ## Licença ©
 
 Este software está sob licença [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©
-
-
-a

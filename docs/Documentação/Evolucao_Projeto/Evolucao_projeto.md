@@ -39,17 +39,24 @@
 
 
 **Protótipos iniciais**
+ Verssão 1:
+ 
+<div align="center">
+  <img src="WhatsApp Image 2023-12-11 at 00.04.46.jpeg">
+</div>
 
-
-
+Versão 2:
 
 <div align="center">
   <img src="WhatsApp Image 2023-10-24 at 02.15.06.jpeg">
 </div>
 
+Versão 3:
+
 <div align="center">
   <img src="WhatsApp Image 2023-12-11 at 00.03.32.jpeg">
 </div>
+
 
 ## Sobre a versão atual
 
@@ -60,16 +67,12 @@ Além disso, com os dados mostrados em formas de gráficos, é possível visuali
 
 **Protótipos finais**
 
-
+Versão final:
 
 
 <div align="center">
   <img src="WhatsApp Image 2023-12-09 at 21.06.01.jpeg">
 </div>
-
-
-
-
 
 
 <div align="center">

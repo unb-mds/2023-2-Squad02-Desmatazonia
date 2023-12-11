@@ -1,10 +1,10 @@
 @tailwind base;
-@tailwind components;
+/* @tailwind components; */
 @tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 240, 240, 240;
   --background-end-rgb: 255, 255, 255;
   overflow-x: hidden;
 }
@@ -45,8 +45,11 @@ body {
 .container {
   display: flex;
   width: 100%;
-  border: 2px solid red;
+  
+  
 }
+
+
 .proj {
   display: flex;
   width: 100%;
@@ -67,7 +70,7 @@ body {
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
-  background: #4d4790c4;
+  background: #024d2aa2;
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -81,12 +84,12 @@ body {
   height: 100vh;
   /* background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2); */
   float: left;
-  background: #433d87f2;
+  background: #063f22f2;
 }
 
 .div-principal {
   width: 600px;
-  background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2);
+  background: linear-gradient(to top, #0a06359c, #879ee0, #c3d6f2);
   float: left;
 }
 

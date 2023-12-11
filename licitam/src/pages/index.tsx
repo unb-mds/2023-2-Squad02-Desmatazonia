@@ -15,7 +15,7 @@ const Home = () => {
   const [anoSelecionado, setAnoSelecionado] = useState("todos");
 
   return (
-    <div className="container">
+    <div className="container w-screen">
       <div className="navbar">
         <Navbar />
       </div>
@@ -24,8 +24,8 @@ const Home = () => {
         <Cob />
       </div>
 
-      <div className="projet proj ">
-        <div className="text-center">
+      <div className="proj ">
+        <div className="text-center w-full">
           <main
             className={`flex flex-col items-center justify-between px-24 py-12 ${inter.className}`}
           >
@@ -36,12 +36,6 @@ const Home = () => {
             </div>
 
             <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
-              {/* <h2 className="font-[PoppinsRegular] text-center mt-4 text-lg text-[#433d87]">
-                Reunimos os Diários Oficiais Municipais do Estado do Amazonas,
-                disponibilizados pela Associação dos Municípios Amazonenses
-                (AMA).
-              </h2> */}
-
               <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 mb-3 text-base">
                 Escolha o município desejado e explore os dados na Amazônia!
               </h2>

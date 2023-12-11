@@ -29,6 +29,14 @@ O principal objetivo do projeto é coletar, converter em texto e organizar por m
 
 Além da segmentação dos dados por município, as informações de cada unidade estadual são categorizadas em termos de área total desmatada e área desmatada por ano.
 
+### Fluxo de Processamento
+Para tornar mais fácil o fluxo de processamento, o projeto foi dividido em duas fases.
+
+1. Na primeira fase, o principal objetivo foi propor e avaliar com sucesso um algoritmo capaz de separar o conteúdo do monitoramento de desmatamento do PRODES por município. Essa etapa foi concluída com êxito na primeira versão, concentrando-se na coleta e na segmentação por municípios.
+
+2. A segunda fase abordou a extração de informações relevantes. O objetivo principal dessa etapa foi utilizar algoritmos computacionais para classificar e extrair informações mais específicas sobre o desmatamento. Dado que o monitoramento continha informações abrangentes sobre vegetação, hidrografia, bioma, entre outros, o foco do nosso projeto foi direcionado para monitorar e analisar exclusivamente informações relacionadas ao desmatamento.
+
+ 
 ### Manual
 ```
 Carregamento da bade de dados tratada -> pré-processamento dos dados -> Arquivo csv 

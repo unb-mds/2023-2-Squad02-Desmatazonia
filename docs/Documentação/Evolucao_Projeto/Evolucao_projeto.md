@@ -6,7 +6,7 @@
 * [Introdução](#Introdução)
 * [Sobre a versão inicial](#Sobre_a_versão_inicial)
 * [Sobre a versão atual](#Sobre_a_versão_atual)
-* [Principaismodificações](#Principais_modificações)
+* [Principais modificações](#Principais_modificações)
 * [Conclusão](#Conclusão)
 * [Histórico de Versão](#Histórico_de_Versão)
 

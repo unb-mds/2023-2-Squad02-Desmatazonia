@@ -30,11 +30,11 @@
   **Ideias para os gráficos iniciais.**
 
 <div align="center">
-  <img src="graficoMDS1.png">
+  <img src="imagens/graficoMDS1.png">
 </div>
 
   <div align="center">
-  <img src="mds_gráficos.png">
+  <img src="imagens/mds_gráficos.png">
 </div>
 
 
@@ -44,19 +44,19 @@
  Verssão 1:
  
 <div align="center">
-  <img src="WhatsApp Image 2023-12-11 at 00.04.46.jpeg">
+  <img src="imagens/WhatsApp Image 2023-12-11 at 00.04.46.jpeg">
 </div>
 
 Versão 2:
 
 <div align="center">
-  <img src="WhatsApp Image 2023-10-24 at 02.15.06.jpeg">
+  <img src="imagens/WhatsApp Image 2023-10-24 at 02.15.06.jpeg">
 </div>
 
 Versão 3:
 
 <div align="center">
-  <img src="WhatsApp Image 2023-12-11 at 00.03.32.jpeg">
+  <img src="imagens/WhatsApp Image 2023-12-11 at 00.03.32.jpeg">
 </div>
 
 
@@ -73,12 +73,12 @@ Versão final:
 
 
 <div align="center">
-  <img src="WhatsApp Image 2023-12-09 at 21.06.01.jpeg">
+  <img src="imagens/WhatsApp Image 2023-12-09 at 21.06.01.jpeg">
 </div>
 
 
 <div align="center">
-  <img src="novo_site.png">
+  <img src="imagens/novo_site.png">
 </div>
 
 ## Principais modificações

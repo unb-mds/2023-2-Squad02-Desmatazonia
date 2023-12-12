@@ -1,8 +1,11 @@
-site_name: Squad 2
+site_name: DesmataZônia
 
 theme:
   icon:
     repo: fontawesome/brands/git-alt
+  logo: https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png
+  logo_size: 500
+  favicon: https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png
   name: material
   features:
     - navigation.tabs
@@ -28,3 +31,4 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: blue
+

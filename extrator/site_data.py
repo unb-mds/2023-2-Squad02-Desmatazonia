@@ -15,7 +15,6 @@ else:
     dados_gerais = {
         "detalhe": {},
         "ranking_desmatamento": {},
-    }
 
 # Iterar sobre os arquivos no diretório
 for nome_arquivo in os.listdir(diretorio_json):

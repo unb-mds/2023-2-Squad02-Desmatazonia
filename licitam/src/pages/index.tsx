@@ -59,8 +59,9 @@ const Home = () => {
                 ano={anoSelecionado}
               ></TotalAtos>
             )}
-            <Licitamunicipios></Licitamunicipios>
             <Ano_desmatamento></Ano_desmatamento>
+            <Licitamunicipios></Licitamunicipios>
+            
           </main>
         </div>
       </div>

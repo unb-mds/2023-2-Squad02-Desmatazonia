@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "apexcharts": "^3.44.2",
     "next": "^14.0.3",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",

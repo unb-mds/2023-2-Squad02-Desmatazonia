@@ -5,6 +5,7 @@ import Municipios from "@/components/_municipios";
 import Anos from "@/components/_anos";
 import TotalAtos from "@/components/graficos/TotalAtos";
 import Licitamunicipios from "@/components/graficos/licitamunicipios";
+import Ano_desmatamento from "@/components/graficos/ano_desmatamento";
 import { Inter, Source_Sans_3 } from "next/font/google";
 import Barras from "@/components/graficos/barras";
 
@@ -59,6 +60,7 @@ const Home = () => {
               ></TotalAtos>
             )}
             <Licitamunicipios></Licitamunicipios>
+            <Ano_desmatamento></Ano_desmatamento>
           </main>
         </div>
       </div>

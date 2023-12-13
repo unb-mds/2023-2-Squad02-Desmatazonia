@@ -1,10 +1,10 @@
 @tailwind base;
-@tailwind components;
+/* @tailwind components; */
 @tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 240, 240, 240;
   --background-end-rgb: 255, 255, 255;
   overflow-x: hidden;
 }
@@ -29,17 +29,25 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-
+  background-color: #817c7c10;
   margin: 0;
   padding: 0;
   overflow: hidden;
   height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+
+.proj {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
 }
 
 .home {
@@ -54,7 +62,7 @@ body {
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
-  background: #4d4790ce;
+  background: #4d4790d0;
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +81,7 @@ body {
 
 .div-principal {
   width: 600px;
-  background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2);
+  background: linear-gradient(to top, #0a06359c, #879ee0, #c3d6f2);
   float: left;
 }
 
@@ -142,7 +150,7 @@ a {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
@@ -152,11 +160,11 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #433d87c4;
-  border-radius: 6px;
+  background: #05793dee;
+  border-radius: 3px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #433d87a6;
+  background: #05793d7c;
 }

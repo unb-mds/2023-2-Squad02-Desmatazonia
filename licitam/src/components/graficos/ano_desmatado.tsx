@@ -102,14 +102,21 @@ const DadosDesmatamento = {
 };
 
 const BarrasDesmatamento = () => {
-  const anos = useMemo(() => Object.values(DadosDesmatamento.total_ano).map((item) => item.ano), []);
-  const desmatamento = useMemo(() => Object.values(DadosDesmatamento.total_ano).map((item) => item.desmatado), []);
+  const anos = useMemo(
+    () => Object.values(DadosDesmatamento.total_ano).map((item) => item.ano),
+    []
+  );
+  const desmatamento = useMemo(
+    () =>
+      Object.values(DadosDesmatamento.total_ano).map((item) => item.desmatado),
+    []
+  );
 
   const chartData = useMemo(() => {
     return {
       options: {
         chart: {
-          type: "bar",
+          type: "bar" as const,
         },
         series: [
           {
@@ -135,7 +142,8 @@ const BarrasDesmatamento = () => {
   return (
     <section className="bg-white w-full 4xl:w-[31%] h-[17rem] 4xl:h-[22.68rem] mt-[1.875rem] 4xl:mt-[2.31rem] px-2 rounded-3xl pb-6">
       <h1 className="mb-3 text-base text-center text-[#228B22] pt-5 font-[PoppinsMedium]">
-        Desmatamento por Ano</h1>
+        Desmatamento por Ano
+      </h1>
       {chartData && (
         <Chart
           options={chartData.options}
@@ -146,8 +154,6 @@ const BarrasDesmatamento = () => {
         />
       )}
     </section>
-      
-
   );
 };
 

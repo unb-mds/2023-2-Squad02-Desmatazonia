@@ -4,7 +4,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   logo: https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png
-  logo_size: 500
+  logo_size: 300
   favicon: https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png
   name: material
   features:

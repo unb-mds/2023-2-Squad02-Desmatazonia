@@ -30,13 +30,13 @@ const Home = () => {
             className={`flex flex-col items-center justify-between px-24 py-12 ${inter.className}`}
           >
             <div className="text-left">
-              <p className="text-3xl font-[PoppinsSemiBold] text-[#006400] text-center">
+              <p className="text-3xl font-[PoppinsSemiBold] text-[#433d87] text-center">
                 Acompanhe dados sobre os Municípios do Amazonas
               </p>
             </div>
 
             <div className="mb-32 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4t">
-              <h2 className="font-[PoppinsMedium] text-[#228B22] text-center mt-10 mb-3 text-base">
+              <h2 className="font-[PoppinsMedium] text-[#433d87] text-center mt-10 mb-3 text-base">
                 Escolha o município desejado e explore os dados na Amazônia!
               </h2>
             </div>

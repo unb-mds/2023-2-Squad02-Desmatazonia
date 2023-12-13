@@ -29,13 +29,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-
+  background-color: #cac5c534;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -68,7 +62,7 @@ body {
 .navbar {
   width: 70px;
   /* background:linear-gradient( to top, #0a0635, #879EE0, #d5e6ff); */
-  background: #06945298;
+  background: #4d4790d0;
   float: left;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +76,7 @@ body {
   height: 100vh;
   /* background: linear-gradient(to top, #0a0635, #879ee0, #c3d6f2); */
   float: left;
-  background: #05793dee;
+  background: #433d87;
 }
 
 .div-principal {

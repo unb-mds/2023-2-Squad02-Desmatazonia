@@ -10,3 +10,8 @@ site/
 
 # ignorar mypy cache
 .mypy_cache/
+
+.pytest_cache/
+__init__.py
+__pycache__/
+```

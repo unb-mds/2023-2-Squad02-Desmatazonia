@@ -1,0 +1,1095 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../StoryMap/">
+      
+      
+        <link rel="next" href="../../Evolucao_Projeto/Evolucao_projeto/">
+      
+      
+      <link rel="icon" href="https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Testes - DesmataZônia</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#testes" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="DesmataZônia" class="md-header__button md-logo" aria-label="DesmataZônia" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DesmataZônia
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Testes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9v1Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+    
+  
+  DesmataZônia
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Arquitetura/" class="md-tabs__link">
+          
+  
+  Documentos
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DesmataZônia" class="md-nav__button md-logo" aria-label="DesmataZônia" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png" alt="logo">
+
+    </a>
+    DesmataZônia
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DesmataZônia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Documentos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Estrutura do Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Estrutura do Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura de Software e Tecnologias
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Metodologia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologias de Desenvolvimento de Software
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roadmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StoryMap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Story Map
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Testes
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Testes
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#teste-do-extrator_desmatamento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teste do Extrator_Desmatamento
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teste-do-site_data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teste do site_data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robustez-do-extrator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Robustez do extrator
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Evolucao Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Evolucao Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Evolucao_Projeto/Evolucao_projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Evolução  do projeto: Desmatazônia
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Organização Grupo
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Organização Grupo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Organiza%C3%A7%C3%A3o_Grupo/Metodologia_Agil/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Relação do grupo com as Práticas Ágeis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Requisitos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Requisitos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Requisitos/Backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/sprints/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="testes">Testes</h1>
+<h2 id="teste-do-extrator_desmatamento">Teste do Extrator_Desmatamento</h2>
+<p><strong>Objetivo do Teste:</strong></p>
+<p>Verificar se a lógica de extração de desmatamento e a criação de arquivos JSON para cada município estão funcionando corretamente.</p>
+<p><strong>Configuração Inicial</strong></p>
+<ul>
+<li>Foi criado um DataFrame de exemplo <code>dados_desmatamento</code> contendo dados fictícios.</li>
+<li>Foi criado um diretório temporário <code>temp_dados_desmatamento_json</code> para armazenar os arquivos JSON gerados durante o teste.</li>
+</ul>
+<p><strong>Teste 1: Agrupamento de Dados e Criação de Arquivos JSON</strong></p>
+<ul>
+<li>
+<p><strong>Passos</strong></p>
+<ul>
+<li>Os dados no DataFrame foram agrupados por município.</li>
+<li>Para cada município, foram removidas as colunas "bioma" e "id" dos dados.</li>
+<li>Foi adicionada a chave "nome_municipio" aos dados.</li>
+<li>Foi criado um arquivo JSON para cada município no diretório temporário.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expectativas</strong></p>
+<ul>
+<li>Os arquivos JSON devem ser criados corretamente para cada município.</li>
+<li>Os arquivos JSON devem conter os dados esperados.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Teste 2: Verificação dos Resultados</strong></p>
+<ul>
+<li>
+<p><strong>Passos</strong></p>
+<ul>
+<li>Cada arquivo JSON foi lido e os dados foram comparados com os dados originais.</li>
+</ul>
+</li>
+<li>
+<p><strong>Expectativas</strong></p>
+<ul>
+<li>Cada arquivo JSON deve existir no diretório temporário.</li>
+<li>O conteúdo de cada arquivo JSON deve corresponder aos dados originais após a remoção das colunas "bioma" e "id".</li>
+</ul>
+</li>
+</ul>
+<p><strong>Configuração Final</strong></p>
+<p>O diretório temporário foi removido após a conclusão do teste.</p>
+<p><strong>Resultado do Teste</strong></p>
+<ul>
+<li>O teste foi executado com sucesso, e todas as expectativas foram atendidas.</li>
+<li>Os arquivos JSON foram criados corretamente, e o conteúdo de cada arquivo correspondeu aos dados originais.</li>
+</ul>
+<p><strong>Observações Adicionais</strong></p>
+<ul>
+<li>Este teste cobre a criação de arquivos JSON para cada município e a verificação de seus conteúdos.</li>
+<li>A lógica de agrupamento e criação de arquivos foi encapsulada em funções, tornando o teste mais modular e facilitando futuras manutenções.</li>
+</ul>
+<h2 id="teste-do-site_data">Teste do site_data</h2>
+<p><strong>Objetivo</strong></p>
+<p>O objetivo deste teste é verificar se o segundo extrator (site_data.py) está funcionando corretamente ao criar o arquivo JSON contendo dados gerais, incluindo detalhes por município e um ranking de desmatamento.</p>
+<p><strong>Configuração</strong></p>
+<ul>
+<li>Um diretório temporário é criado para armazenar os arquivos JSON (<code>setUp</code>).</li>
+<li>O teste simula dados gerais para dois municípios com detalhes e ranking de desmatamento para os anos de 2020 e 2021 (<code>test_segundo_extrator</code>).</li>
+<li>O arquivo JSON é criado pelo segundo extrator simulado (<code>test_segundo_extrator</code>).</li>
+<li>Verifica-se se o arquivo JSON foi criado corretamente (<code>test_segundo_extrator</code>).</li>
+<li>O conteúdo do arquivo JSON é lido e comparado com os dados gerais simulados para garantir que corresponda ao esperado (<code>test_segundo_extrator</code>).</li>
+<li>O diretório temporário é removido após o teste (<code>tearDown</code>).</li>
+</ul>
+<p><strong>Resultados</strong></p>
+<ol>
+<li>
+<p><strong>Criação do Diretório Temporário</strong></p>
+<ul>
+<li>Sucesso: O diretório temporário para armazenar os arquivos JSON foi criado corretamente.</li>
+</ul>
+</li>
+<li>
+<p><strong>Simulação do Segundo Extrator</strong></p>
+<ul>
+<li>Sucesso: Os dados gerais, incluindo detalhes por município e ranking de desmatamento, foram simulados com sucesso.</li>
+</ul>
+</li>
+<li>
+<p><strong>Criação do Arquivo JSON</strong></p>
+<ul>
+<li>Sucesso: O arquivo JSON foi criado pelo segundo extrator simulado.</li>
+</ul>
+</li>
+<li>
+<p><strong>Verificação da Existência do Arquivo JSON</strong></p>
+<ul>
+<li>Sucesso: O arquivo JSON foi encontrado no diretório especificado.</li>
+</ul>
+</li>
+<li>
+<p><strong>Comparação do Conteúdo do Arquivo JSON</strong></p>
+<ul>
+<li>Sucesso: O conteúdo do arquivo JSON corresponde aos dados gerais simulados.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Conclusão</strong></p>
+<p>O teste do segundo extrator foi bem-sucedido, indicando que o extrator está criando o arquivo JSON esperado com os dados gerais, detalhes por município e ranking de desmatamento. O código do segundo extrator está funcionando conforme o esperado, com base nos dados simulados neste teste.</p>
+<h2 id="robustez-do-extrator">Robustez do extrator</h2>
+<p><strong>Objetivo do Teste</strong></p>
+<p>O objetivo principal do teste foi avaliar a robustez do extrator Desmatazonia, especialmente em relação ao tratamento de dados faltantes em conjuntos de dados variados.</p>
+<p><strong>Configuração do Teste</strong></p>
+<ul>
+<li><strong>Conjunto de Dados:</strong> Utilizou-se um conjunto de dados representativo da região amazônica.</li>
+<li><strong>Campos de Interesse:</strong> Foram analisados campos como "ano", "area_total", "desmatado", "vegetacao_natural", "nao_vegetacao_natural", "hidrografia", e "nome_municipio".</li>
+<li><strong>Ferramentas:</strong> O extrator foi executado em um ambiente virtualizado com Python 3.8 e bibliotecas relevantes instaladas.</li>
+</ul>
+<p><strong>Resultados do Teste</strong></p>
+<ul>
+<li>
+<p><strong>Identificação de Dados Faltantes:</strong> </p>
+<ul>
+<li>O extrator demonstrou capacidade em identificar corretamente os dados faltantes nos itens 4 e 7 do conjunto de dados.</li>
+</ul>
+</li>
+<li>
+<p><strong>Campos com Dados Faltantes:</strong></p>
+<ul>
+<li>Os campos "desmatado" e "area_total" foram destacados como potenciais para terem dados faltantes, conforme evidenciado nos itens 4 e 7.</li>
+</ul>
+</li>
+<li>
+<p><strong>Manuseio de Dados Faltantes:</strong></p>
+<ul>
+<li>Atualmente, o extrator não preenche automaticamente os campos com dados faltantes. Sugere-se incluir uma funcionalidade para preenchimento automático ou notificação ao usuário.</li>
+</ul>
+</li>
+<li>
+<p><strong>Tratamento de Dados Nulos:</strong></p>
+<ul>
+<li>Recomenda-se considerar diferentes estratégias para tratar dados faltantes, como substituição por um valor padrão, interpolação com base em dados existentes ou remoção de entradas.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Prints do Teste</strong></p>
+<ul>
+<li>
+<p><strong>Dados faltantes (item 4):</strong></p>
+<pre><code>{
+  "ano": 2020,
+  "area_total": 11427,
+  "desmatado": null,
+  "vegetacao_natural": 8594.0,
+  "nao_vegetacao_natural": 2.3,
+  "hidrografia": 1556.5,
+  "nome_municipio": "Manaus"
+}
+</code></pre>
+</li>
+<li>
+<p><strong>Dados faltantes (item 7):</strong></p>
+<pre><code>{
+  "ano": 2021,
+  "area_total": null,
+  "desmatado": 996.0,
+  "vegetacao_natural": 1521.7,
+  "nao_vegetacao_natural": 1128.9,
+  "hidrografia": 2305.4,
+  "nome_municipio": "Parintins"
+}
+</code></pre>
+</li>
+</ul>
+<p><strong>Conclusões</strong></p>
+<p>O teste de robustez revelou que o extrator Desmatazonia é capaz de identificar dados faltantes, mas atualmente não trata automaticamente esses dados. Recomenda-se implementar melhorias para tornar o extrator mais resiliente a dados incompletos, proporcionando uma experiência mais confiável aos usuários.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>

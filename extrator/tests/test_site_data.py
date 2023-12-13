@@ -6,7 +6,7 @@ import unittest
 import pandas as pd
 
 
-class TestSegundoExtrator(unittest.TestCase):
+class Test_extrator_dados_gerais(unittest.TestCase):
 
     def setUp(self):
         # Cria um diretório temporário para armazenar os arquivos JSON

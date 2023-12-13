@@ -63,7 +63,6 @@ Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) 
 
 
 ## 👨‍💻 Contribuidores
-## Equipe
 <table>
   <tr>
      <td align="center"><a href="https://github.com/alanagabriele"><img style="border-radius: 50%;" src="https://github.com/alanagabriele.png" width="100px;" alt=""/><br /><sub><b>Alana Gabriele</b></sub></a><br />
@@ -75,10 +74,5 @@ Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) 
     <td align="center"><a href="https://github.com/SkywalkerSupreme"><img style="border-radius: 50%;" src="https://github.com/SkywalkerSupreme.png" width="100px;" alt=""/><br /><sub><b>Larissa Stefane</b></sub></a><br />
 </table>
 
-### Histórico de Versões
 
-| Versão | Data       | Descrição            | Autor          | Revisor          |
-|--------|------------|----------------------|----------------|----------------|
-| 1.0    | 10/10/2023 | Versão inicial       | [Isaque Santos](https://github.com/IsaqueSH)  |   |
-| 2.0    | 24/10/2023 | Reformulação do pages       | [Amanda Campos](https://github.com/acamposs), [Dara Maria ](https://github.com/daramariabs)  |   |
 

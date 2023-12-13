@@ -10,9 +10,9 @@ const Navbar = () => {
         <Link href="/">
           <AiFillHome className="ic-home" />
         </Link>
-        {/* <Link href="/sobre">
+        <Link href="/sobre">
           <AiFillInfoCircle className="ic-info" />
-        </Link> */}
+        </Link>
         <Link href="https://github.com/unb-mds/2023-2-Squad02">
           <AiFillGithub className="ic-git" />
         </Link>

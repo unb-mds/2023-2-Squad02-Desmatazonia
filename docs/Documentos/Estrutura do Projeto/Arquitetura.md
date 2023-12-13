@@ -4,14 +4,17 @@ A arquitetura de software é a estrutura organizacional de um sistema de softwar
 
 ## Arquiteturas estudadas
 
-### 1. Arquitetura Monolítica
+#### 1. Arquitetura Monolítica
 
 Nesse tipo de arquitetura, todo o sistema é construído como um único bloco de código. Todos os componentes e funcionalidades estão integrados em um único aplicativo.
 
-#### Prós:
+**Prós**
+
   - Facilidade de desenvolvimento, pois tudo está em um único código base.
   - Menos complexidade de implantação, já que não há necessidade de coordenar vários serviços.
-#### Contras:
+
+**Contras**
+
   - Dificuldade em escalar horizontalmente, o que pode levar a problemas de desempenho.
   - Mudanças em um módulo podem afetar outros, tornando o desenvolvimento mais arriscado.
 
@@ -19,10 +22,13 @@ Nesse tipo de arquitetura, todo o sistema é construído como um único bloco de
 
 Nesse modelo, o sistema é dividido em pequenos serviços independentes, cada um responsável por uma função específica. Os serviços se comunicam por meio de APIs.
 
-#### Prós:
+**Prós**
+
   - Alta escalabilidade e flexibilidade, pois os serviços podem ser dimensionados independentemente.
   - Facilita a manutenção e evolução, uma vez que os serviços podem ser atualizados sem afetar o sistema inteiro.
-#### Contras:
+
+**Contras**
+
   - Complexidade na gestão de vários serviços.
   - Overhead de comunicação entre serviços.
 
@@ -30,34 +36,41 @@ Nesse modelo, o sistema é dividido em pequenos serviços independentes, cada um
 
  Nessa abordagem, o sistema é dividido em camadas, cada uma com responsabilidades específicas. As camadas se comunicam verticalmente, passando dados de uma camada para outra.
 
-#### Prós:
+**Prós**
+
   - Separação clara de responsabilidades, facilitando a manutenção e a compreensão do sistema.
   - Facilita a reutilização de código.
-#### Contras:
+**Contras**
+
   - Pode ser menos eficiente, já que os dados precisam passar por várias camadas.
 
 ### 5. Arquitetura Model-View-Controller (MVC)
 
  A arquitetura MVC divide um sistema em três componentes principais: Model (Modelo), View (Visão) e Controller (Controlador). O Modelo lida com a lógica de negócios e os dados, a Visão lida com a apresentação e a interface do usuário, e o Controlador atua como um intermediário entre o Modelo e a Visão, gerenciando as interações do usuário.
 
-#### Prós:
+**Prós**
+
   - Separação clara de responsabilidades, tornando o código mais organizado e fácil de manter.
   - Facilita a reutilização de componentes, uma vez que o Modelo e a Visão são independentes um do outro.
   - Permite o desenvolvimento paralelo, pois diferentes equipes podem trabalhar em diferentes componentes.
 
-#### Contras:
+**Contras**
+
   - Pode introduzir complexidade adicional, especialmente em aplicativos simples.
   - Em aplicativos pequenos, a sobrecarga de implementar o MVC completo pode parecer desnecessária.
   - A interpretação errada ou má implementação do padrão pode levar a uma arquitetura confusa.
 
 
-# Escolhendo a Arquitetura Monolítica
+## Escolhendo a Arquitetura Monolítica
 
 A escolha da arquitetura monolítica foi a opção mais adequada para este projeto, levando em consideração que se trata de um projeto simples e de pequeno porte. Com apenas um extrator de dados e uma interface de usuário (front-end), a unificação de todo o projeto em um único bloco de código torna-se a abordagem mais prática e menos complexa.
 
 ## Arquitetura Monolítica com Extrator de Dados e Interface do Usuário
 
-<img style=": 25%" src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/docs/imagens/ADiagram.jpg" width=900px> 
+
+<div style="text-align: center;">
+  <img style=": 25%" src="https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/docs/imagens/ADiagram.jpg" width=500px> 
+</div>
 
 Neste documento, descreveremos a arquitetura monolítica de um sistema que inclui um extrator de dados e uma interface do usuário que utiliza HTML e CSS.
 

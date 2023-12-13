@@ -7,65 +7,75 @@ As metodologias de desenvolvimento de software estudadas pelo Squad 02 estão li
 
 ## 1. Cascata (Waterfall)
 
-### Prós:
+**Prós**
+
 - Simplicidade e linearidade.
 - Documentação abrangente.
 - Fácil de entender e usar em projetos pequenos e bem definidos.
 
-### Contras:
+**Contras**
+
 - Inflexibilidade para mudanças.
 - Riscos de atrasos e custos adicionais.
 - Testes só no final do ciclo.
 
 ## 2. Desenvolvimento Ágil (Agile)
 
-### Prós:
+**Prós**
+
 - Flexibilidade para adaptação a mudanças.
 - Entregas incrementais e frequentes.
 - Foco na satisfação do cliente.
 
-### Contras:
+**Contras**
+
 - Requer alta colaboração e comunicação.
 - Pode ser desafiador em projetos complexos.
 - Menos ênfase na documentação.
 
 ## 3. Scrum
 
-### Prós:
+**Prós**
+
 - Estrutura bem definida.
 - Sprint curtos e entregas frequentes.
 - Melhorias contínuas baseadas no feedback.
 
-### Contras:
+**Contras**
+
 - Requer papéis e responsabilidades claros.
 - Dependência de equipe coesa e comprometida.
 - Não é adequado para todos os tipos de projetos.
 
 ## 4. Kanban
 
-### Prós:
+**Prós**
+
 - Visualização clara do progresso.
 - Flexibilidade para gerenciar o trabalho.
 - Foco na eficiência e fluxo de trabalho.
 
-### Contras:
+**Contras**
+
 - Pode ser menos estruturado que o Scrum.
 - Requer disciplina para evitar sobrecarregar o trabalho em progresso.
 - Não é uma metodologia completa, mas um sistema de gestão visual.
 
 ## 5. Desenvolvimento Lean
 
-### Prós:
+**Prós**
+
 - Minimização de desperdícios.
 - Foco na entrega de valor ao cliente.
 - Melhoria contínua.
 
-### Contras:
+**Contras**
+
 - Pode ser complexo de implementar.
 - Requer mudanças culturais significativas.
 - Não é adequado para todos os contextos.
 
-# Motivação para Escolha do Scrum
+## Motivação para Escolha do Scrum
 
 O nosso grupo, Squad 02, optou pela metodologia Scrum para o desenvolvimento do nosso projeto de software. A escolha do Scrum foi motivada por várias razões:
 

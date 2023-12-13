@@ -25,8 +25,8 @@ const Cob = () => {
           </p>
         </div>
 
-        <div className="flex flex-col items-center">
-          <p className="text-center font-[PoppinsLight]">Colaboradores</p>
+        <div className="flex flex-col items-center ">
+          <p className="text-center font-[PoppinsLight] ">Colaboradores</p>
           <img src="/images/colaboradores.png" className="w-72" />
         </div>
       </div>

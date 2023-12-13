@@ -32,7 +32,7 @@ const Home = () => {
 
             <div className="mb-32 text-left lg:w-full lg:mb-4 lg:grid-cols-4t">
                 <p className="font-[PoppinsRegular] text-left mt-4 text-lg text-[#000000] lg:mb-4 ">
-                Esse projeto surgiu durante a disciplina Métodos de Desenvolvimento de Software ministrada pela professora doutora Carla Silva Rocha Aguiar na Universidade de Brasília, com o intuito de simplificar informações sobre o desmatamento que ocorre no estado do Amazonas 
+                Esse projeto surgiu durante a disciplina Métodos de Desenvolvimento de Software ministrada pela professora doutora Carla Silva Rocha Aguiar na Universidade de Brasília, com o intuito de simplificar informações sobre o desmatamento que ocorre no estado do Amazonas.
                 </p>
             </div>
 
@@ -71,7 +71,7 @@ const Home = () => {
                 <p className="text-2xl font-[PoppinsSemiBold] text-[#433d87]">
                   O que é Desmatamento?
                 </p>
-                <p className="font-[PoppinsRegular] text-[#000000] text-left mt-4 text-lg">
+                <p className="font-[PoppinsRegular] text-[#696969] text-left mt-4 text-lg">
                   O desmatamento é a remoção da vegetação nativa de uma área, causado principalmente pela atuação humana para atividades produtivas como agricultura, pecuária, exploração madeireira, mineração e infraestrutura urbana.
                 </p>
               </div>

@@ -49,7 +49,8 @@ O grupo enfrentou desafios e alcançou aprendizados significativos durante a ad
 Contudo, também foram bem evidenciadas dificuldades encontradas pelos integrantes na dinâmica do projeto, como os problemas de comunicação e de disponibilidade.
 
 
- ## Histórico de Versão
+## Histórico de Versão
+
 | Versão | Alteração | Responsável | Revisor | Data |
 | - | - | - | - | - |
 | 1.0 | Criação da Documentação| Larissa Stéfane | - | 12/12/2023

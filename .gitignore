@@ -13,5 +13,4 @@ site/
 
 .pytest_cache/
 __init__.py
-__pycache__/
-```
+__pycache__

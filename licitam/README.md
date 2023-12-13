@@ -1,40 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
 
-## Getting Started
+  <a href="https://desmatazonia.netlify.app/"><img 
+width=30% src="https://github.com/unb-mds/2023-2-Squad02-Desmatazonia/blob/main/licitam/public/images/logo-desmatazonia.png" /> </a>
+  <br>
+  Site - DesmataZônia
+    <br>
+</h1>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este é um projeto [Next.js](https://nextjs.org/) inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Estamos reutilizando o [exoonero.github.io](https://github.com/exoonero/exoonero.github.io) como base do projeto.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# Getting Started 🌳
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Desmatamento na Amazônia - Painel de Informações
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Este projeto é uma interface web que utiliza dados do projeto PRODES para monitoramento por satélites do desmatamento por corte raso na Amazônia Legal. O PRODES produz, desde 1988, as taxas anuais de desmatamento na região, fundamentais para as políticas públicas do governo brasileiro.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Sobre o PRODES
 
-## Learn More
+O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal. Desde 1988, ele produz as taxas anuais de desmatamento na região, essenciais para o estabelecimento de políticas públicas pelo governo brasileiro. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. Os dados consolidados são apresentados no primeiro semestre do ano seguinte, com uma precisão de aproximadamente 95%.
 
-To learn more about Next.js, take a look at the following resources:
+## Objetivo do Projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O principal objetivo deste projeto é coletar e organizar por municípios os dados provenientes do projeto PRODES. Utilizamos a base de dados tratada disponível no [basedosdados.org](https://basedosdados.org/dataset/e5c87240-ecce-4856-97c5-e6b84984bf42?table=d7a76d45-c363-4494-826d-1580e997ebf0), proporcionando informações públicas e gratuitas sobre o desmatamento anual, a hidrografia, a vegetação e o bioma de cada unidade estadual.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+O projeto refina e analisa os dados de monitoramento de desmatamento do PRODES do [Instituto Nacional de Pesquisas Espaciais (INPE)](http://terrabrasilis.dpi.inpe.br/en/home-page/). Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) como base do projeto.
+## Funcionalidades
 
-## Deploy on Vercel
+- **Visualização Gráfica** 
+    - Exiba informações sobre o desmatamento na Amazônia em gráficos interativos.
+  
+- **Filtro por Município** 
+    - Utilize um filtro para selecionar municípios específicos e obter dados detalhados sobre o desmatamento em cada área.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Intervalo de Anos** 
+    - Analise o desmatamento ao longo do tempo ajustando o intervalo de anos de 2000 a 2022.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Como Usar
+
+acesse o link [https://desmatazonia.netlify.app/](https://desmatazonia.netlify.app/)

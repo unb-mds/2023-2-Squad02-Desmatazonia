@@ -41,3 +41,49 @@ O projeto refina e analisa os dados de monitoramento de desmatamento do PRODES d
 ## Como Usar
 
 acesse o link [https://desmatazonia.netlify.app/](https://desmatazonia.netlify.app/)
+
+## Instalação e Execução do Projeto
+
+Primeiro, execute o servidor de desenvolvimento:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+Você pode começar a editar a página modificando `pages/index.tsx`. A página é atualizada automaticamente conforme você edita o arquivo.
+
+As[rotas da API](https://nextjs.org/docs/api-routes/introduction) podem ser acessadas em [http://localhost:3000/api/hello](http://localhost:3000/api/hello). Este ponto final pode ser editado em `pages/api/hello.ts`.
+
+O diretório  `pages/api` é mapeado para `/api/*`. Arquivos neste diretório são tratados como [rotas da API](https://nextjs.org/docs/api-routes/introduction) em vez de páginas React.
+
+
+Este projeto utiliza[`next/font`](https://nextjs.org/docs/basic-features/font-optimization)para otimizar e carregar automaticamente a fonte Inter, uma fonte personalizada do Google.
+
+## Saiba Mais
+
+Para aprender mais sobre o Next.js, consulte os seguintes recursos:
+
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e API do Next.js
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
+
+## 👨‍💻 Contribuidores
+
+| [Alana Gabriele](https://github.com/alanagabriele)            | [Amanda Campos](https://github.com/acamposs)              | [Dara Maria](https://github.com/daramariabs)                | [Gustavo Lima](https://github.com/souzagusta)              |
+| ------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
+| <img src="https://github.com/alanagabriele.png" width="70"/> | <img src="https://github.com/acamposs.png" width="70" /> | <img src="https://github.com/daramariabs.png" width="70"/> | <img src="https://github.com/souzagusta.png" width="70"/> |
+
+| [Isaque Santos](https://github.com/IsaqueSH)             | [Larissa Stéfane](https://github.com/SkywalkerSupreme)           | [Harleny Angelica](https://github.com/Angelicahaas)          |
+| -------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="https://github.com/IsaqueSH.png" width="70"/> | <img src="https://github.com/SkywalkerSupreme.png" width="70"/> | <img src="https://github.com/Angelicahaas.png" width="70"/> |
+
+## Licença ©
+
+Este software está sob licença [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©

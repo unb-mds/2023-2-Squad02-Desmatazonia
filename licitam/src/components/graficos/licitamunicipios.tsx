@@ -41,7 +41,7 @@ export default function Desmatamunicipios() {
           width: 500,
         },
         dataLabels: {
-          enabled: true,
+          enabled: false,
         },
         stroke: {
           width: 0.5,

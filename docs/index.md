@@ -26,10 +26,10 @@ Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) 
 	- Além da segmentação dos dados por município, as informações de cada unidade estadual são categorizadas em termos de área total desmatada e área desmatada por ano.
   
 3. **Análise de Dados**
-  	-  O projeto processa os dados extraídos, organizando-os de forma individual para cada município durante a análise, gerando gráficos que destacam as tendências.
+  -  O projeto processa os dados extraídos, organizando-os de forma individual para cada município durante a análise, gerando gráficos que destacam as tendências.
   
 4. **Interface de Usuário** 
-  	- Possui uma interface de usúario que permite encontrar as informações das licitações realizadas pelos municípios de forma transparente.
+  - Possui uma interface de usúario que permite encontrar as informações das licitações realizadas pelos municípios de forma transparente.
 
 ## Requisitos Funcionais
 

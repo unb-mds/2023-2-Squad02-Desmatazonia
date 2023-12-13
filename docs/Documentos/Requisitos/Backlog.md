@@ -1,73 +1,68 @@
-| Épicos                                       | Features                                       | Critérios de Aceitação                                   |
-|----------------------------------------------|------------------------------------------------|----------------------------------------------------------|
-| **Extração de Dados de Licitações**            | *Coleta de Dados Automatizada*                 | O sistema deve coletar dados de todas as fontes necessárias e gerar um arquivo JSON atualizado.                         |
-|                                                 | *Atualização Periódica*                        | O sistema deve ser capaz de atualizar os dados regularmente.                                                             |
-| **Interface do Usuário de Busca e Análise**       | *Página de Pesquisa de Licitações*             | Os usuários devem poder inserir critérios de pesquisa e receber resultados relevantes.                               |
-|                                                 | *Listagem de Resultados*                       | A lista deve ser clara e ordenada por relevância.                                                                         |
-|                                                 | *Detalhes da Licitação*                        | Os detalhes devem incluir todas as informações relevantes.                                                                |
-|                                                 | *Análise de Dados*                            | As ferramentas de análise devem ser intuitivas e informativas.                                                           |
+| Épicos                                               | Recursos                                            | Critérios de Aceitação                                                                                                                                                            |
+| ----------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Extração de Dados de Desmatamento**                 | *Coleta de Dados*                                   | O sistema deve ser capaz de exibir os dados atualizados fornecidos por possíveis fontes, os quais foram gerados e estão disponíveis em um arquivo JSON.                            |
+|                                                       |                                                     |                                                                                                                                                                                   |
+| **Interface do Usuário de Busca e Análise**           | *Página de Pesquisa de desmatamentos*                | Os usuários devem poder inserir critérios de pesquisa e receber resultados relevantes.                                                                                            |
+|                                                       | *Lista de resultados*                               | A lista deve ser clara e ordenada por ordem alfabética. Devem ser apresentados gráficos referentes a cada município.                                                                 |
+|                                                       | *Detalhes do desmatamento*                          | Os detalhes devem incluir todas as informações relevantes.                                                                                                                          |
+|                                                       | *Análise de Dados*                                  | As ferramentas de análise devem ser intuitivas e informativas.                                                                                                                     |
+
 
 
 ## Personas
 
-### Cidadão Interessado em Licitações (Persona Principal)
+### Cidadão Interessado em Desmatamentos (Persona Principal)
 
-Interessado em acompanhar licitações no Amazonas por motivos públicos ou de conhecimento.
+Interessado em acompanhar desmatamentos no Amazonas por motivos públicos ou de conhecimento.
 
-**Necessidades**:
+**Necessidades** :
 
-- Acesso simples aos dados de licitações.
-- Compreensão fácil dos resultados das licitações.
-- Capacidade de busca de licitações relevantes.
+- Acesso simples aos dados de desmatamentos .
+- Compreensão fácil dos resultados dos desmatamentos .
+- Capacidade de busca de desmatamentos mais agravantes .
 
-### Pesquisador em Políticas Públicas e Finanças (Pesquisador)
+### Pesquisador em Políticas de Conservação Ambiental (Pesquisador)
 
-Acadêmicos, jornalistas e analistas que utilizam dados de licitações para pesquisas em políticas públicas e finanças.
+Os desmatamentos no Amazonas despertam interesse em diversos grupos, como ambientalistas, defensores da natureza, comunidades indígenas, cientistas e pesquisadores. Eles buscam informações sobre o desmatamento para fundamentar campanhas de conservação, compreender os impactos ambientais, preservar territórios e recursos naturais. Esses dados são essenciais para embasar estudos, promover a conscientização e direcionar ações que visam a preservação do Amazonas e de suas diversas interconexões ecológicas .
 
-**Necessidades**:
+**Necessidades** :
 
-  - Acesso a dados detalhados e completos de licitações.
-  - Ferramentas de análise avançadas para investigações profundas.
+  - Acesso a dados detalhados e completos de desmatamentos .
+  - Ferramentas de análise avançadas para informações profundas.
   - Acesso a informações históricas e tendências.
 
 
 
 ## Requisitos Funcionais
 
-1. **Coleta Automatizada de Dados**
-    - Coletar dados de fontes diversas para gerar um documento JSON atualizado.
+1 .  **Coleta Atualizada de Dados**
+    Informações já coletadas de uma base de dados que possuem dados de 2000 a 2022.
 
-2. **Ferramentas de Busca Avançada**
-    - Permitir buscas avançadas com critérios como data, valor e categoria.
+2 .  **Ferramentas de Busca Avançada**
+    - Permitir pesquisas diretas com critérios como município e ano .
 
-3. **Listagem de Resultados de Busca**
-    - Apresentar uma lista de licitações ordenada por relevância.
+3 .  **Lista de resultados de busca**
+    - Apresentar uma lista de 62 municípios ordenados por ordem alfabética e gráficos referentes aos desmatamentos de acordo com o ano selecionado .
 
-4. **Detalhes da Licitação**
-    - Oferecer informações detalhadas sobre cada licitação, incluindo documentos associados.
+4 .  **Detalhes do Desmatamento**
+    - Oferecer informações fornecidas sobre cada desmatamento, incluindo gráficos associados.
 
-5. **Envio de Licitações por Agentes Públicos**
-    - Permitir agentes públicos a enviar informações sobre licitações por meio de uma interface de envio.
-
-6. **Análise de Dados**
-    - Incluir ferramentas de análise para identificar tendências, como análise de séries temporais e análise de categorias de licitações.
+5 .  **Análise de Dados**
+    - Coleta e Organização de Dados: Reunir dados relevantes de desmatamento de fontes confiáveis, e formatar para análise.   
 
 ## Requisitos Não Funcionais
 
-1. **Segurança de Dados**
-    - Garantir armazenamento seguro dos dados de licitações.
+1 .  **Segurança de Dados**
+    - Garantir armazenamento seguro dos dados de desmatamento.
 
-2. **Atualização Periódica**
-    - Atualizar os dados pelo menos uma vez por dia.
+3 .  **Desempenho**
+    - Garantir que o sistema seja responsivo e capaz de lidar com um grande volume de dados e pesquisas . Os gráficos devem ser gerados de maneira rápida e eficiente, mesmo com grandes conjuntos de dados .
 
-3. **Desempenho**
-    - Garantir que o sistema seja responsivo e capaz de lidar com um grande volume de dados e buscas simultâneas.
+4 .  **Usabilidade**
+    - Oferece uma interface de usuário intuitiva e amigável que facilita a compreensão .
 
-4. **Usabilidade**
-    - Oferecer uma interface do usuário intuitiva e amigável.
+5 .  **Conformidade com a Lei de Acesso à Informação (LAI)**
+    - Cumprir as regulamentações da Lei de Acesso à Informação para garantir a transparência nos dados de desmatamento .
 
-5. **Conformidade com a Lei de Acesso à Informação (LAI)**
-    - Cumprir as regulamentações da Lei de Acesso à Informação para garantir transparência nas licitações públicas.
-
-6. **Manutenção e Suporte**
-    - Implementar um plano de manutenção e suporte contínuo para manter o sistema atualizado.
+6 .  **Manutenção e Suporte**
+    - Implementar um plano de manutenção e suporte contínuo para manter o sistema funcional e otimizado, e garantir que os gráficos possam ser facilmente modificados ou atualizados sem grandes complicações técnicas .

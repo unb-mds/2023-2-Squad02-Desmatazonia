@@ -80,3 +80,17 @@ billing_project_id="<YOUR_PROJECT_ID>")
 [DesmataZônia](https://desmatazonia.netlify.app) - Website do Projeto onde os dados aqui capturados são exibidos.
 
 Os dados exibidos no site estão na pasta: extrator/dados_desmatamento 
+
+## 👨‍💻 Contribuidores
+
+| [Alana Gabriele](https://github.com/alanagabriele)            | [Amanda Campos](https://github.com/acamposs)              | [Dara Maria](https://github.com/daramariabs)                | [Gustavo Lima](https://github.com/souzagusta)              |
+| ------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------- |
+| <img src="https://github.com/alanagabriele.png" width="70"/> | <img src="https://github.com/acamposs.png" width="70" /> | <img src="https://github.com/daramariabs.png" width="70"/> | <img src="https://github.com/souzagusta.png" width="70"/> |
+
+| [Isaque Santos](https://github.com/IsaqueSH)             | [Larissa Stéfane](https://github.com/SkywalkerSupreme)           | [Harleny Angelica](https://github.com/Angelicahaas)          |
+| -------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="https://github.com/IsaqueSH.png" width="70"/> | <img src="https://github.com/SkywalkerSupreme.png" width="70"/> | <img src="https://github.com/Angelicahaas.png" width="70"/> |
+
+## Licença ©
+
+Este software está sob licença [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) ©

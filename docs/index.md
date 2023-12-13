@@ -31,35 +31,47 @@ Estamos reutilizando o [exoonero/extrato](https://github.com/exoonero/extrator) 
 4. **Interface de Usuário** 
   	- Possui uma interface de usúario que permite encontrar as informações das licitações realizadas pelos municípios de forma transparente.
 
-## 📄 Dependências Globais
-  Certifique-se de ter as seguintes dependências globais instaladas antes de prosseguir:
+## Requisitos Funcionais
 
-    python -v: 3.11
+1. **Coleta Atualizada de Dados**
+    - Informações já coletadas de uma base de dados que possuem dados de 2000 a 2022.
 
-    docker -v: 24.0.4
-      
-    node -v : 18.8
-      
-    nvm -v : 9.8
-      
-    yarn --version: 0.32+git
-      
-    nextjs 13.5.6
+2.  **Ferramentas de Busca Avançada**
+    - Permitir pesquisas diretas com critérios como município e ano .
 
+3.  **Lista de resultados de busca**
+    - Apresentar uma lista de 62 municípios ordenados por ordem alfabética e gráficos referentes aos desmatamentos de acordo com o ano selecionado .
 
-## ⚙️ Execução
-  Após instalar as dependências, você pode executar o projeto da seguinte maneira:
+4.  **Detalhes do Desmatamento**
+    - Oferecer informações fornecidas sobre cada desmatamento, incluindo gráficos associados.
 
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
+5.  **Análise de Dados**
+    - Coleta e Organização de Dados: Reunir dados relevantes de desmatamento de fontes confiáveis, e formatar para análise.   
 
+## Requisitos Não Funcionais
 
-  Abra http://localhost:3000 com seu navegador para ver o resultado.
+1.  **Segurança de Dados**
+    - Garantir armazenamento seguro dos dados de desmatamento.
 
-  Ou então basta acessar o link: [https://desmatazonia.netlify.app/](https://desmatazonia.netlify.app/)
+3.  **Desempenho**
+    - Garantir que o sistema seja responsivo e capaz de lidar com um grande volume de dados e pesquisas . Os gráficos devem ser gerados de maneira rápida e eficiente, mesmo com grandes conjuntos de dados .
+
+4.  **Usabilidade**
+    - Oferece uma interface de usuário intuitiva e amigável que facilita a compreensão .
+
+5.  **Conformidade com a Lei de Acesso à Informação (LAI)**
+    - Cumprir as regulamentações da Lei de Acesso à Informação para garantir a transparência nos dados de desmatamento.
+
+<h1 align="center">
+
+  <a href="https://desmatazonia.netlify.app/"><img 
+width=30% src="https://raw.githubusercontent.com/unb-mds/2023-2-Squad02-Desmatazonia/main/licitam/public/images/logo-desmatazonia.png" /> </a>
+  <br>
+   DesmataZônia
+</h1>
+<h3 align="center">
+  Acesse o link: <a href="https://desmatazonia.netlify.app/" target="_blank">https://desmatazonia.netlify.app/</a>
+</h3>
 
 
 ## 👨‍💻 Contribuidores
